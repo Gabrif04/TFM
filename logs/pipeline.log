@@ -1,0 +1,901 @@
+2026-07-23 19:15:12,531 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:18:45,773 | INFO     | __main__ | Extraídos 20 equipos de ESP
+2026-07-23 19:18:53,251 | INFO     | __main__ | Extraídos 20 equipos de ENG
+2026-07-23 19:19:00,559 | INFO     | __main__ | Extraídos 20 equipos de ITA
+2026-07-23 19:19:07,874 | INFO     | __main__ | Extraídos 18 equipos de GER
+2026-07-23 19:19:14,995 | INFO     | __main__ | Extraídos 18 equipos de FRA
+2026-07-23 19:19:22,351 | INFO     | __main__ | Extraídos 18 equipos de POR
+2026-07-23 19:19:29,623 | INFO     | __main__ | Extraídos 18 equipos de NED
+2026-07-23 19:23:36,910 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:23:37,943 | INFO     | __main__ | Extraídos 20 equipos de ESP
+2026-07-23 19:23:45,483 | INFO     | __main__ | Extraídos 20 equipos de ENG
+2026-07-23 19:23:52,614 | INFO     | __main__ | Extraídos 20 equipos de ITA
+2026-07-23 19:23:59,936 | INFO     | __main__ | Extraídos 18 equipos de GER
+2026-07-23 19:24:07,310 | INFO     | __main__ | Extraídos 18 equipos de FRA
+2026-07-23 19:24:14,601 | INFO     | __main__ | Extraídos 18 equipos de POR
+2026-07-23 19:24:21,888 | INFO     | __main__ | Extraídos 18 equipos de NED
+2026-07-23 19:24:28,401 | ERROR    | utils.database | Error escribiendo en 'bronze_football_data_teams': table bronze_football_data_teams has no column named team_api_id
+2026-07-23 19:27:16,249 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:27:33,321 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:27:42,795 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:27:49,258 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:27:50,218 | INFO     | __main__ | Extraídos 20 equipos de ESP
+2026-07-23 19:27:58,358 | INFO     | __main__ | Extraídos 20 equipos de ENG
+2026-07-23 19:28:07,796 | INFO     | __main__ | Extraídos 20 equipos de ITA
+2026-07-23 19:28:17,046 | INFO     | __main__ | Extraídos 18 equipos de GER
+2026-07-23 19:28:30,746 | INFO     | __main__ | Extraídos 18 equipos de FRA
+2026-07-23 19:28:43,459 | INFO     | __main__ | Extraídos 18 equipos de POR
+2026-07-23 19:28:55,484 | INFO     | __main__ | Extraídos 18 equipos de NED
+2026-07-23 19:29:02,005 | INFO     | utils.database | 132 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-23 19:37:02,804 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:37:59,854 | ERROR    | __main__ | Error extrayendo FBref para ESP: Invalid argument: stat_type should be in ['standard', 'keeper', 'shooting', 'playing_time', 'misc']
+2026-07-23 19:38:09,451 | INFO     | __main__ | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-23 19:39:07,868 | ERROR    | __main__ | Error extrayendo FBref para ENG: Invalid argument: stat_type should be in ['standard', 'keeper', 'shooting', 'playing_time', 'misc']
+2026-07-23 19:39:11,279 | INFO     | __main__ | Understat: 537 jugadores extraídos de ENG 2025-2026
+2026-07-23 19:39:12,476 | ERROR    | __main__ | Error extrayendo FBref para ITA: No objects to concatenate
+2026-07-23 19:39:15,860 | INFO     | __main__ | Understat: 586 jugadores extraídos de ITA 2025-2026
+2026-07-23 19:39:44,692 | ERROR    | __main__ | Error extrayendo FBref para GER: Invalid argument: stat_type should be in ['standard', 'keeper', 'shooting', 'playing_time', 'misc']
+2026-07-23 19:39:46,169 | INFO     | __main__ | Understat: 499 jugadores extraídos de GER 2025-2026
+2026-07-23 19:40:15,552 | ERROR    | __main__ | Error extrayendo FBref para FRA: Invalid argument: stat_type should be in ['standard', 'keeper', 'shooting', 'playing_time', 'misc']
+2026-07-23 19:40:16,815 | INFO     | __main__ | Understat: 553 jugadores extraídos de FRA 2025-2026
+2026-07-23 19:40:16,818 | ERROR    | __main__ | Error extrayendo FBref para POR: 
+                        Invalid league 'POR-Primeira Liga'. Valid leagues are:
+                        ['Big 5 European Leagues Combined',
+ 'ENG-Premier League',
+ 'ESP-La Liga',
+ 'FRA-Ligue 1',
+ 'GER-Bundesliga',
+ 'INT-European Championship',
+ "INT-Women's World Cup",
+ 'INT-World Cup',
+ 'ITA-Serie A']
+                        
+2026-07-23 19:40:16,821 | INFO     | __main__ | Understat no cubre POR, se omite
+2026-07-23 19:40:16,824 | ERROR    | __main__ | Error extrayendo FBref para NED: 
+                        Invalid league 'NED-Eredivisie'. Valid leagues are:
+                        ['Big 5 European Leagues Combined',
+ 'ENG-Premier League',
+ 'ESP-La Liga',
+ 'FRA-Ligue 1',
+ 'GER-Bundesliga',
+ 'INT-European Championship',
+ "INT-Women's World Cup",
+ 'INT-World Cup',
+ 'ITA-Serie A']
+                        
+2026-07-23 19:40:16,836 | INFO     | __main__ | Understat no cubre NED, se omite
+2026-07-23 19:45:24,559 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:45:47,481 | INFO     | __main__ | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-23 19:45:47,483 | INFO     | __main__ | Columnas disponibles: [('league', ''), ('season', ''), ('team', ''), ('player', ''), ('nation', ''), ('pos', ''), ('age', ''), ('born', ''), ('Playing Time', 'MP'), ('Playing Time', 'Starts'), ('Playing Time', 'Min'), ('Playing Time', '90s'), ('Performance', 'Gls'), ('Performance', 'Ast'), ('Performance', 'G+A'), ('Performance', 'G-PK'), ('Performance', 'PK'), ('Performance', 'PKatt'), ('Performance', 'CrdY'), ('Performance', 'CrdR'), ('Per 90 Minutes', 'Gls'), ('Per 90 Minutes', 'Ast'), ('Per 90 Minutes', 'G+A'), ('Per 90 Minutes', 'G-PK'), ('Per 90 Minutes', 'G+A-PK'), ('nation_misc', ''), ('pos_misc', ''), ('age_misc', ''), ('born_misc', ''), ('90s', ''), ('Performance_misc', 'CrdY'), ('Performance_misc', 'CrdR'), ('Performance_misc', '2CrdY'), ('Performance_misc', 'Fls'), ('Performance_misc', 'Fld'), ('Performance_misc', 'Off'), ('Performance_misc', 'Crs'), ('Performance_misc', 'Int'), ('Performance_misc', 'TklW'), ('Performance_misc', 'PKwon'), ('Performance_misc', 'PKcon'), ('Performance_misc', 'OG'), ('source', '')]
+2026-07-23 19:45:48,421 | INFO     | __main__ | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-23 19:46:34,818 | INFO     | __main__ | FBref: 551 jugadores extraídos de ENG 2025-2026
+2026-07-23 19:46:34,821 | INFO     | __main__ | Columnas disponibles: [('league', ''), ('season', ''), ('team', ''), ('player', ''), ('nation', ''), ('pos', ''), ('age', ''), ('born', ''), ('Playing Time', 'MP'), ('Playing Time', 'Starts'), ('Playing Time', 'Min'), ('Playing Time', '90s'), ('Performance', 'Gls'), ('Performance', 'Ast'), ('Performance', 'G+A'), ('Performance', 'G-PK'), ('Performance', 'PK'), ('Performance', 'PKatt'), ('Performance', 'CrdY'), ('Performance', 'CrdR'), ('Per 90 Minutes', 'Gls'), ('Per 90 Minutes', 'Ast'), ('Per 90 Minutes', 'G+A'), ('Per 90 Minutes', 'G-PK'), ('Per 90 Minutes', 'G+A-PK'), ('nation_misc', ''), ('pos_misc', ''), ('age_misc', ''), ('born_misc', ''), ('90s', ''), ('Performance_misc', 'CrdY'), ('Performance_misc', 'CrdR'), ('Performance_misc', '2CrdY'), ('Performance_misc', 'Fls'), ('Performance_misc', 'Fld'), ('Performance_misc', 'Off'), ('Performance_misc', 'Crs'), ('Performance_misc', 'Int'), ('Performance_misc', 'TklW'), ('Performance_misc', 'PKwon'), ('Performance_misc', 'PKcon'), ('Performance_misc', 'OG'), ('source', '')]
+2026-07-23 19:46:37,493 | INFO     | __main__ | Understat: 537 jugadores extraídos de ENG 2025-2026
+2026-07-23 19:46:38,605 | ERROR    | __main__ | Error extrayendo FBref para ITA: No objects to concatenate
+2026-07-23 19:46:41,178 | INFO     | __main__ | Understat: 586 jugadores extraídos de ITA 2025-2026
+2026-07-23 19:47:27,444 | INFO     | __main__ | FBref: 507 jugadores extraídos de GER 2025-2026
+2026-07-23 19:47:27,446 | INFO     | __main__ | Columnas disponibles: [('league', ''), ('season', ''), ('team', ''), ('player', ''), ('nation', ''), ('pos', ''), ('age', ''), ('born', ''), ('Playing Time', 'MP'), ('Playing Time', 'Starts'), ('Playing Time', 'Min'), ('Playing Time', '90s'), ('Performance', 'Gls'), ('Performance', 'Ast'), ('Performance', 'G+A'), ('Performance', 'G-PK'), ('Performance', 'PK'), ('Performance', 'PKatt'), ('Performance', 'CrdY'), ('Performance', 'CrdR'), ('Per 90 Minutes', 'Gls'), ('Per 90 Minutes', 'Ast'), ('Per 90 Minutes', 'G+A'), ('Per 90 Minutes', 'G-PK'), ('Per 90 Minutes', 'G+A-PK'), ('nation_misc', ''), ('pos_misc', ''), ('age_misc', ''), ('born_misc', ''), ('90s', ''), ('Performance_misc', 'CrdY'), ('Performance_misc', 'CrdR'), ('Performance_misc', '2CrdY'), ('Performance_misc', 'Fls'), ('Performance_misc', 'Fld'), ('Performance_misc', 'Off'), ('Performance_misc', 'Crs'), ('Performance_misc', 'Int'), ('Performance_misc', 'TklW'), ('Performance_misc', 'PKwon'), ('Performance_misc', 'PKcon'), ('Performance_misc', 'OG'), ('source', '')]
+2026-07-23 19:47:30,140 | INFO     | __main__ | Understat: 499 jugadores extraídos de GER 2025-2026
+2026-07-23 19:47:58,751 | INFO     | __main__ | FBref: 561 jugadores extraídos de FRA 2025-2026
+2026-07-23 19:47:58,754 | INFO     | __main__ | Columnas disponibles: [('league', ''), ('season', ''), ('team', ''), ('player', ''), ('nation', ''), ('pos', ''), ('age', ''), ('born', ''), ('Playing Time', 'MP'), ('Playing Time', 'Starts'), ('Playing Time', 'Min'), ('Playing Time', '90s'), ('Performance', 'Gls'), ('Performance', 'Ast'), ('Performance', 'G+A'), ('Performance', 'G-PK'), ('Performance', 'PK'), ('Performance', 'PKatt'), ('Performance', 'CrdY'), ('Performance', 'CrdR'), ('Per 90 Minutes', 'Gls'), ('Per 90 Minutes', 'Ast'), ('Per 90 Minutes', 'G+A'), ('Per 90 Minutes', 'G-PK'), ('Per 90 Minutes', 'G+A-PK'), ('nation_misc', ''), ('pos_misc', ''), ('age_misc', ''), ('born_misc', ''), ('90s', ''), ('Performance_misc', 'CrdY'), ('Performance_misc', 'CrdR'), ('Performance_misc', '2CrdY'), ('Performance_misc', 'Fls'), ('Performance_misc', 'Fld'), ('Performance_misc', 'Off'), ('Performance_misc', 'Crs'), ('Performance_misc', 'Int'), ('Performance_misc', 'TklW'), ('Performance_misc', 'PKwon'), ('Performance_misc', 'PKcon'), ('Performance_misc', 'OG'), ('source', '')]
+2026-07-23 19:48:00,480 | INFO     | __main__ | Understat: 553 jugadores extraídos de FRA 2025-2026
+2026-07-23 19:48:00,482 | INFO     | __main__ | FBref no cubre POR (fuera de las 5 grandes ligas), se omite
+2026-07-23 19:48:00,485 | INFO     | __main__ | Understat no cubre POR, se omite
+2026-07-23 19:48:00,487 | INFO     | __main__ | FBref no cubre NED (fuera de las 5 grandes ligas), se omite
+2026-07-23 19:48:00,489 | INFO     | __main__ | Understat no cubre NED, se omite
+2026-07-23 19:48:27,956 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-23 19:48:27,961 | INFO     | __main__ | API-Football transfers: 2 pendientes, 0 ya en bronze
+2026-07-23 19:48:28,833 | INFO     | __main__ | API-Football: peticiones restantes hoy = 99
+2026-07-23 19:48:30,337 | WARNING  | __main__ | API-Football: sin resultados para 'Julián Álvarez'
+2026-07-23 19:48:30,714 | INFO     | __main__ | API-Football: peticiones restantes hoy = 98
+2026-07-23 19:48:32,218 | WARNING  | __main__ | API-Football: sin resultados para 'Antoine Griezmann'
+2026-07-23 19:49:51,150 | INFO     | __main__ | 'Julián Álvarez' -> 'Julián Álvarez' (), score=100.0
+2026-07-23 19:50:00,446 | INFO     | __main__ | 'Antoine Griezmann' -> 'Antoine Griezmann' (), score=100.0
+2026-07-23 19:50:04,235 | INFO     | __main__ | Transfermarkt: 1/2 valores de mercado resueltos por nombre
+2026-07-24 19:49:24,230 | WARNING  | transform.gold | scouting_score: métricas no disponibles esta ejecución ['pass_completion_pct'], se renormalizan pesos sobre las restantes (ver aviso FBref en estado_actual.md)
+2026-07-24 19:52:28,081 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 19:52:35,547 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 19:52:44,671 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 19:52:44,673 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: [('league', ''), ('season', ''), ('team', ''), ('player_name', ''), ('nation', ''), ('pos', ''), ('age', ''), ('born', ''), ('Playing Time', 'MP'), ('Playing Time', 'Starts'), ('Playing Time', 'Min'), ('Playing Time', '90s'), ('Performance', 'Gls'), ('Performance', 'Ast'), ('Performance', 'G+A'), ('Performance', 'G-PK'), ('Performance', 'PK'), ('Performance', 'PKatt'), ('Performance', 'CrdY'), ('Performance', 'CrdR'), ('Per 90 Minutes', 'Gls'), ('Per 90 Minutes', 'Ast'), ('Per 90 Minutes', 'G+A'), ('Per 90 Minutes', 'G-PK'), ('Per 90 Minutes', 'G+A-PK'), ('nation_misc', ''), ('pos_misc', ''), ('age_misc', ''), ('born_misc', ''), ('90s', ''), ('Performance_misc', 'CrdY'), ('Performance_misc', 'CrdR'), ('Performance_misc', '2CrdY'), ('Performance_misc', 'Fls'), ('Performance_misc', 'Fld'), ('Performance_misc', 'Off'), ('Performance_misc', 'Crs'), ('Performance_misc', 'Int'), ('Performance_misc', 'TklW'), ('Performance_misc', 'PKwon'), ('Performance_misc', 'PKcon'), ('Performance_misc', 'OG'), ('source', '')]
+2026-07-24 19:52:47,369 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 19:59:36,549 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 19:59:43,796 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 19:59:43,798 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 19:59:44,438 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 19:59:44,465 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 19:59:44,483 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:29:58,029 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:30:06,899 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:30:06,903 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 20:30:09,309 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:30:09,348 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:30:09,369 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:30:37,275 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:30:38,214 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-24 20:30:44,732 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-24 20:30:58,578 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:30:58,580 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 2 jugadores nuevos por buscar, 0 ya en bronze
+2026-07-24 20:31:02,679 | INFO     | extractors.transfermarkt_extractor | 'Julian Alvarez' -> 'Julián Alvarez' (), score=92.85714285714286
+2026-07-24 20:31:09,989 | INFO     | extractors.transfermarkt_extractor | 'Antoine Griezmann' -> 'Antoine Griezmann' (), score=100.0
+2026-07-24 20:31:14,542 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 2/2 valores de mercado resueltos por nombre
+2026-07-24 20:31:14,554 | INFO     | utils.database | 2 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-24 20:34:19,798 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:34:19,800 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 2 jugadores nuevos por buscar, 0 ya en bronze
+2026-07-24 20:34:23,431 | INFO     | extractors.transfermarkt_extractor | 'Julian Alvarez' -> 'Julián Alvarez' (), score=92.85714285714286
+2026-07-24 20:34:30,349 | INFO     | extractors.transfermarkt_extractor | 'Antoine Griezmann' -> 'Antoine Griezmann' (), score=100.0
+2026-07-24 20:34:33,751 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 2/2 valores de mercado resueltos por nombre
+2026-07-24 20:34:33,762 | INFO     | utils.database | 2 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-24 20:35:44,732 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:35:44,735 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:35:51,863 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:35:51,866 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 20:35:52,339 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:35:52,363 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:35:52,384 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:35:52,396 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-24 20:35:52,406 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-24 20:35:52,408 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-24 20:35:52,411 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-24 20:35:52,416 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:35:52,419 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 5 jugadores nuevos por buscar, 4 ya en bronze
+2026-07-24 20:35:56,074 | INFO     | extractors.transfermarkt_extractor | 'Abde Rebbach' -> 'Abde Rebbach' (), score=100.0
+2026-07-24 20:36:03,237 | INFO     | extractors.transfermarkt_extractor | 'Aitor Mañas' -> 'Aitor Mañas' (), score=100.0
+2026-07-24 20:36:10,790 | INFO     | extractors.transfermarkt_extractor | 'Ander Guevara' -> 'Ander Guevara' (), score=100.0
+2026-07-24 20:36:20,866 | INFO     | extractors.transfermarkt_extractor | 'Antonio Blanco' -> 'Antonio Blanco' (), score=100.0
+2026-07-24 20:36:28,134 | INFO     | extractors.transfermarkt_extractor | 'Antonio Sivera' -> 'Antonio Sivera' (), score=100.0
+2026-07-24 20:36:31,931 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 5/5 valores de mercado resueltos por nombre
+2026-07-24 20:36:31,940 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-24 20:36:31,961 | INFO     | transform.merge | 1 jugadores sin match exacto, aplicando fuzzy-matching
+2026-07-24 20:36:31,967 | INFO     | transform.merge | Tras fuzzy-matching quedan 1 jugadores sin match
+2026-07-24 20:36:31,971 | INFO     | transform.merge | Tras fuzzy-matching quedan 0 jugadores sin match
+2026-07-24 20:36:31,976 | INFO     | utils.validators | OK: 5 filas
+2026-07-24 20:36:31,977 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-24 20:36:31,978 | INFO     | utils.validators | OK: sin duplicados
+2026-07-24 20:36:31,983 | ERROR    | utils.database | Error escribiendo en 'silver_players': Error binding parameter 13: type 'NAType' is not supported
+2026-07-24 20:36:31,995 | WARNING  | transform.gold | scouting_score: métricas no disponibles esta ejecución ['progressive_carries', 'pass_completion_pct'], se renormalizan pesos sobre las restantes (ver aviso FBref en estado_actual.md)
+2026-07-24 20:36:31,998 | INFO     | transform.gold | Gold: 5 jugadores con scouting_score calculado
+2026-07-24 20:36:32,003 | ERROR    | utils.database | Error escribiendo en 'gold_players_master': Error binding parameter 12: type 'NAType' is not supported
+2026-07-24 20:37:28,398 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:37:35,481 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:37:35,484 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 20:37:36,100 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:37:36,124 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:37:36,145 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:37:36,154 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-24 20:37:36,161 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-24 20:37:36,163 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-24 20:37:36,165 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-24 20:37:36,180 | WARNING  | transform.gold | scouting_score: métricas no disponibles esta ejecución ['progressive_carries', 'pass_completion_pct'], se renormalizan pesos sobre las restantes (ver aviso FBref en estado_actual.md)
+2026-07-24 20:38:25,989 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:38:25,999 | INFO     | utils.database | 2 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:38:36,036 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:38:36,039 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:38:43,090 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:38:43,092 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 20:38:43,587 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:38:43,611 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:38:43,646 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:38:43,654 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-24 20:38:43,662 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-24 20:38:43,665 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-24 20:38:43,667 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-24 20:38:43,673 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:38:43,675 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 9 ya en bronze
+2026-07-24 20:38:43,682 | INFO     | transform.merge | 1 jugadores sin match exacto, aplicando fuzzy-matching
+2026-07-24 20:38:43,686 | INFO     | transform.merge | Tras fuzzy-matching quedan 1 jugadores sin match
+2026-07-24 20:38:43,689 | INFO     | transform.merge | Tras fuzzy-matching quedan 0 jugadores sin match
+2026-07-24 20:38:43,694 | INFO     | utils.validators | OK: 5 filas
+2026-07-24 20:38:43,695 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-24 20:38:43,696 | INFO     | utils.validators | OK: sin duplicados
+2026-07-24 20:38:43,705 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'silver_players'
+2026-07-24 20:38:43,710 | WARNING  | transform.gold | scouting_score: métricas no disponibles esta ejecución ['progressive_carries', 'pass_completion_pct'], se renormalizan pesos sobre las restantes (ver aviso FBref en estado_actual.md)
+2026-07-24 20:38:43,713 | INFO     | transform.gold | Gold: 5 jugadores con scouting_score calculado
+2026-07-24 20:38:43,722 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'gold_players_master'
+2026-07-24 20:40:50,175 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-24 20:40:50,178 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:40:50,181 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:40:57,311 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:40:57,313 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-24 20:40:57,787 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-24 20:40:57,811 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-24 20:40:57,829 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-24 20:40:57,832 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:40:58,724 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-24 20:41:05,244 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-24 20:41:05,252 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-24 20:41:05,261 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-24 20:41:05,263 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-24 20:41:05,265 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-24 20:41:05,270 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-24 20:41:05,273 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 593 jugadores nuevos por buscar, 9 ya en bronze
+2026-07-24 20:41:10,221 | INFO     | extractors.transfermarkt_extractor | 'Calebe' -> 'Calebe' (), score=100.0
+2026-07-24 20:41:17,516 | INFO     | extractors.transfermarkt_extractor | 'Carles Aleñá' -> 'Carles Aleñá' (), score=100.0
+2026-07-24 20:41:24,984 | INFO     | extractors.transfermarkt_extractor | 'Carlos Ballestero' -> 'Carlos Ballestero' (), score=100.0
+2026-07-24 20:41:35,577 | INFO     | extractors.transfermarkt_extractor | 'Carlos Benavídez' -> 'Carlos Benavídez' (), score=100.0
+2026-07-24 20:41:43,076 | INFO     | extractors.transfermarkt_extractor | 'Carlos Vicente' -> 'Carlos Vicente' (), score=100.0
+2026-07-24 20:41:50,349 | INFO     | extractors.transfermarkt_extractor | 'Denis Suárez' -> 'Denis Suárez' (), score=100.0
+2026-07-24 20:42:00,254 | INFO     | extractors.transfermarkt_extractor | 'Diego Morcillo' -> 'Diego Morcillo' (), score=100.0
+2026-07-24 20:42:07,789 | INFO     | extractors.transfermarkt_extractor | 'Facundo Garcés' -> 'Facundo Garcés' (), score=100.0
+2026-07-24 20:42:15,606 | INFO     | extractors.transfermarkt_extractor | 'Ibrahim Diabaté' -> 'Ibrahim Diabaté' (), score=100.0
+2026-07-24 20:42:24,458 | INFO     | extractors.transfermarkt_extractor | 'Jon Guridi' -> 'Jon Guridi' (), score=100.0
+2026-07-24 20:42:34,519 | INFO     | extractors.transfermarkt_extractor | 'Jon Pacheco' -> 'Jon Pacheco' (), score=100.0
+2026-07-24 20:42:44,092 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Jonny Castro' fue 'Jonny Otto' con score 45.45454545454546 (< umbral 80), se descarta
+2026-07-24 20:42:48,213 | INFO     | extractors.transfermarkt_extractor | 'Lander Pinillos' -> 'Lander Pinillos' (), score=100.0
+2026-07-24 20:42:55,476 | INFO     | extractors.transfermarkt_extractor | 'Lucas Boyé' -> 'Lucas Boyé' (), score=100.0
+2026-07-24 20:43:03,182 | INFO     | extractors.transfermarkt_extractor | 'Mariano' -> 'Mariano' (), score=100.0
+2026-07-24 20:43:10,566 | INFO     | extractors.transfermarkt_extractor | 'Moussa Diarra' -> 'Moussa Diarra' (), score=100.0
+2026-07-24 20:43:17,776 | INFO     | extractors.transfermarkt_extractor | 'Nahuel Tenaglia' -> 'Nahuel Tenaglia' (), score=100.0
+2026-07-24 20:43:25,129 | INFO     | extractors.transfermarkt_extractor | 'Pablo Ibáñez' -> 'Pablo Ibáñez' (), score=100.0
+2026-07-24 20:43:32,849 | INFO     | extractors.transfermarkt_extractor | 'Toni Martínez' -> 'Toni Martínez' (), score=100.0
+2026-07-24 20:43:40,217 | INFO     | extractors.transfermarkt_extractor | 'Victor Parada' -> 'Victor Parada' (), score=100.0
+2026-07-24 20:43:47,574 | INFO     | extractors.transfermarkt_extractor | 'Ville Koski' -> 'Ville Koski' (), score=100.0
+2026-07-24 20:43:54,902 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Youssef Lekhedim' fue 'Youssef Enríquez' con score 62.5 (< umbral 80), se descarta
+2026-07-24 20:44:00,939 | INFO     | extractors.transfermarkt_extractor | 'Ángel Pérez' -> 'Ángel Pérez' (), score=100.0
+2026-07-24 20:44:08,081 | INFO     | extractors.transfermarkt_extractor | 'Adama Boiro' -> 'Adama Boiro' (), score=100.0
+2026-07-24 20:44:15,565 | INFO     | extractors.transfermarkt_extractor | 'Aitor Paredes' -> 'Aitor Paredes' (), score=100.0
+2026-07-24 20:44:22,817 | INFO     | extractors.transfermarkt_extractor | 'Alejandro Rego' -> 'Alejandro Rego' (), score=100.0
+2026-07-24 20:44:30,209 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Alex Padilla' fue 'Álex Padilla' con score 58.33333333333333 (< umbral 80), se descarta
+2026-07-24 20:44:35,435 | INFO     | extractors.transfermarkt_extractor | 'Andoni Gorosabel' -> 'Andoni Gorosabel' (), score=100.0
+2026-07-24 20:44:42,977 | INFO     | extractors.transfermarkt_extractor | 'Asier Hierro' -> 'Asier Hierro' (), score=100.0
+2026-07-24 20:44:50,582 | INFO     | extractors.transfermarkt_extractor | 'Aymeric Laporte' -> 'Aymeric Laporte' (), score=100.0
+2026-07-24 20:45:00,258 | INFO     | extractors.transfermarkt_extractor | 'Beñat Prados' -> 'Beñat Prados' (), score=100.0
+2026-07-24 20:45:07,939 | INFO     | extractors.transfermarkt_extractor | 'Daniel Vivian' -> 'Dani Vivian' (), score=91.66666666666666
+2026-07-24 20:45:15,393 | INFO     | extractors.transfermarkt_extractor | 'Eder García' -> 'Eder García' (), score=100.0
+2026-07-24 20:45:22,569 | INFO     | extractors.transfermarkt_extractor | 'Gorka Guruzeta' -> 'Gorka Guruzeta' (), score=100.0
+2026-07-24 20:45:30,322 | INFO     | extractors.transfermarkt_extractor | 'Iñaki Williams' -> 'Iñaki Williams' (), score=100.0
+2026-07-24 20:45:39,559 | INFO     | extractors.transfermarkt_extractor | 'Iñigo Lekue' -> 'Iñigo Lekue' (), score=100.0
+2026-07-24 20:45:46,658 | INFO     | extractors.transfermarkt_extractor | 'Iñigo Ruiz de Galarreta' -> 'Iñigo Ruiz de Galarreta' (), score=100.0
+2026-07-24 20:45:54,364 | INFO     | extractors.transfermarkt_extractor | 'Jesús Areso' -> 'Jesús Areso' (), score=100.0
+2026-07-25 06:56:20,794 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Maroan Sannadi' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Maroan+Sannadi (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:20,871 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mikel Jauregizar' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Mikel+Jauregizar (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:20,927 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mikel Vesga' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Mikel+Vesga (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:20,942 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nico Williams' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Nico+Williams (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:20,979 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nicolás Serrano' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Nicol%C3%A1s+Serrano (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,039 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Oihan Sancet' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Oihan+Sancet (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,078 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Roberto Navarro' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Roberto+Navarro (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,108 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Selton Sánchez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Selton+S%C3%A1nchez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,133 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Unai Gómez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Unai+G%C3%B3mez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,188 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Unai Simón' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Unai+Sim%C3%B3n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,248 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Urko Izeta' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Urko+Izeta (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,285 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yeray Álvarez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Yeray+%C3%81lvarez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,336 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yuri Berchiche' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Yuri+Berchiche (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,399 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Berenguer' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+Berenguer (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,455 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ademola Lookman' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ademola+Lookman (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,498 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Aleksa Puric' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Aleksa+Puric (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,535 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Alexander Sørloth' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Alexander+S%C3%B8rloth (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,575 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Clément Lenglet' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Cl%C3%A9ment+Lenglet (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,616 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Conor Gallagher' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Conor+Gallagher (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,677 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Daniel Martinez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Daniel+Martinez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,730 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Dávid Hancko' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=D%C3%A1vid+Hancko (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,814 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Giacomo Raspadori' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Giacomo+Raspadori (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,863 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Giuliano Simeone' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Giuliano+Simeone (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,907 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iker Luque' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Iker+Luque (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,947 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jan Oblak' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jan+Oblak (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:21,982 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jano Monserrate' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jano+Monserrate (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,027 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javi Galán' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Javi+Gal%C3%A1n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,065 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javi Morcillo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Javi+Morcillo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,107 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javier Boñar' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Javier+Bo%C3%B1ar (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,166 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Johnny Cardoso' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Johnny+Cardoso (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,208 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'José María Giménez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9+Mar%C3%ADa+Gim%C3%A9nez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,269 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juan Musso' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Juan+Musso (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,370 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Julio Diaz' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Julio+Diaz (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,453 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Julián Álvarez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Juli%C3%A1n+%C3%81lvarez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,493 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Koke' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Koke (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,527 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Pubill' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marc+Pubill (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,565 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marcos Llorente' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marcos+Llorente (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,583 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Matteo Ruggeri' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Matteo+Ruggeri (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,598 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Miguel Cubo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Miguel+Cubo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,617 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nahuel Molina' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Nahuel+Molina (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,629 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nicolás González' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Nicol%C3%A1s+Gonz%C3%A1lez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,643 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Obed Vargas' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Obed+Vargas (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,665 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pablo Barrios' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Pablo+Barrios (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,688 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rayane Belaid' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Rayane+Belaid (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,706 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Robin Le Normand' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Robin+Le+Normand (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,738 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rodrigo Mendoza' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Rodrigo+Mendoza (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,755 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Taufik Seidu' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Taufik+Seidu (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,777 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Thiago Almada' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Thiago+Almada (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,807 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Baena' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+Baena (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,822 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Alejandro Balde' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Alejandro+Balde (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,842 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Alvaro Cortes' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Alvaro+Cortes (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,861 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Andreas Christensen' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Andreas+Christensen (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,875 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Dani Olmo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Dani+Olmo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,891 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Dro Fernández' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Dro+Fern%C3%A1ndez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,906 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Eric García' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Eric+Garc%C3%ADa (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,921 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fermin López' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Fermin+L%C3%B3pez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,935 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ferran Torres' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ferran+Torres (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,950 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Frenkie de Jong' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Frenkie+de+Jong (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,964 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gavi' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Gavi (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,982 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gerard Martín' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Gerard+Mart%C3%ADn (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:22,997 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Joan García' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Joan+Garc%C3%ADa (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,015 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jofre Torrents' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jofre+Torrents (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,031 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'João Cancelo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o+Cancelo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,045 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jules Koundé' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jules+Kound%C3%A9 (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,059 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Lamine Yamal' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Lamine+Yamal (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,073 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Bernal' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marc+Bernal (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,087 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Casado' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marc+Casado (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,107 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marcus Rashford' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marcus+Rashford (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,123 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pau Cubarsí' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Pau+Cubars%C3%AD (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,140 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pedri' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Pedri (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,161 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Raphinha' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Raphinha (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,176 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Robert Lewandowski' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Robert+Lewandowski (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,193 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ronald Araújo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ronald+Ara%C3%BAjo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,206 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Roony Bardghji' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Roony+Bardghji (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,217 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Tomas Marques' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Tomas+Marques (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,234 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Toni Fernández' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Toni+Fern%C3%A1ndez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,761 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Xavi Espart' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Xavi+Espart (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,780 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Andrés Antañón' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Andr%C3%A9s+Anta%C3%B1%C3%B3n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,800 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Borja Iglesias' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Borja+Iglesias (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,822 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Bryan Zaragoza' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Bryan+Zaragoza (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,842 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Carl Starfelt' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Carl+Starfelt (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,859 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Carlos Dominguez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Carlos+Dominguez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,877 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Damián Rodríguez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Dami%C3%A1n+Rodr%C3%ADguez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,895 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fer López' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Fer+L%C3%B3pez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,914 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ferran Jutglà' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ferran+Jutgl%C3%A0 (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,934 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fran Beltrán' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Fran+Beltr%C3%A1n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,956 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo García' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Hugo+Garc%C3%ADa (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,974 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo González' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Hugo+Gonz%C3%A1lez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:23,994 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo Sotelo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Hugo+Sotelo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,017 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo Álvarez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Hugo+%C3%81lvarez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,045 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iago Aspas' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Iago+Aspas (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,068 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ilaix Moriba' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ilaix+Moriba (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,156 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javi Rodríguez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Javi+Rodr%C3%ADguez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,174 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javi Rueda' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Javi+Rueda (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,196 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jones El-Abdellaoui' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jones+El-Abdellaoui (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,214 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Joseph Aidoo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Joseph+Aidoo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,236 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Manu Fernández' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Manu+Fern%C3%A1ndez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,258 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marcos Alonso' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marcos+Alonso (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,281 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Matías Vecino' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Mat%C3%ADas+Vecino (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,301 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Miguel Román' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Miguel+Rom%C3%A1n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,370 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pablo Durán' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Pablo+Dur%C3%A1n (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,389 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sergio Carreira' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Sergio+Carreira (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,409 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Williot Swedberg' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Williot+Swedberg (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,427 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yoel Lago' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Yoel+Lago (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,456 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Núñez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+N%C3%BA%C3%B1ez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,480 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Óscar Mingueza' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%93scar+Mingueza (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,508 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Adam Boayar' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Adam+Boayar (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,555 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Adrià Pedrosa' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Adri%C3%A0+Pedrosa (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,671 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Aleix Febas' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Aleix+Febas (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,685 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ali Houary' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Ali+Houary (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,712 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'André Silva' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Andr%C3%A9+Silva (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,732 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Bambo Diaby' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Bambo+Diaby (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,752 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Buba Sangaré' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Buba+Sangar%C3%A9 (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,772 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'David Affengruber' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=David+Affengruber (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,793 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Federico Redondo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Federico+Redondo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,815 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Germán Valera' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Germ%C3%A1n+Valera (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,839 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gonzalo Villar' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Gonzalo+Villar (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,860 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Grady Diangana' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Grady+Diangana (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,879 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Héctor Fort' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=H%C3%A9ctor+Fort (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,897 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iñaki Peña' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=I%C3%B1aki+Pe%C3%B1a (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 06:56:24,917 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jairo Izquierdo' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Jairo+Izquierdo (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:38,742 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'John Donald' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=John+Donald (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:38,860 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Josan' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Josan (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:38,988 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Lucas Cepeda' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Lucas+Cepeda (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,038 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Léo Pétrot' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=L%C3%A9o+P%C3%A9trot (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,095 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Aguado' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Marc+Aguado (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,154 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Martim Neto' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Martim+Neto (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,191 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Matías Dituro' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Mat%C3%ADas+Dituro (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,409 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mourad El Ghezouani' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Mourad+El+Ghezouani (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,517 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pedro Bigas' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Pedro+Bigas (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,580 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rafa Mir' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Rafa+Mir (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,648 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Tete Morente' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Tete+Morente (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,709 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Víctor Chust' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=V%C3%ADctor+Chust (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,763 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yago Santiago' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Yago+Santiago (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,815 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Sánchez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+S%C3%A1nchez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 11:15:39,853 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Rodríguez' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Rodr%C3%ADguez (Caused by NameResolutionError("HTTPSConnection(host='www.transfermarkt.com', port=443): Failed to resolve 'www.transfermarkt.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-25 18:15:54,957 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 18:15:54,969 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:15:54,973 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:16:03,666 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:16:03,668 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:16:06,548 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:16:06,580 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 18:16:06,611 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 18:16:06,611 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:16:07,547 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 18:16:14,067 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 18:16:14,081 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:16:14,090 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 18:16:14,092 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 18:16:14,094 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 18:16:14,097 | INFO     | pipeline_main | Modo prueba: limitado a los 120 jugadores con más minutos (611 -> 120)
+2026-07-25 18:16:14,102 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:16:14,105 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 118 jugadores nuevos por buscar, 9 ya en bronze
+2026-07-25 18:16:29,085 | INFO     | extractors.transfermarkt_extractor | 'David Soria' -> 'David Soria' (), score=100.0
+2026-07-25 18:16:36,372 | INFO     | extractors.transfermarkt_extractor | 'Álex Remiro' -> 'Álex Remiro' (), score=100.0
+2026-07-25 18:16:46,274 | INFO     | extractors.transfermarkt_extractor | 'Leandro Cabrera' -> 'Leandro Cabrera' (), score=100.0
+2026-07-25 18:16:54,121 | INFO     | extractors.transfermarkt_extractor | 'Unai Simón' -> 'Unai Simón' (), score=100.0
+2026-07-25 18:17:08,669 | INFO     | extractors.transfermarkt_extractor | 'Martin Valjent' -> 'Martin Valjent' (), score=100.0
+2026-07-25 18:17:16,537 | INFO     | extractors.transfermarkt_extractor | 'Sergio Herrera' -> 'Sergio Herrera' (), score=100.0
+2026-07-25 18:17:24,776 | INFO     | extractors.transfermarkt_extractor | 'Luis Milla' -> 'Luis Milla' (), score=100.0
+2026-07-25 18:17:32,140 | INFO     | extractors.transfermarkt_extractor | 'Mauro Arambarri' -> 'Mauro Arambarri' (), score=100.0
+2026-07-25 18:17:39,434 | INFO     | extractors.transfermarkt_extractor | 'Aarón Escandell' -> 'Aarón Escandell' (), score=100.0
+2026-07-25 18:17:46,686 | INFO     | extractors.transfermarkt_extractor | 'Mathew Ryan' -> 'Mathew Ryan' (), score=100.0
+2026-07-25 18:17:54,412 | INFO     | extractors.transfermarkt_extractor | 'Nahuel Tenaglia' -> 'Nahuel Tenaglia' (), score=100.0
+2026-07-25 18:18:02,084 | INFO     | extractors.transfermarkt_extractor | 'Florian Lejeune' -> 'Florian Lejeune' (), score=100.0
+2026-07-25 18:18:09,401 | INFO     | extractors.transfermarkt_extractor | 'Carlos Romero' -> 'Carlos Romero' (), score=100.0
+2026-07-25 18:18:17,218 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Iglesias' fue 'Borja Iglesias' con score 72.72727272727273 (< umbral 80), se descarta
+2026-07-25 18:18:20,909 | INFO     | extractors.transfermarkt_extractor | 'Jeremy Toljan' -> 'Jeremy Toljan' (), score=100.0
+2026-07-25 18:18:28,214 | INFO     | extractors.transfermarkt_extractor | 'Aleix Febas' -> 'Aleix Febas' (), score=100.0
+2026-07-25 18:18:35,616 | INFO     | extractors.transfermarkt_extractor | 'Vitor Reis' -> 'Vitor Reis' (), score=100.0
+2026-07-25 18:18:43,084 | INFO     | extractors.transfermarkt_extractor | 'Vedat Muriqi' -> 'Vedat Muriqi' (), score=100.0
+2026-07-25 18:18:50,493 | INFO     | extractors.transfermarkt_extractor | 'Paulo Gazzaniga' -> 'Paulo Gazzaniga' (), score=100.0
+2026-07-25 18:18:58,818 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Catena' fue 'Davide Scatena' con score 60.0 (< umbral 80), se descarta
+2026-07-25 18:19:02,412 | INFO     | extractors.transfermarkt_extractor | 'Augusto Batalla' -> 'Augusto Batalla' (), score=100.0
+2026-07-25 18:19:09,628 | INFO     | extractors.transfermarkt_extractor | 'Jon Moncayola' -> 'Jon Moncayola' (), score=100.0
+2026-07-25 18:19:18,092 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Jonny Castro' fue 'Jonny Otto' con score 45.45454545454546 (< umbral 80), se descarta
+2026-07-25 18:19:21,677 | INFO     | extractors.transfermarkt_extractor | 'Odysseas Vlachodimos' -> 'Odysseas Vlachodimos' (), score=100.0
+2026-07-25 18:19:29,160 | INFO     | extractors.transfermarkt_extractor | 'Leo Román' -> 'Leo Román' (), score=100.0
+2026-07-25 18:19:36,667 | INFO     | extractors.transfermarkt_extractor | 'David Affengruber' -> 'David Affengruber' (), score=100.0
+2026-07-25 18:19:44,009 | INFO     | extractors.transfermarkt_extractor | 'Ante Budimir' -> 'Ante Budimir' (), score=100.0
+2026-07-25 18:19:51,438 | INFO     | extractors.transfermarkt_extractor | 'Domingos Duarte' -> 'Domingos Duarte' (), score=100.0
+2026-07-25 18:19:59,377 | INFO     | extractors.transfermarkt_extractor | 'Thibaut Courtois' -> 'Thibaut Courtois' (), score=100.0
+2026-07-25 18:20:06,943 | INFO     | extractors.transfermarkt_extractor | 'Germán Valera' -> 'Germán Valera' (), score=100.0
+2026-07-25 18:20:14,483 | INFO     | extractors.transfermarkt_extractor | 'Pablo Fornals' -> 'Pablo Fornals' (), score=100.0
+2026-07-25 18:20:21,738 | INFO     | extractors.transfermarkt_extractor | 'Mikel Jauregizar' -> 'Mikel Jauregizar' (), score=100.0
+2026-07-25 18:20:29,174 | INFO     | extractors.transfermarkt_extractor | 'Omar El Hilali' -> 'Omar El Hilali' (), score=100.0
+2026-07-25 18:20:36,449 | INFO     | extractors.transfermarkt_extractor | 'Vinicius Júnior' -> 'Vinicius Junior' (), score=93.33333333333333
+2026-07-25 18:20:43,715 | INFO     | extractors.transfermarkt_extractor | 'Manu Sánchez' -> 'Manu Sánchez' (), score=100.0
+2026-07-25 18:20:51,361 | INFO     | extractors.transfermarkt_extractor | 'Natan' -> 'Natan' (), score=100.0
+2026-07-25 18:21:05,852 | INFO     | extractors.transfermarkt_extractor | 'Jon Aramburu' -> 'Jon Aramburu' (), score=100.0
+2026-07-25 18:21:13,255 | INFO     | extractors.transfermarkt_extractor | 'Marcos Alonso' -> 'Marcos Alonso' (), score=100.0
+2026-07-25 18:21:20,528 | INFO     | extractors.transfermarkt_extractor | 'Federico Valverde' -> 'Federico Valverde' (), score=100.0
+2026-07-25 18:21:27,698 | INFO     | extractors.transfermarkt_extractor | 'Johan Mojica' -> 'Johan Mojica' (), score=100.0
+2026-07-25 18:21:35,906 | INFO     | extractors.transfermarkt_extractor | 'Eric García' -> 'Eric García' (), score=100.0
+2026-07-25 18:21:43,080 | INFO     | extractors.transfermarkt_extractor | 'Toni Martínez' -> 'Toni Martínez' (), score=100.0
+2026-07-25 18:21:50,310 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Adrián de la Fuente' fue 'Adrián Dela' con score 73.33333333333334 (< umbral 80), se descarta
+2026-07-25 18:21:53,839 | INFO     | extractors.transfermarkt_extractor | 'Mikel Oyarzabal' -> 'Mikel Oyarzabal' (), score=100.0
+2026-07-25 18:22:00,961 | INFO     | extractors.transfermarkt_extractor | 'Yuri Berchiche' -> 'Yuri Berchiche' (), score=100.0
+2026-07-25 18:22:03,769 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:22:03,770 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:22:09,822 | INFO     | extractors.transfermarkt_extractor | 'Pau Cubarsí' -> 'Pau Cubarsí' (), score=100.0
+2026-07-25 18:22:17,820 | INFO     | extractors.transfermarkt_extractor | 'Sergio Gómez' -> 'Sergio Gómez' (), score=100.0
+2026-07-25 18:22:25,332 | INFO     | extractors.transfermarkt_extractor | 'Joan García' -> 'Joan García' (), score=100.0
+2026-07-25 18:22:32,559 | INFO     | extractors.transfermarkt_extractor | 'Jan Oblak' -> 'Jan Oblak' (), score=100.0
+2026-07-25 18:22:39,840 | INFO     | extractors.transfermarkt_extractor | 'Samu Costa' -> 'Samú Costa' (), score=90.0
+2026-07-25 18:22:47,929 | INFO     | extractors.transfermarkt_extractor | 'Sergio Carreira' -> 'Sergio Carreira' (), score=100.0
+2026-07-25 18:22:55,223 | INFO     | extractors.transfermarkt_extractor | 'Lucien Agoume' -> 'Lucien Agoumé' (), score=92.3076923076923
+2026-07-25 18:23:02,947 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:23:02,949 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:23:03,449 | INFO     | extractors.transfermarkt_extractor | 'Pep Chavarría' -> 'Pep Chavarría' (), score=100.0
+2026-07-25 18:23:10,723 | INFO     | extractors.transfermarkt_extractor | 'Sergi Darder' -> 'Sergi Darder' (), score=100.0
+2026-07-25 18:23:18,255 | INFO     | extractors.transfermarkt_extractor | 'Arnau Martinez' -> 'Arnau Martinez' (), score=100.0
+2026-07-25 18:23:25,552 | INFO     | extractors.transfermarkt_extractor | 'Pablo Maffeo' -> 'Pablo Maffeo' (), score=100.0
+2026-07-25 18:23:33,197 | INFO     | extractors.transfermarkt_extractor | 'Víctor Muñoz' -> 'Víctor Muñoz' (), score=100.0
+2026-07-25 18:23:40,667 | INFO     | extractors.transfermarkt_extractor | 'Viktor Tsyhankov' -> 'Viktor Tsygankov' (), score=93.75
+2026-07-25 18:23:48,044 | INFO     | extractors.transfermarkt_extractor | 'Luis Rioja' -> 'Luis Rioja' (), score=100.0
+2026-07-25 18:23:55,763 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Urko González' fue 'Urko González de Zárate' con score 72.22222222222221 (< umbral 80), se descarta
+2026-07-25 18:23:59,348 | INFO     | extractors.transfermarkt_extractor | 'Aurélien Tchouaméni' -> 'Aurélien Tchouaméni' (), score=100.0
+2026-07-25 18:24:06,622 | INFO     | extractors.transfermarkt_extractor | 'Daley Blind' -> 'Daley Blind' (), score=100.0
+2026-07-25 18:24:14,035 | INFO     | extractors.transfermarkt_extractor | 'Kylian Mbappé' -> 'Kylian Mbappé' (), score=100.0
+2026-07-25 18:24:15,901 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:24:15,903 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:24:15,931 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref_test'
+2026-07-25 18:24:21,712 | INFO     | extractors.transfermarkt_extractor | 'César Tárrega' -> 'César Tárrega' (), score=100.0
+2026-07-25 18:24:29,929 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Cucho' fue 'Picuchos' con score 76.92307692307692 (< umbral 80), se descarta
+2026-07-25 18:24:33,540 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Djené' fue 'Dakonam Djené' con score 55.55555555555556 (< umbral 80), se descarta
+2026-07-25 18:24:37,719 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Carmona' fue 'David Carmona' con score 70.0 (< umbral 80), se descarta
+2026-07-25 18:24:41,328 | INFO     | extractors.transfermarkt_extractor | 'Daniel Vivian' -> 'Dani Vivian' (), score=91.66666666666666
+2026-07-25 18:24:49,121 | INFO     | extractors.transfermarkt_extractor | 'Álex Moreno' -> 'Álex Moreno' (), score=100.0
+2026-07-25 18:24:56,632 | INFO     | extractors.transfermarkt_extractor | 'Javi Rodríguez' -> 'Javi Rodríguez' (), score=100.0
+2026-07-25 18:25:05,080 | INFO     | extractors.transfermarkt_extractor | 'Valentin Rosier' -> 'Valentin Rosier' (), score=100.0
+2026-07-25 18:25:12,407 | INFO     | extractors.transfermarkt_extractor | 'Enzo Boyomo' -> 'Enzo Boyomo' (), score=100.0
+2026-07-25 18:25:20,058 | INFO     | extractors.transfermarkt_extractor | 'Iván Martín' -> 'Iván Martín' (), score=100.0
+2026-07-25 18:25:27,674 | INFO     | extractors.transfermarkt_extractor | 'Axel Witsel' -> 'Axel Witsel' (), score=100.0
+2026-07-25 18:25:34,880 | INFO     | extractors.transfermarkt_extractor | 'Edu Expósito' -> 'Edu Expósito' (), score=100.0
+2026-07-25 18:25:42,461 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Luiz Lúcio Reis Júnior' fue 'Luiz Júnior' con score 66.66666666666667 (< umbral 80), se descarta
+2026-07-25 18:25:44,087 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:25:44,089 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:25:44,117 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref_test'
+2026-07-25 18:25:46,874 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Vallés' -> 'Álvaro Valles' (), score=92.3076923076923
+2026-07-25 18:25:54,543 | INFO     | extractors.transfermarkt_extractor | 'Marc Aguado' -> 'Marc Aguado' (), score=100.0
+2026-07-25 18:26:02,237 | INFO     | extractors.transfermarkt_extractor | 'Ilaix Moriba' -> 'Ilaix Moriba' (), score=100.0
+2026-07-25 18:26:09,613 | INFO     | extractors.transfermarkt_extractor | 'Renato Veiga' -> 'Renato Veiga' (), score=100.0
+2026-07-25 18:26:18,338 | INFO     | extractors.transfermarkt_extractor | 'Alberto Moleiro' -> 'Alberto Moleiro' (), score=100.0
+2026-07-25 18:26:25,884 | INFO     | extractors.transfermarkt_extractor | 'Jorge de Frutos' -> 'Jorge de Frutos' (), score=100.0
+2026-07-25 18:26:33,686 | INFO     | extractors.transfermarkt_extractor | 'Alberto Reina' -> 'Alberto Reina' (), score=100.0
+2026-07-25 18:26:41,451 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'José Luis Gayà' fue 'José Gayà' con score 78.26086956521739 (< umbral 80), se descarta
+2026-07-25 18:26:50,835 | INFO     | extractors.transfermarkt_extractor | 'Antony' -> 'Antony' (), score=100.0
+2026-07-25 18:26:59,164 | INFO     | extractors.transfermarkt_extractor | 'Ilyas Chaira' -> 'Ilyas Chaira' (), score=100.0
+2026-07-25 18:27:07,673 | INFO     | extractors.transfermarkt_extractor | 'Federico Viñas' -> 'Federico Viñas' (), score=100.0
+2026-07-25 18:27:16,543 | INFO     | extractors.transfermarkt_extractor | 'Dávid Hancko' -> 'Dávid Hancko' (), score=100.0
+2026-07-25 18:27:25,042 | INFO     | extractors.transfermarkt_extractor | 'Tyrhys Dolan' -> 'Tyrhys Dolan' (), score=100.0
+2026-07-25 18:27:32,358 | INFO     | extractors.transfermarkt_extractor | 'Santi Comesaña' -> 'Santi Comesaña' (), score=100.0
+2026-07-25 18:27:39,514 | INFO     | extractors.transfermarkt_extractor | 'Nicolas Pépé' -> 'Nicolas Pépé' (), score=100.0
+2026-07-25 18:27:47,015 | INFO     | extractors.transfermarkt_extractor | 'Roberto Férnandez' -> 'Roberto Fernández' (), score=88.23529411764706
+2026-07-25 18:27:55,120 | INFO     | extractors.transfermarkt_extractor | 'Santiago Mouriño' -> 'Santiago Mouriño' (), score=100.0
+2026-07-25 18:28:03,605 | INFO     | extractors.transfermarkt_extractor | 'Gorka Guruzeta' -> 'Gorka Guruzeta' (), score=100.0
+2026-07-25 18:28:15,610 | INFO     | extractors.transfermarkt_extractor | 'Nemanja Gudelj' -> 'Nemanja Gudelj' (), score=100.0
+2026-07-25 18:28:24,814 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Carreras' -> 'Álvaro Carreras' (), score=100.0
+2026-07-25 18:28:34,728 | INFO     | extractors.transfermarkt_extractor | 'Carlos Soler' -> 'Carlos Soler' (), score=100.0
+2026-07-25 18:28:44,808 | INFO     | extractors.transfermarkt_extractor | 'Lucas Torró' -> 'Lucas Torró' (), score=100.0
+2026-07-25 18:28:52,324 | INFO     | extractors.transfermarkt_extractor | 'Nacho Vidal' -> 'Nacho Vidal' (), score=100.0
+2026-07-25 18:29:10,218 | INFO     | extractors.transfermarkt_extractor | 'Lamine Yamal' -> 'Lamine Yamal' (), score=100.0
+2026-07-25 18:29:24,884 | INFO     | extractors.transfermarkt_extractor | 'Jules Koundé' -> 'Jules Koundé' (), score=100.0
+2026-07-25 18:29:35,392 | INFO     | extractors.transfermarkt_extractor | 'Iván Romero' -> 'Iván Romero' (), score=100.0
+2026-07-25 18:30:00,441 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Matias Moreno' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Read timed out. (read timeout=15)
+2026-07-25 18:30:15,971 | INFO     | extractors.transfermarkt_extractor | 'Jon Martin' -> 'Dujon Martin' (), score=90.9090909090909
+2026-07-25 18:30:23,342 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Isaac Palazón Camacho' fue 'Isi Palazón' con score 62.5 (< umbral 80), se descarta
+2026-07-25 18:30:26,925 | INFO     | extractors.transfermarkt_extractor | 'Abde Ezzalzouli' -> 'Abde Ezzalzouli' (), score=100.0
+2026-07-25 18:30:34,263 | INFO     | extractors.transfermarkt_extractor | 'Omar Mascarell' -> 'Omar Mascarell' (), score=100.0
+2026-07-25 18:30:41,751 | INFO     | extractors.transfermarkt_extractor | 'Pablo Ibáñez' -> 'Pablo Ibáñez' (), score=100.0
+2026-07-25 18:30:49,256 | INFO     | extractors.transfermarkt_extractor | 'Rubén García' -> 'Rubén García' (), score=100.0
+2026-07-25 18:30:56,449 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'José Luis García Vayá' fue 'Pepelu' con score 14.814814814814813 (< umbral 80), se descarta
+2026-07-25 18:31:00,215 | INFO     | extractors.transfermarkt_extractor | 'Koke' -> 'Koke' (), score=100.0
+2026-07-25 18:31:07,400 | INFO     | extractors.transfermarkt_extractor | 'Jon Gorrotxategi' -> 'Jon Gorrotxategi' (), score=100.0
+2026-07-25 18:31:14,709 | INFO     | extractors.transfermarkt_extractor | 'Iñigo Ruiz de Galarreta' -> 'Iñigo Ruiz de Galarreta' (), score=100.0
+2026-07-25 18:31:22,289 | INFO     | extractors.transfermarkt_extractor | 'Kike Salas' -> 'Kike Salas' (), score=100.0
+2026-07-25 18:31:29,611 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Rodríguez' -> 'Álvaro Rodríguez' (), score=100.0
+2026-07-25 18:31:33,265 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 100/118 valores de mercado resueltos por nombre
+2026-07-25 18:31:33,277 | INFO     | utils.database | 118 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-25 18:31:33,290 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:31:33,379 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:31:33,395 | INFO     | transform.merge | 24 jugadores sin match exacto, aplicando fuzzy-matching
+2026-07-25 18:31:33,439 | INFO     | transform.merge | Tras fuzzy-matching quedan 18 jugadores sin match
+2026-07-25 18:31:33,448 | INFO     | transform.merge | 18 jugadores sin match exacto, aplicando fuzzy-matching
+2026-07-25 18:31:33,477 | INFO     | transform.merge | Tras fuzzy-matching quedan 18 jugadores sin match
+2026-07-25 18:31:33,486 | INFO     | utils.validators | OK: 120 filas
+2026-07-25 18:31:33,504 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:31:33,506 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:31:33,517 | INFO     | utils.database | 120 filas insertadas/actualizadas en 'silver_players'
+2026-07-25 18:31:33,533 | WARNING  | transform.gold | scouting_score: métricas no disponibles esta ejecución ['progressive_carries', 'pass_completion_pct'], se renormalizan pesos sobre las restantes (ver aviso FBref en estado_actual.md)
+2026-07-25 18:31:33,538 | INFO     | transform.gold | Gold: 120 jugadores con scouting_score calculado
+2026-07-25 18:31:33,551 | INFO     | utils.database | 120 filas insertadas/actualizadas en 'gold_players_master'
+2026-07-25 18:31:33,557 | INFO     | pipeline_main | Pipeline completo: bronze -> silver (120) -> gold (120) en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:32:58,378 | INFO     | utils.database | Base de datos (bronze/silver/gold) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:33:05,427 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:33:05,428 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:33:06,078 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:33:06,099 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 18:33:06,117 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 18:43:18,788 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:43:40,308 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:43:40,328 | ERROR    | utils.database | Error escribiendo en 'silver_fbref': NOT NULL constraint failed: silver_fbref.player_name
+2026-07-25 18:43:40,343 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 18:43:40,344 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 18:43:40,344 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 18:43:40,358 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 18:43:40,365 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:43:40,365 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:43:40,376 | INFO     | utils.database | 127 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 18:43:40,394 | INFO     | utils.database | 132 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 18:45:09,880 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:45:09,900 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 18:45:09,906 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:45:09,907 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 18:45:09,914 | INFO     | utils.database | 125 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 18:46:32,767 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 18:46:32,769 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:46:32,770 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:46:39,866 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:46:39,867 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:46:40,527 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:46:40,552 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 18:46:40,571 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 18:46:40,580 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:46:40,590 | INFO     | utils.validators | OK: 611 filas
+2026-07-25 18:46:40,591 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:46:40,591 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:46:40,602 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 18:46:40,608 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 18:46:40,609 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 18:46:40,610 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 18:46:40,616 | INFO     | utils.validators | OK: 600 filas
+2026-07-25 18:46:40,616 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:46:40,616 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:46:40,628 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 18:46:40,631 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:46:41,558 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 18:46:48,078 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 18:46:48,087 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 18:46:48,089 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 20 jugadores con más minutos (611 -> 20)
+2026-07-25 18:46:48,092 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:46:48,093 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 18:46:48,104 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 18:46:48,107 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:46:51,013 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 18:46:51,014 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 18:46:51,015 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=611, understat=600, teams=20, transfermarkt=20, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:28,086 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 18:54:28,088 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:28,089 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:35,271 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:54:35,271 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:54:35,885 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:54:35,912 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 18:54:35,929 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 18:54:35,939 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:54:35,950 | INFO     | utils.validators | OK: 611 filas
+2026-07-25 18:54:35,950 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:54:35,950 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:54:35,962 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 18:54:35,968 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 18:54:35,969 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 18:54:35,970 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 18:54:35,978 | INFO     | utils.validators | OK: 600 filas
+2026-07-25 18:54:35,978 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:54:35,978 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:54:35,989 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 18:54:35,991 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:36,765 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 18:54:43,284 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 18:54:43,293 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 18:54:43,295 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 5 jugadores con más minutos (611 -> 5)
+2026-07-25 18:54:43,298 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:43,300 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 18:54:43,309 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 18:54:43,311 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:44,422 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 18:54:44,423 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 18:54:44,424 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=611, understat=600, teams=20, transfermarkt=5, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:44,424 | INFO     | pipeline_main | Iniciando API-Football (transfers/injuries) para temporada=2025-2026
+2026-07-25 18:54:44,431 | INFO     | pipeline_main | API-Football transfers: 5 jugadores objetivo (hasta ~10 peticiones)
+2026-07-25 18:54:44,433 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:44,435 | INFO     | extractors.api_football | API-Football transfers: 5 pendientes, 0 ya en bronze
+2026-07-25 18:54:44,995 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 99
+2026-07-25 18:54:46,496 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Antonio Sivera'
+2026-07-25 18:54:47,102 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 98
+2026-07-25 18:54:49,216 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 97
+2026-07-25 18:54:51,266 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 96
+2026-07-25 18:54:53,268 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 95
+2026-07-25 18:54:54,771 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Álex Remiro'
+2026-07-25 18:54:55,325 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 94
+2026-07-25 18:54:56,829 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Leandro Cabrera'
+2026-07-25 18:54:56,844 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'bronze_api_football_transfers'
+2026-07-25 18:54:56,854 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfers'
+2026-07-25 18:54:56,858 | INFO     | pipeline_main | API-Football injuries: 5 equipos objetivo (~5 peticiones)
+2026-07-25 18:54:56,860 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:54:58,793 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=57, 2025-2026
+2026-07-25 18:55:00,926 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=58, 2025-2026
+2026-07-25 18:55:02,913 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=61, 2025-2026
+2026-07-25 18:55:04,921 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=62, 2025-2026
+2026-07-25 18:55:06,897 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=63, 2025-2026
+2026-07-25 18:55:06,900 | WARNING  | utils.database | DataFrame vacío, no se escribe nada en 'silver_injuries'
+2026-07-25 18:55:06,900 | INFO     | pipeline_main | API-Football completo: transfers=1, injuries=0
+2026-07-25 18:56:37,110 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 18:56:37,112 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:37,113 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:45,732 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:56:45,733 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 18:56:48,192 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 18:56:48,217 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 18:56:48,234 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 18:56:48,241 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 18:56:48,251 | INFO     | utils.validators | OK: 611 filas
+2026-07-25 18:56:48,251 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:56:48,251 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:56:48,262 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 18:56:48,268 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 18:56:48,269 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 18:56:48,270 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 18:56:48,278 | INFO     | utils.validators | OK: 600 filas
+2026-07-25 18:56:48,278 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 18:56:48,278 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 18:56:48,289 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 18:56:48,291 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:48,925 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 18:56:55,441 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 18:56:55,449 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 18:56:55,452 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 5 jugadores con más minutos (611 -> 5)
+2026-07-25 18:56:55,456 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:55,458 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 18:56:55,466 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 18:56:55,470 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:58,211 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 18:56:58,212 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 18:56:58,213 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=611, understat=600, teams=20, transfermarkt=5, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:58,214 | INFO     | pipeline_main | Iniciando API-Football (transfers/injuries) para ligas=['ESP'], temporada=2025-2026
+2026-07-25 18:56:58,221 | INFO     | pipeline_main | API-Football transfers: 5 jugadores objetivo (hasta ~10 peticiones)
+2026-07-25 18:56:58,223 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:56:58,224 | INFO     | extractors.api_football | API-Football transfers: 4 pendientes, 1 ya en bronze
+2026-07-25 18:56:58,906 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 93
+2026-07-25 18:57:00,409 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Antonio Sivera'
+2026-07-25 18:57:00,947 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 93
+2026-07-25 18:57:02,913 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 92
+2026-07-25 18:57:04,416 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Álex Remiro'
+2026-07-25 18:57:04,798 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 91
+2026-07-25 18:57:06,302 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Leandro Cabrera'
+2026-07-25 18:57:06,313 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfers'
+2026-07-25 18:57:06,317 | INFO     | pipeline_main | API-Football injuries: 5 equipos objetivo (~5 peticiones)
+2026-07-25 18:57:06,318 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 18:57:08,211 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=77, 2025-2026
+2026-07-25 18:57:10,165 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=78, 2025-2026
+2026-07-25 18:57:12,263 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=79, 2025-2026
+2026-07-25 18:57:14,189 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=80, 2025-2026
+2026-07-25 18:57:16,099 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=81, 2025-2026
+2026-07-25 18:57:16,104 | WARNING  | utils.database | DataFrame vacío, no se escribe nada en 'silver_injuries'
+2026-07-25 18:57:16,105 | INFO     | pipeline_main | API-Football completo: transfers=1, injuries=0
+2026-07-25 19:00:04,550 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 19:00:04,552 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:04,553 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:11,783 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 19:00:11,783 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:00:12,434 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 19:00:12,461 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 19:00:12,480 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 19:00:12,488 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 19:00:12,497 | INFO     | utils.validators | OK: 611 filas
+2026-07-25 19:00:12,497 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:00:12,498 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:00:12,509 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 19:00:12,514 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 19:00:12,516 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 19:00:12,517 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 19:00:12,525 | INFO     | utils.validators | OK: 600 filas
+2026-07-25 19:00:12,526 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:00:12,526 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:00:12,536 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 19:00:12,538 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:13,387 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 19:00:19,902 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 19:00:19,910 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 19:00:19,912 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 5 jugadores con más minutos (611 -> 5)
+2026-07-25 19:00:19,914 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:19,916 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 19:00:19,924 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 19:00:19,926 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:21,124 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 19:00:21,124 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 19:00:21,125 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=611, understat=600, teams=20, transfermarkt=5, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:21,126 | INFO     | pipeline_main | Iniciando API-Football (transfers/injuries) para ligas=['ESP'], temporada=2025-2026
+2026-07-25 19:00:21,135 | INFO     | pipeline_main | API-Football transfers: 5 jugadores objetivo (hasta ~10 peticiones)
+2026-07-25 19:00:21,137 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:21,139 | INFO     | extractors.api_football | API-Football transfers: 4 pendientes, 1 ya en bronze
+2026-07-25 19:00:21,700 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 89
+2026-07-25 19:00:23,204 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Antonio Sivera'
+2026-07-25 19:00:23,758 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 88
+2026-07-25 19:00:25,777 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 87
+2026-07-25 19:00:27,278 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Álex Remiro'
+2026-07-25 19:00:27,775 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 86
+2026-07-25 19:00:29,279 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Leandro Cabrera'
+2026-07-25 19:00:29,289 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfers'
+2026-07-25 19:00:29,292 | INFO     | pipeline_main | API-Football injuries: 5 equipos objetivo (~10 peticiones)
+2026-07-25 19:00:29,293 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:00:29,723 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 85
+2026-07-25 19:00:33,169 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=531, 2025-2026
+2026-07-25 19:00:33,575 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 84
+2026-07-25 19:00:35,077 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para 'Club Atlético de Madrid'
+2026-07-25 19:00:35,586 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 83
+2026-07-25 19:00:37,088 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para 'CA Osasuna'
+2026-07-25 19:00:37,637 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 82
+2026-07-25 19:00:39,140 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para 'RCD Espanyol de Barcelona'
+2026-07-25 19:00:39,683 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 81
+2026-07-25 19:00:41,185 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para 'FC Barcelona'
+2026-07-25 19:00:41,189 | WARNING  | utils.database | DataFrame vacío, no se escribe nada en 'silver_injuries'
+2026-07-25 19:00:41,190 | INFO     | pipeline_main | API-Football completo: transfers=1, injuries=0
+2026-07-25 19:03:06,540 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporada=2025-2026
+2026-07-25 19:03:06,541 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:06,543 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:13,745 | INFO     | extractors.soccerdata_extractor | FBref: 611 jugadores extraídos de ESP 2025-2026
+2026-07-25 19:03:13,746 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:03:14,393 | INFO     | extractors.soccerdata_extractor | Understat: 600 jugadores extraídos de ESP 2025-2026
+2026-07-25 19:03:14,416 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 19:03:14,434 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 19:03:14,441 | INFO     | transform.cleaning | 17 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 19:03:14,450 | INFO     | utils.validators | OK: 611 filas
+2026-07-25 19:03:14,451 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:03:14,451 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:03:14,462 | INFO     | utils.database | 611 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 19:03:14,467 | INFO     | transform.cleaning | 35 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 19:03:14,468 | INFO     | transform.cleaning | 5 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 19:03:14,469 | INFO     | transform.cleaning | 32 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 19:03:14,475 | INFO     | utils.validators | OK: 600 filas
+2026-07-25 19:03:14,476 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:03:14,476 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:03:14,486 | INFO     | utils.database | 600 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 19:03:14,488 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:15,302 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 19:03:21,818 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 19:03:21,826 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 19:03:21,828 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 5 jugadores con más minutos (611 -> 5)
+2026-07-25 19:03:21,831 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:21,832 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 19:03:21,840 | INFO     | utils.database | 5 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 19:03:21,843 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:23,009 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 19:03:23,010 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 19:03:23,011 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=611, understat=600, teams=20, transfermarkt=5, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:23,012 | INFO     | pipeline_main | Iniciando API-Football (transfers/injuries) para ligas=['ESP'], temporada=2025-2026
+2026-07-25 19:03:23,018 | INFO     | pipeline_main | API-Football transfers: 5 jugadores objetivo (hasta ~10 peticiones)
+2026-07-25 19:03:23,020 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:23,022 | INFO     | extractors.api_football | API-Football transfers: 4 pendientes, 1 ya en bronze
+2026-07-25 19:03:23,639 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 80
+2026-07-25 19:03:25,142 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Antonio Sivera'
+2026-07-25 19:03:25,735 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 79
+2026-07-25 19:03:27,757 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 78
+2026-07-25 19:03:29,261 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Álex Remiro'
+2026-07-25 19:03:29,725 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 77
+2026-07-25 19:03:31,227 | WARNING  | extractors.api_football | API-Football: sin resultados para 'Leandro Cabrera'
+2026-07-25 19:03:31,238 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfers'
+2026-07-25 19:03:31,243 | INFO     | pipeline_main | API-Football injuries: 5 equipos objetivo (~10 peticiones)
+2026-07-25 19:03:31,244 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:03:31,648 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 76
+2026-07-25 19:03:35,068 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=531, 2025-2026
+2026-07-25 19:03:35,541 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 75
+2026-07-25 19:03:37,611 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 74
+2026-07-25 19:03:41,064 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=17622, 2025-2026
+2026-07-25 19:03:41,479 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 73
+2026-07-25 19:03:43,407 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 72
+2026-07-25 19:03:46,908 | INFO     | extractors.api_football | API-Football: sin lesiones registradas para team_id=727, 2025-2026
+2026-07-25 19:03:47,354 | INFO     | extractors.api_football | API-Football: peticiones restantes hoy = 71
+2026-07-25 19:03:49,347 | ERROR    | extractors.api_football | Error llamando a API-Football teams: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/teams?search=Espanyol
+2026-07-25 19:03:50,851 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para ninguna variante de 'RCD Espanyol de Barcelona'
+2026-07-25 19:03:51,236 | ERROR    | extractors.api_football | Error llamando a API-Football teams: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/teams?search=FC+Barcelona
+2026-07-25 19:03:53,166 | ERROR    | extractors.api_football | Error llamando a API-Football teams: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/teams?search=Bar%C3%A7a
+2026-07-25 19:03:54,670 | WARNING  | extractors.api_football | API-Football: sin resultados de equipo para ninguna variante de 'FC Barcelona'
+2026-07-25 19:03:54,674 | WARNING  | utils.database | DataFrame vacío, no se escribe nada en 'silver_injuries'
+2026-07-25 19:03:54,674 | INFO     | pipeline_main | API-Football completo: transfers=1, injuries=0
+2026-07-25 19:18:31,993 | INFO     | extractors.soccerdata_extractor | FBref: 1212 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-07-25 19:18:31,994 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:20:14,775 | INFO     | extractors.soccerdata_extractor | FBref: 1212 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-07-25 19:20:14,776 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:39:57,475 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:40:54,699 | INFO     | extractors.soccerdata_extractor | FBref: 1212 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-07-25 19:40:54,700 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:41:21,648 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:41:25,334 | INFO     | utils.database | 25 filas insertadas/actualizadas en 'bronze_transfermarkt_mv_history'
+2026-07-25 19:41:25,355 | INFO     | utils.database | 25 filas insertadas/actualizadas en 'silver_transfermarkt_mv_history'
+2026-07-25 19:41:25,942 | INFO     | extractors.football_data_api | Standings: 20 equipos extraídos de ESP
+2026-07-25 19:41:25,959 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_standings'
+2026-07-25 19:41:44,993 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporadas=['2024-2025', '2025-2026']
+2026-07-25 19:41:44,999 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:41:45,000 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:41:52,703 | INFO     | extractors.soccerdata_extractor | FBref: 1212 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-07-25 19:41:52,703 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-07-25 19:41:56,005 | INFO     | extractors.soccerdata_extractor | Understat: 1190 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-07-25 19:41:56,041 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'bronze_fbref'
+2026-07-25 19:41:56,066 | INFO     | utils.database | 1190 filas insertadas/actualizadas en 'bronze_understat'
+2026-07-25 19:41:56,075 | INFO     | transform.cleaning | 44 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-07-25 19:41:56,076 | INFO     | transform.cleaning | 2 outliers detectados en 'tackles' (no eliminados, solo marcados)
+2026-07-25 19:41:56,076 | INFO     | transform.cleaning | 1 outliers detectados en 'interceptions' (no eliminados, solo marcados)
+2026-07-25 19:41:56,088 | INFO     | utils.validators | OK: 1212 filas
+2026-07-25 19:41:56,089 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:41:56,089 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:41:56,103 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'silver_fbref'
+2026-07-25 19:41:56,110 | INFO     | transform.cleaning | 57 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-07-25 19:41:56,110 | INFO     | transform.cleaning | 16 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-07-25 19:41:56,112 | INFO     | transform.cleaning | 47 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-07-25 19:41:56,121 | INFO     | utils.validators | OK: 1190 filas
+2026-07-25 19:41:56,122 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-07-25 19:41:56,122 | INFO     | utils.validators | OK: sin duplicados
+2026-07-25 19:41:56,136 | INFO     | utils.database | 1190 filas insertadas/actualizadas en 'silver_understat'
+2026-07-25 19:41:56,139 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:41:56,823 | INFO     | extractors.football_data_api | Extraídos 20 equipos de ESP
+2026-07-25 19:42:03,334 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_teams'
+2026-07-25 19:42:03,343 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'silver_teams'
+2026-07-25 19:42:03,346 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:42:03,965 | INFO     | extractors.football_data_api | Standings: 20 equipos extraídos de ESP
+2026-07-25 19:42:10,479 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_standings'
+2026-07-25 19:42:10,484 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:42:11,069 | INFO     | extractors.football_data_api | Standings: 20 equipos extraídos de ESP
+2026-07-25 19:42:17,580 | INFO     | utils.database | 20 filas insertadas/actualizadas en 'bronze_football_data_standings'
+2026-07-25 19:42:17,590 | INFO     | utils.database | 40 filas insertadas/actualizadas en 'silver_standings'
+2026-07-25 19:42:17,593 | INFO     | pipeline_main | Modo prueba: Transfermarkt limitado a los 10 jugadores con más minutos (834 -> 10)
+2026-07-25 19:42:17,596 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:42:17,598 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 0 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 19:42:17,606 | INFO     | utils.database | 10 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 19:42:17,609 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:42:20,543 | ERROR    | extractors.whoscored_extractor | WhoScored bloqueado extrayendo ESP 2025-2026: Expecting value: line 1 column 1 (char 0) (bot-detection conocida, ver estado_actual.md)
+2026-07-25 19:42:20,544 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-07-25 19:42:20,545 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=1212, understat=1190, teams=20, standings=40, transfermarkt=10, whoscored=0 en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:43:53,234 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:44:09,187 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 19:44:09,188 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-07-25 19:44:09,196 | INFO     | utils.database | 125 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 19:44:09,201 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:44:09,203 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 1 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 19:44:13,405 | INFO     | extractors.transfermarkt_extractor | 'Robert Lewandowski' -> 'Robert Lewandowski' (), score=100.0
+2026-07-25 19:44:17,016 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 1/1 valores de mercado resueltos por nombre
+2026-07-25 19:44:17,027 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-25 19:44:17,042 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 19:44:39,302 | INFO     | extractors.transfermarkt_extractor | 'Robert Lewandowski' -> 'Robert Lewandowski' (), score=100.0
+2026-07-25 19:45:24,812 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 19:45:24,814 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 1 jugadores nuevos por buscar, 125 ya en bronze
+2026-07-25 19:45:28,614 | INFO     | extractors.transfermarkt_extractor | 'Robert Lewandowski' -> 'Robert Lewandowski' (), score=100.0
+2026-07-25 19:45:32,062 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 1/1 valores de mercado resueltos por nombre
+2026-07-25 19:45:32,070 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-07-25 19:45:32,087 | INFO     | utils.database | 1 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-07-25 20:02:50,249 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\gabri\Documents\Universidad\Master\TFM\data\atm_scouting.db
+2026-07-25 20:02:53,512 | INFO     | extractors.whoscored_extractor | WhoScored: limitado a 3 partidos de ESP 2025-2026
+2026-07-25 20:03:15,873 | INFO     | extractors.whoscored_extractor | WhoScored: 4446 eventos extraídos de ESP 2025-2026
+2026-07-25 20:03:16,187 | INFO     | utils.database | 96 filas insertadas/actualizadas en 'bronze_whoscored'
+2026-07-25 20:03:16,217 | INFO     | utils.database | 96 filas insertadas/actualizadas en 'silver_whoscored'
