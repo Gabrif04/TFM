@@ -60,7 +60,7 @@ python pipeline_main.py --leagues ESP --season 2025-2026
 
 Esto extrae **la liga completa** (todos los jugadores de La Liga), lo que implica cientos de búsquedas contra Transfermarkt (rate-limited a 1 cada ~3s) y, si no se acota, el calendario completo de WhoScored (~380 partidos, 1 cada 5s) — puede tardar **30-60+ minutos**.
 
-### ⚡ `--top-n`: la forma rápida de probar el pipeline
+### `--top-n`: la forma rápida de probar el pipeline
 
 `--top-n N` limita Transfermarkt a los **N jugadores con más minutos jugados** de la extracción (en vez de buscar a todos los jugadores de la liga). Es la manera recomendada de probar cambios o ejecutar el pipeline sin esperar decenas de minutos:
 
