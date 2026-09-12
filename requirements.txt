@@ -6,3 +6,5 @@ soccerdata>=1.8
 selenium>=4.30
 rapidfuzz>=3.9
 python-dotenv>=1.0
+scikit-learn>=1.4
+joblib>=1.3

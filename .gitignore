@@ -1,3 +1,7 @@
 venv/
 .env
 estado_actual.md
+__pycache__/
+data/*.db
+downloaded_files/
+logs/
