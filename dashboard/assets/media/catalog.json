@@ -1,0 +1,3543 @@
+[
+  {
+    "kind": "club",
+    "key": "ENG|Arsenal",
+    "query": "Arsenal FC",
+    "candidates": [
+      {
+        "id": "Q9617",
+        "label": "Arsenal F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q4384231",
+        "label": "Arsenal F.C. Under-21s and Academy",
+        "description": "Arsenal football academy"
+      },
+      {
+        "id": "Q123737327",
+        "label": "Arsenal FC v Tottenham Hotspur FC, 17 November 2012",
+        "description": ""
+      },
+      {
+        "id": "Q123737304",
+        "label": "Arsenal FC (U19) vs Shakhtar Donetsk (U19) 25-02-2014",
+        "description": "association football match at Meadow Park football ground, Borehamwood during 2013–14 UEFA Youth League with score 3:1"
+      },
+      {
+        "id": "Q123737322",
+        "label": "Arsenal FC v Olympique de Marseille, 26 Nov 2013",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Aston Villa",
+    "query": "Aston Villa",
+    "candidates": [
+      {
+        "id": "Q18711",
+        "label": "Aston Villa F.C.",
+        "description": "association football club in Birmingham, England"
+      },
+      {
+        "id": "Q4811037",
+        "label": "Aston Villa W.F.C.",
+        "description": "women's football club from Birmingham, England"
+      },
+      {
+        "id": "Q4811032",
+        "label": "Aston Villa Under-21s and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q5775058",
+        "label": "history of Aston Villa F.C.",
+        "description": "aspect of history"
+      },
+      {
+        "id": "Q4470792",
+        "label": "Aston Villa F.C. in European football",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Bournemouth",
+    "query": "AFC Bournemouth",
+    "candidates": [
+      {
+        "id": "Q19568",
+        "label": "AFC Bournemouth",
+        "description": "association football club in Bournemouth, England"
+      },
+      {
+        "id": "Q137270607",
+        "label": "AFC Bournemouth v West Ham United, 13 August 2023",
+        "description": ""
+      },
+      {
+        "id": "Q124427825",
+        "label": "AFC Bournemouth Women",
+        "description": "women's football club in Dorset, England"
+      },
+      {
+        "id": "Q123737010",
+        "label": "AFC Bournemouth v Charlton Athletic, 18 October 2014",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Brentford",
+    "query": "Brentford FC",
+    "candidates": [
+      {
+        "id": "Q19571",
+        "label": "Brentford F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q124286858",
+        "label": "Brentford FC B",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Brighton",
+    "query": "Brighton & Hove Albion",
+    "candidates": [
+      {
+        "id": "Q19453",
+        "label": "Brighton & Hove Albion F.C.",
+        "description": "football club in Brighton & Hove, England"
+      },
+      {
+        "id": "Q4967588",
+        "label": "Brighton & Hove Albion W.F.C.",
+        "description": "women's football club from Brighton, England"
+      },
+      {
+        "id": "Q135233440",
+        "label": "Brighton & Hove Albion FC U23",
+        "description": "former development men's association football team from England"
+      },
+      {
+        "id": "Q23662046",
+        "label": "Brighton & Hove Albion F.C. Reserves and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q5775401",
+        "label": "history of Brighton & Hove Albion F.C.",
+        "description": "aspect of history"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Burnley",
+    "query": "Burnley FC",
+    "candidates": [
+      {
+        "id": "Q19458",
+        "label": "Burnley F.C.",
+        "description": "association football club in Burnley, England"
+      },
+      {
+        "id": "Q123737882",
+        "label": "Burnley FC v Hull City, 8 November 2014",
+        "description": ""
+      },
+      {
+        "id": "Q123737881",
+        "label": "Burnley FC v Hull City, 6 February 2016",
+        "description": ""
+      },
+      {
+        "id": "Q20807077",
+        "label": "Burnley FC Girls & Ladies",
+        "description": "football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Chelsea",
+    "query": "Chelsea FC",
+    "candidates": [
+      {
+        "id": "Q9616",
+        "label": "Chelsea F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q2422811",
+        "label": "Chelsea F.C. Women",
+        "description": "women's association football club based in Kingston upon Thames, England"
+      },
+      {
+        "id": "Q122290829",
+        "label": "Chelsea FC",
+        "description": ""
+      },
+      {
+        "id": "Q2669653",
+        "label": "Chelsea F.C. Development Squad and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q123738184",
+        "label": "Chelsea FC v Galatasaray, 18 March 2014",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Crystal Palace",
+    "query": "Crystal Palace FC",
+    "candidates": [
+      {
+        "id": "Q19467",
+        "label": "Crystal Palace F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q5191310",
+        "label": "Crystal Palace F.C. (Women)",
+        "description": "women's association football club based in South London, England"
+      },
+      {
+        "id": "Q2494372",
+        "label": "Crystal Palace F.C.",
+        "description": "amateur football club in London (1861-1876)"
+      },
+      {
+        "id": "Q123739968",
+        "label": "Crystal Palace FC Women vs Lewes FC Women, 2 May 2021",
+        "description": ""
+      },
+      {
+        "id": "Q1142391",
+        "label": "Crystal Palace Baltimore",
+        "description": "defunct American soccer club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Everton",
+    "query": "Everton FC",
+    "candidates": [
+      {
+        "id": "Q5794",
+        "label": "Everton F.C.",
+        "description": "association football club in Liverpool, England"
+      },
+      {
+        "id": "Q1811824",
+        "label": "Everton F.C. Intelligensia",
+        "description": "1990 video game"
+      },
+      {
+        "id": "Q3061505",
+        "label": "Everton F.C. Women",
+        "description": "women's football club based in Liverpool, England"
+      },
+      {
+        "id": "Q16838884",
+        "label": "Everton F.C. Reserves and Academy",
+        "description": "The Dream Factory"
+      },
+      {
+        "id": "Q30328220",
+        "label": "2017–18 Everton F.C. season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Fulham",
+    "query": "Fulham FC",
+    "candidates": [
+      {
+        "id": "Q18708",
+        "label": "Fulham F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q23662057",
+        "label": "Fulham FC reserve and academy teams",
+        "description": "UK association football club"
+      },
+      {
+        "id": "Q123728813",
+        "label": "Fulham FC v Newcastle United FC, 15 December 2007",
+        "description": ""
+      },
+      {
+        "id": "Q123744442",
+        "label": "Fulham FC vs Juventus FC, Europa League, 18 March 2010",
+        "description": ""
+      },
+      {
+        "id": "Q123744443",
+        "label": "Fulham FC vs Tottenham Hotspur FC, Premier League, December 2009",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Leeds United",
+    "query": "Leeds United",
+    "candidates": [
+      {
+        "id": "Q1128631",
+        "label": "Leeds United F.C.",
+        "description": "association football club in Leeds, England"
+      },
+      {
+        "id": "Q1812080",
+        "label": "Leeds United",
+        "description": "single released by the English football team Leeds United AFC"
+      },
+      {
+        "id": "Q27940435",
+        "label": "Leeds United",
+        "description": "1974 filmed television play"
+      },
+      {
+        "id": "Q3106835",
+        "label": "Leeds United L.F.C.",
+        "description": "British women's association football team"
+      },
+      {
+        "id": "Q10556342",
+        "label": "Leeds United Football Club Limited",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Liverpool",
+    "query": "Liverpool FC",
+    "candidates": [
+      {
+        "id": "Q1130849",
+        "label": "Liverpool F.C.",
+        "description": "association football club in Liverpool, England"
+      },
+      {
+        "id": "Q588085",
+        "label": "Liverpool F.C. Women",
+        "description": "association football club in Liverpool, England"
+      },
+      {
+        "id": "Q1131189",
+        "label": "Liverpool F.C. (Montevideo)",
+        "description": "football club in Montevideo, Uruguay"
+      },
+      {
+        "id": "Q97959736",
+        "label": "Liverpool FC-4-0-FC Barcelona, 8 April 2019",
+        "description": ""
+      },
+      {
+        "id": "Q122017437",
+        "label": "Liverpool FC: příběhy legend",
+        "description": "book edition published in 2018"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Manchester City",
+    "query": "Manchester City",
+    "candidates": [
+      {
+        "id": "Q50602",
+        "label": "Manchester City F.C.",
+        "description": "association football club in Manchester, England"
+      },
+      {
+        "id": "Q3844288",
+        "label": "Manchester City W.F.C.",
+        "description": "English women's football club based in Manchester"
+      },
+      {
+        "id": "Q2638817",
+        "label": "Manchester Art Gallery",
+        "description": "publicly owned art gallery in Manchester, UK"
+      },
+      {
+        "id": "Q2302252",
+        "label": "Manchester City Council",
+        "description": "local government body in England"
+      },
+      {
+        "id": "Q16152241",
+        "label": "Manchester City Council election",
+        "description": "local elections"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Manchester Utd",
+    "query": "Manchester United",
+    "candidates": [
+      {
+        "id": "Q18656",
+        "label": "Manchester United F.C.",
+        "description": "association football club in Manchester, England"
+      },
+      {
+        "id": "Q55353307",
+        "label": "Manchester United",
+        "description": "1990 computer game by Teque"
+      },
+      {
+        "id": "Q54818167",
+        "label": "Manchester United W.F.C.",
+        "description": "professional football club"
+      },
+      {
+        "id": "Q5478948",
+        "label": "Manchester United",
+        "description": "video game series"
+      },
+      {
+        "id": "Q6747538",
+        "label": "Manchester United",
+        "description": "1976 single by Manchester United F.C."
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Newcastle",
+    "query": "Newcastle United",
+    "candidates": [
+      {
+        "id": "Q18716",
+        "label": "Newcastle United F.C.",
+        "description": "association football club in Newcastle upon Tyne, England"
+      },
+      {
+        "id": "Q732929",
+        "label": "Newcastle Jets FC",
+        "description": "soccer club based in Newcastle, Australia"
+      },
+      {
+        "id": "Q9203822",
+        "label": "Newcastle United W.F.C.",
+        "description": "women's association football club in England"
+      },
+      {
+        "id": "Q6576785",
+        "label": "Newcastle United F.C. Reserves and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q4923660",
+        "label": "history of Newcastle United F.C.",
+        "description": "aspect of history"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Nottingham",
+    "query": "Nottingham Forest",
+    "candidates": [
+      {
+        "id": "Q19490",
+        "label": "Nottingham Forest F.C.",
+        "description": "association football club in West Bridgford, England"
+      },
+      {
+        "id": "Q7063643",
+        "label": "Nottingham Forest Women F.C.",
+        "description": "football club"
+      },
+      {
+        "id": "Q25111015",
+        "label": "Nottingham Forest F.C. in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q39055345",
+        "label": "Nottingham Forest F.C. Under-23s, Under-18s and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q39055341",
+        "label": "Nottingham Forest F.C. Under-23's Squad and Academy",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Sunderland",
+    "query": "Sunderland AFC",
+    "candidates": [
+      {
+        "id": "Q18739",
+        "label": "Sunderland A.F.C.",
+        "description": "association football club in Sunderland, England"
+      },
+      {
+        "id": "Q7639686",
+        "label": "Sunderland A.F.C. Women",
+        "description": "Women's team of Sunderland A.F.C."
+      },
+      {
+        "id": "Q123751746",
+        "label": "Sunderland AFC vs Manchester United FC, 13 May 2012",
+        "description": ""
+      },
+      {
+        "id": "Q7639685",
+        "label": "Sunderland A.F.C. Reserves and Academy",
+        "description": "football club"
+      },
+      {
+        "id": "Q3976997",
+        "label": "2011–12 Sunderland A.F.C. season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Tottenham",
+    "query": "Tottenham Hotspur",
+    "candidates": [
+      {
+        "id": "Q18741",
+        "label": "Tottenham Hotspur F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q55074091",
+        "label": "Tottenham Hotspur Stadium",
+        "description": "stadium in London, England"
+      },
+      {
+        "id": "Q14641974",
+        "label": "Tottenham Hotspur F.C. Women",
+        "description": "English women's football club"
+      },
+      {
+        "id": "Q774642",
+        "label": "Tottenham Hotspur Superleague Formula Team",
+        "description": "Superleague Formula team, run by the English football team"
+      },
+      {
+        "id": "Q7828451",
+        "label": "Tottenham Hotspur F.C. Reserves and Academy",
+        "description": "football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|West Ham",
+    "query": "West Ham United",
+    "candidates": [
+      {
+        "id": "Q18747",
+        "label": "West Ham United F.C.",
+        "description": "association football club in London, England"
+      },
+      {
+        "id": "Q7985296",
+        "label": "West Ham United F.C. Women",
+        "description": "English women's association football team"
+      },
+      {
+        "id": "Q6366853",
+        "label": "West Ham United F.C. in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q7985294",
+        "label": "West Ham United F.C. Reserves and Academy",
+        "description": ""
+      },
+      {
+        "id": "Q27982148",
+        "label": "West Ham United who's who: a player by player guide to West Ham United F.C.",
+        "description": "book on football"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ENG|Wolves",
+    "query": "Wolverhampton Wanderers",
+    "candidates": [
+      {
+        "id": "Q19500",
+        "label": "Wolverhampton Wanderers F.C.",
+        "description": "association football club in Wolverhampton, England"
+      },
+      {
+        "id": "Q8030519",
+        "label": "Wolverhampton Wanderers W.F.C.",
+        "description": "women's association football team"
+      },
+      {
+        "id": "Q18395269",
+        "label": "Wolverhampton Wanderers Development Squad and Academy",
+        "description": "UK association football club"
+      },
+      {
+        "id": "Q16958021",
+        "label": "history of Wolverhampton Wanderers F.C.",
+        "description": "aspect of history"
+      },
+      {
+        "id": "Q65080113",
+        "label": "Wolverhampton Wanderers F.C. in European football",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Alavés",
+    "query": "Deportivo Alaves",
+    "candidates": [
+      {
+        "id": "Q223620",
+        "label": "Deportivo Alavés",
+        "description": "association football club in Vitoria-Gasteiz, Spain"
+      },
+      {
+        "id": "Q5260721",
+        "label": "Deportivo Alavés B",
+        "description": "football club"
+      },
+      {
+        "id": "Q31188235",
+        "label": "Deportivo Alavés Gloriosas",
+        "description": "women's team of Spanish football club Deportivo Alavés"
+      },
+      {
+        "id": "Q8469868",
+        "label": "Deportivo Alavés C",
+        "description": "football club"
+      },
+      {
+        "id": "Q125618697",
+        "label": "Deportivo Alavés. 100 años de historia, 1921-2021",
+        "description": "written work by Santiago de Pablo"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Athletic Club",
+    "query": "Athletic Bilbao",
+    "candidates": [
+      {
+        "id": "Q8687",
+        "label": "Athletic Club",
+        "description": "Spanish association football team from Bilbao, Spain"
+      },
+      {
+        "id": "Q780121",
+        "label": "Athletic Club Femenino",
+        "description": "Spanish Basque women's association football club"
+      },
+      {
+        "id": "Q794970",
+        "label": "Athletic Bilbao B",
+        "description": "football team, male subsidiary of Athletic Club"
+      },
+      {
+        "id": "Q28403087",
+        "label": "Athletic Bilbao Juvenil",
+        "description": "football club"
+      },
+      {
+        "id": "Q5899930",
+        "label": "history of Athletic Bilbao",
+        "description": "Spanish football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Atlético Madrid",
+    "query": "Atletico Madrid",
+    "candidates": [
+      {
+        "id": "Q8701",
+        "label": "Atlético Madrid",
+        "description": "Spanish professional football club in Madrid"
+      },
+      {
+        "id": "Q4816984",
+        "label": "Atlético de Madrid Femenino",
+        "description": "Spanish women's football team based in Madrid"
+      },
+      {
+        "id": "Q7162693",
+        "label": "Category:Atlético Madrid",
+        "description": "Wikimedia category"
+      },
+      {
+        "id": "Q780539",
+        "label": "Atlético Madrid B",
+        "description": "association football team in Spain"
+      },
+      {
+        "id": "Q2975407",
+        "label": "Atlético Madrid C",
+        "description": "Spanish football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Barcelona",
+    "query": "FC Barcelona",
+    "candidates": [
+      {
+        "id": "Q7156",
+        "label": "FC Barcelona",
+        "description": "football club in Barcelona, Catalonia, Spain"
+      },
+      {
+        "id": "Q13562063",
+        "label": "FC Barcelona Juvenil A",
+        "description": "under-19 team of Spanish professional football club Barcelona"
+      },
+      {
+        "id": "Q54893",
+        "label": "FC Barcelona Bàsquet",
+        "description": "Basketball club in Barcelona"
+      },
+      {
+        "id": "Q3091261",
+        "label": "FC Barcelona",
+        "description": "company in Barcelona, owner of the homonymous team"
+      },
+      {
+        "id": "Q378906",
+        "label": "FC Barcelona Handbol",
+        "description": "handball team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Celta Vigo",
+    "query": "RC Celta de Vigo",
+    "candidates": [
+      {
+        "id": "Q8749",
+        "label": "RC Celta de Vigo",
+        "description": "Spanish association football club"
+      },
+      {
+        "id": "Q108865196",
+        "label": "RC Celta de Vigo Cantera",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Elche",
+    "query": "Elche CF",
+    "candidates": [
+      {
+        "id": "Q10512",
+        "label": "Elche CF",
+        "description": "Spanish association football team"
+      },
+      {
+        "id": "Q368016",
+        "label": "Elche CF Ilicitano",
+        "description": "association football club"
+      },
+      {
+        "id": "Q113496905",
+        "label": "Elche CF (women)",
+        "description": "Football Club in Spain"
+      },
+      {
+        "id": "Q116058819",
+        "label": "Elche Club de Fútbol women",
+        "description": "Spanish women's football (soccer) team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Espanyol",
+    "query": "RCD Espanyol",
+    "candidates": [
+      {
+        "id": "Q8780",
+        "label": "RCD Espanyol de Barcelona",
+        "description": "sports club in Spain"
+      },
+      {
+        "id": "Q592748",
+        "label": "RCD Espanyol Femenino",
+        "description": "Spanish women's association football club"
+      },
+      {
+        "id": "Q7276084",
+        "label": "RCD Espanyol Basketball",
+        "description": "sports club in Barcelona"
+      },
+      {
+        "id": "Q32537",
+        "label": "RCD Espanyol B",
+        "description": "football club based in Barcelona, Spain"
+      },
+      {
+        "id": "Q7276085",
+        "label": "RCD Espanyol Voleibol",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Getafe",
+    "query": "Getafe CF",
+    "candidates": [
+      {
+        "id": "Q8806",
+        "label": "Getafe CF",
+        "description": "Spanish professional football club based in Getafe"
+      },
+      {
+        "id": "Q2349507",
+        "label": "Getafe CF B",
+        "description": "association football reserve team in Spain"
+      },
+      {
+        "id": "Q17759962",
+        "label": "Getafe CF coach Schuster criticises preliminary Spanish World Cup pick",
+        "description": "Wikinews article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Girona",
+    "query": "Girona FC",
+    "candidates": [
+      {
+        "id": "Q11945",
+        "label": "Girona FC",
+        "description": "Spanish football club"
+      },
+      {
+        "id": "Q20978009",
+        "label": "Girona FC B",
+        "description": "association football club in Spain"
+      },
+      {
+        "id": "Q44010",
+        "label": "CB Sant Josep",
+        "description": "basketball team from Spain"
+      },
+      {
+        "id": "Q100529929",
+        "label": "Girona FC Femení A",
+        "description": "football club"
+      },
+      {
+        "id": "Q65083591",
+        "label": "Girona FC Femení B",
+        "description": "football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Levante",
+    "query": "Levante UD",
+    "candidates": [
+      {
+        "id": "Q8823",
+        "label": "Levante UD",
+        "description": "Spanish football club"
+      },
+      {
+        "id": "Q3558590",
+        "label": "Levante UD Women",
+        "description": "Spanish women's association football club"
+      },
+      {
+        "id": "Q32538",
+        "label": "Atlético Levante UD",
+        "description": "Spanish football club based in Valencia"
+      },
+      {
+        "id": "Q61001608",
+        "label": "Levante UD",
+        "description": "football club"
+      },
+      {
+        "id": "Q30599282",
+        "label": "Levante UD",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Mallorca",
+    "query": "RCD Mallorca",
+    "candidates": [
+      {
+        "id": "Q8835",
+        "label": "RCD Mallorca",
+        "description": "Spanish association football team"
+      },
+      {
+        "id": "Q914169",
+        "label": "RCD Mallorca B",
+        "description": "association football club"
+      },
+      {
+        "id": "Q123750351",
+        "label": "RCD Mallorca v Villareal CF, 22 oct 2017",
+        "description": ""
+      },
+      {
+        "id": "Q109670618",
+        "label": "Real Club Deportiu Mallorca (female)",
+        "description": "women's soccer team from Palma (Mallorca, Balearic Islands, Spain)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Osasuna",
+    "query": "CA Osasuna",
+    "candidates": [
+      {
+        "id": "Q10286",
+        "label": "Club Atlético Osasuna",
+        "description": "Spanish association football team"
+      },
+      {
+        "id": "Q25477209",
+        "label": "CA Osasuna Femenino",
+        "description": "football club"
+      },
+      {
+        "id": "Q28404864",
+        "label": "CA Osasuna Juvenil",
+        "description": "football club"
+      },
+      {
+        "id": "Q123737890",
+        "label": "CA Osasuna vs. Real Union",
+        "description": ""
+      },
+      {
+        "id": "Q2657829",
+        "label": "Osasuna B",
+        "description": "reserve team of CA Osasuna"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Oviedo",
+    "query": "Real Oviedo",
+    "candidates": [
+      {
+        "id": "Q271574",
+        "label": "Real Oviedo",
+        "description": "association football club"
+      },
+      {
+        "id": "Q7114155",
+        "label": "Real Oviedo Femenino",
+        "description": "Spanish women's football"
+      },
+      {
+        "id": "Q3331395",
+        "label": "Real Oviedo Vetusta",
+        "description": "Spanish association football team"
+      },
+      {
+        "id": "Q517805",
+        "label": "Real Oviedo Rugby",
+        "description": "rugby union team"
+      },
+      {
+        "id": "Q55602602",
+        "label": "2018–19 Real Oviedo season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Rayo Vallecano",
+    "query": "Rayo Vallecano",
+    "candidates": [
+      {
+        "id": "Q10300",
+        "label": "Rayo Vallecano",
+        "description": "Spanish football team"
+      },
+      {
+        "id": "Q3421298",
+        "label": "Rayo Vallecano",
+        "description": "woman's football team in Spain"
+      },
+      {
+        "id": "Q1908962",
+        "label": "Rayo Vallecano B",
+        "description": "Spanish football club based in the Madrid neighbourhood of Vallecas"
+      },
+      {
+        "id": "Q63191337",
+        "label": "Rayo Vallecano-Real Zaragoza 10-12-2012",
+        "description": ""
+      },
+      {
+        "id": "Q137265412",
+        "label": "Rayo Vallecano v KF Shkëndija, 2 October 2025",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Real Betis",
+    "query": "Real Betis",
+    "candidates": [
+      {
+        "id": "Q8723",
+        "label": "Real Betis Balompié",
+        "description": "Spanish professional football club"
+      },
+      {
+        "id": "Q6101745",
+        "label": "Real Betis Féminas",
+        "description": "women's association football club from Spain"
+      },
+      {
+        "id": "Q54930",
+        "label": "Real Betis Baloncesto",
+        "description": "basketball team"
+      },
+      {
+        "id": "Q2698432",
+        "label": "Real Betis B",
+        "description": "association football reserve team in Spain"
+      },
+      {
+        "id": "Q114854923",
+        "label": "Real Betis Baloncesto B",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Real Madrid",
+    "query": "Real Madrid",
+    "candidates": [
+      {
+        "id": "Q8682",
+        "label": "Real Madrid Club de Fútbol",
+        "description": "association football club in Madrid, Spain"
+      },
+      {
+        "id": "Q54922",
+        "label": "Real Madrid Baloncesto",
+        "description": "professional basketball team in Madrid, Spain"
+      },
+      {
+        "id": "Q2469894",
+        "label": "Real Madrid",
+        "description": "Argentine football club"
+      },
+      {
+        "id": "Q6362982",
+        "label": "Real Madrid CF",
+        "description": "multi-sport club"
+      },
+      {
+        "id": "Q12217",
+        "label": "Real Madrid Castilla",
+        "description": "association football reserve team of Real Madrid CF"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Real Sociedad",
+    "query": "Real Sociedad",
+    "candidates": [
+      {
+        "id": "Q10315",
+        "label": "Real Sociedad",
+        "description": "association football club in San Sebastián, Spain"
+      },
+      {
+        "id": "Q5549552",
+        "label": "Real Sociedad",
+        "description": "football club"
+      },
+      {
+        "id": "Q3817092",
+        "label": "Real Sociedad Geográfica",
+        "description": "Spanish cultural and informative institution"
+      },
+      {
+        "id": "Q6102141",
+        "label": "Real Sociedad Española de Física y Química",
+        "description": ""
+      },
+      {
+        "id": "Q1067750",
+        "label": "Real Sociedad B",
+        "description": "association football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Sevilla",
+    "query": "Sevilla FC",
+    "candidates": [
+      {
+        "id": "Q5647276",
+        "label": "Sevilla FC",
+        "description": "women's association football club"
+      },
+      {
+        "id": "Q10329",
+        "label": "Sevilla FC",
+        "description": "Spanish professional football club based in Seville"
+      },
+      {
+        "id": "Q3480842",
+        "label": "Sevilla FC Puerto Rico",
+        "description": "association football club based in Juncos, Puerto Rico"
+      },
+      {
+        "id": "Q20978060",
+        "label": "Sevilla FC",
+        "description": "football club"
+      },
+      {
+        "id": "Q9076584",
+        "label": "Sevilla FC C",
+        "description": "football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Valencia",
+    "query": "Valencia CF",
+    "candidates": [
+      {
+        "id": "Q10333",
+        "label": "Valencia CF",
+        "description": "association football club in Valencia, Spain"
+      },
+      {
+        "id": "Q918044",
+        "label": "Valencia CF Mestalla",
+        "description": "association football reserve team of Valencia CF"
+      },
+      {
+        "id": "Q25238484",
+        "label": "Valencia CF (youth)",
+        "description": "\"Juvenil A\", the under-19 team of Valencia CF"
+      },
+      {
+        "id": "Q9004290",
+        "label": "history of Valencia CF",
+        "description": "aspect of history"
+      },
+      {
+        "id": "Q2586492",
+        "label": "Valencia CF in European football",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ESP|Villarreal",
+    "query": "Villarreal CF",
+    "candidates": [
+      {
+        "id": "Q12297",
+        "label": "Villarreal CF",
+        "description": "association football club in Villarreal, Spain"
+      },
+      {
+        "id": "Q106651021",
+        "label": "Villarreal CF",
+        "description": "Spanish women's football club"
+      },
+      {
+        "id": "Q1094113",
+        "label": "Villarreal CF B",
+        "description": "association football team in Spain"
+      },
+      {
+        "id": "Q3321644",
+        "label": "Villarreal CF C",
+        "description": "football club"
+      },
+      {
+        "id": "Q20978061",
+        "label": "Villarreal CF Youth",
+        "description": "youth team of Spanish association football club Villarreal CF"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Angers",
+    "query": "Angers SCO",
+    "candidates": [
+      {
+        "id": "Q845137",
+        "label": "Angers SCO",
+        "description": "French football club"
+      },
+      {
+        "id": "Q2849553",
+        "label": "Angers SCO Handball",
+        "description": "French handball club"
+      },
+      {
+        "id": "Q109500461",
+        "label": "Angers SCO II",
+        "description": "second team of Angers SCO"
+      },
+      {
+        "id": "Q3468177",
+        "label": "2012–13 Angers SCO season",
+        "description": "season of football team"
+      },
+      {
+        "id": "Q109683507",
+        "label": "1993–94 Angers SCO season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Auxerre",
+    "query": "AJ Auxerre",
+    "candidates": [
+      {
+        "id": "Q182876",
+        "label": "AJ Auxerre",
+        "description": "football club based in Auxerre, France"
+      },
+      {
+        "id": "Q109500431",
+        "label": "AJ Auxerre II",
+        "description": "second team of AJ Auxerre"
+      },
+      {
+        "id": "Q134693288",
+        "label": "AJ Auxerre",
+        "description": "women's football club in Auxerre, France"
+      },
+      {
+        "id": "Q123737019",
+        "label": "AJ Auxerre v Arsenal FC, 2 October 2002",
+        "description": ""
+      },
+      {
+        "id": "Q131839609",
+        "label": "AJ Auxerre v US Concarneau, 17 May 2024",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Brest",
+    "query": "Stade Brestois 29",
+    "candidates": [
+      {
+        "id": "Q218372",
+        "label": "Stade Brestois 29",
+        "description": "association football club"
+      },
+      {
+        "id": "Q95919712",
+        "label": "Stade brestois 29",
+        "description": "women's section of French association football club based in Brest"
+      },
+      {
+        "id": "Q109500911",
+        "label": "Stade brestois 29 II",
+        "description": "second team of Stade brestois 29"
+      },
+      {
+        "id": "Q131766531",
+        "label": "Stade Brestois 29 v Olympique Lyonnais, 20 August 2011",
+        "description": ""
+      },
+      {
+        "id": "Q3468264",
+        "label": "2012–13 Stade Brestois 29 season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Le Havre",
+    "query": "Le Havre AC",
+    "candidates": [
+      {
+        "id": "Q328658",
+        "label": "Le Havre AC",
+        "description": "association football club in Le Havre, France"
+      },
+      {
+        "id": "Q3223478",
+        "label": "Le Havre AC",
+        "description": "French omnisport club"
+      },
+      {
+        "id": "Q90842662",
+        "label": "Le Havre AC",
+        "description": "French women's football club"
+      },
+      {
+        "id": "Q109502616",
+        "label": "Le Havre AC II",
+        "description": ""
+      },
+      {
+        "id": "Q3223480",
+        "label": "Le Havre AC Handball",
+        "description": "French handball club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Lens",
+    "query": "RC Lens",
+    "candidates": [
+      {
+        "id": "Q191843",
+        "label": "R.C. Lens",
+        "description": "French association football club"
+      },
+      {
+        "id": "Q2863575",
+        "label": "Racing Club de Lens",
+        "description": "French women's association football team"
+      },
+      {
+        "id": "Q123750339",
+        "label": "RC Lens - Red Star (04-08-2018)",
+        "description": ""
+      },
+      {
+        "id": "Q123750347",
+        "label": "RC Lens - Valenciennes FC (12-04-2019)",
+        "description": ""
+      },
+      {
+        "id": "Q123750326",
+        "label": "RC Lens - FC Metz (14-03-2021)",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Lille",
+    "query": "Lille OSC",
+    "candidates": [
+      {
+        "id": "Q19516",
+        "label": "Lille OSC",
+        "description": "association football club in Lille, France"
+      },
+      {
+        "id": "Q20731437",
+        "label": "LOSC Lille",
+        "description": "French women's association football team"
+      },
+      {
+        "id": "Q16591640",
+        "label": "Lille OSC II",
+        "description": ""
+      },
+      {
+        "id": "Q2839103",
+        "label": "LOSC historical records",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q131755799",
+        "label": "Lille OSC v RC Strasbourg, 12 February 2023",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Lorient",
+    "query": "FC Lorient",
+    "candidates": [
+      {
+        "id": "Q48911",
+        "label": "F.C. Lorient",
+        "description": "French association football club"
+      },
+      {
+        "id": "Q104531607",
+        "label": "FC Lorient",
+        "description": "women's football club based in Lorient"
+      },
+      {
+        "id": "Q91876895",
+        "label": "FC Lorient II",
+        "description": ""
+      },
+      {
+        "id": "Q4599888",
+        "label": "2002 Coupe de la Ligue Final",
+        "description": "association football match"
+      },
+      {
+        "id": "Q140633160",
+        "label": "FC Lorient 3-1 OGC Nice",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Lyon",
+    "query": "Olympique Lyonnais",
+    "candidates": [
+      {
+        "id": "Q704",
+        "label": "Olympique Lyonnais",
+        "description": "association football club in Lyon, France"
+      },
+      {
+        "id": "Q1276685",
+        "label": "OL Lyonnes",
+        "description": "women's section of French association football club based in Lyon"
+      },
+      {
+        "id": "Q11037",
+        "label": "Olympique Lyonnais",
+        "description": "racing team of Olympique Lyonnais"
+      },
+      {
+        "id": "Q3924852",
+        "label": "Olympique Lyonnais Reserves and Academy",
+        "description": "Football club in Lyon, France"
+      },
+      {
+        "id": "Q3347591",
+        "label": "OL Groupe",
+        "description": "holding company for Olympique Lyonnais business activities"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Marseille",
+    "query": "Olympique Marseille",
+    "candidates": [
+      {
+        "id": "Q132885",
+        "label": "Olympique de Marseille",
+        "description": "association football club in Marseille, France"
+      },
+      {
+        "id": "Q2378143",
+        "label": "Les Marseillaises",
+        "description": "French women's association football team"
+      },
+      {
+        "id": "Q109503074",
+        "label": "Olympique de Marseille II",
+        "description": "French association football team, reserve team of Olympique de Marseille"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Metz",
+    "query": "FC Metz",
+    "candidates": [
+      {
+        "id": "Q221525",
+        "label": "FC Metz",
+        "description": "association football club based in Metz, Lorraine, France"
+      },
+      {
+        "id": "Q3076576",
+        "label": "FC Metz",
+        "description": "French women's association football club"
+      },
+      {
+        "id": "Q109502401",
+        "label": "FC Metz II",
+        "description": "second team of FC Metz"
+      },
+      {
+        "id": "Q123553545",
+        "label": "FC Metz vs FC Nantes",
+        "description": "2022 association football match"
+      },
+      {
+        "id": "Q97183039",
+        "label": "2020–21 FC Metz season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Monaco",
+    "query": "AS Monaco FC",
+    "candidates": [
+      {
+        "id": "Q180305",
+        "label": "AS Monaco FC",
+        "description": "association football club in Monaco"
+      },
+      {
+        "id": "Q109500422",
+        "label": "AS Monaco FC II",
+        "description": "second team of AS Monaco FC"
+      },
+      {
+        "id": "Q3138464",
+        "label": "AS Monaco FC in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q140472185",
+        "label": "AS Monaco FC 1-0 Galatasaray S.K.",
+        "description": ""
+      },
+      {
+        "id": "Q140472171",
+        "label": "AS Monaco FC 0-0 Tottenham Hotspur F.C.",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Nantes",
+    "query": "FC Nantes",
+    "candidates": [
+      {
+        "id": "Q192071",
+        "label": "FC Nantes",
+        "description": "French professional football club based in Nantes"
+      },
+      {
+        "id": "Q3590864",
+        "label": "FC Nantes II",
+        "description": "second team of FC Nantes"
+      },
+      {
+        "id": "Q108819050",
+        "label": "FC Nantes (women)",
+        "description": "women's football club based in Nantes, France"
+      },
+      {
+        "id": "Q123553546",
+        "label": "FC Nantes vs RC Lens",
+        "description": "2022 association football match"
+      },
+      {
+        "id": "Q137368586",
+        "label": "FC Nantes v SM Caen, 14 May 2010",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Nice",
+    "query": "OGC Nice",
+    "candidates": [
+      {
+        "id": "Q185163",
+        "label": "OGC Nice",
+        "description": "association football club in France"
+      },
+      {
+        "id": "Q3347546",
+        "label": "OGC Nice Côte d'Azur Handball",
+        "description": "French handball club"
+      },
+      {
+        "id": "Q16612931",
+        "label": "OGC Nice II",
+        "description": "second team of OGC Nice"
+      },
+      {
+        "id": "Q108839942",
+        "label": "OGC Nice (Women)",
+        "description": "women's Association Football Club in France"
+      },
+      {
+        "id": "Q2564769",
+        "label": "OGC Nice in European football",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|PSG",
+    "query": "Paris Saint-Germain FC",
+    "candidates": [
+      {
+        "id": "Q483020",
+        "label": "Paris Saint-Germain FC",
+        "description": "association football club in Paris, France having two UCL"
+      },
+      {
+        "id": "Q2945336",
+        "label": "Paris Saint-Germain FC Youth Academy",
+        "description": "youth association football team"
+      },
+      {
+        "id": "Q3365295",
+        "label": "Paris Saint-Germain Féminine",
+        "description": "French women's association football team"
+      },
+      {
+        "id": "Q135235881",
+        "label": "Paris Saint-Germain FC v Atlético de Madrid, 15 June 2025",
+        "description": "opening match of group B of the 2025 FIFA Club World Cup"
+      },
+      {
+        "id": "Q136542044",
+        "label": "Paris Saint-Germain FC - FC Nantes, 22 December 2018",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Paris FC",
+    "query": "Paris FC",
+    "candidates": [
+      {
+        "id": "Q1051013",
+        "label": "Paris FC",
+        "description": "football club in France"
+      },
+      {
+        "id": "Q48834322",
+        "label": "Paris FC",
+        "description": "women's association football club"
+      },
+      {
+        "id": "Q109503510",
+        "label": "Paris FC II",
+        "description": ""
+      },
+      {
+        "id": "Q137291669",
+        "label": "Paris FC v Dijon FCO, 10 January 2023",
+        "description": ""
+      },
+      {
+        "id": "Q137292536",
+        "label": "Paris FC v BK Häcken (women), 15 November 2023",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Rennes",
+    "query": "Stade Rennais FC",
+    "candidates": [
+      {
+        "id": "Q19509",
+        "label": "Stade Rennais F.C.",
+        "description": "French association football club"
+      },
+      {
+        "id": "Q109507186",
+        "label": "Stade Rennais FC B",
+        "description": "reserve association football team"
+      },
+      {
+        "id": "Q131753126",
+        "label": "Stade Rennais FC v Montpellier HSC, 15 August 2015",
+        "description": ""
+      },
+      {
+        "id": "Q3465383",
+        "label": "1990–91 Stade Rennais F.C. season",
+        "description": "season of football team"
+      },
+      {
+        "id": "Q3465403",
+        "label": "1991–92 Stade Rennais F.C. season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Strasbourg",
+    "query": "RC Strasbourg Alsace",
+    "candidates": [
+      {
+        "id": "Q126334",
+        "label": "RC Strasbourg Alsace",
+        "description": "association football club in France"
+      },
+      {
+        "id": "Q108839634",
+        "label": "RC Strasbourg",
+        "description": "women's football club"
+      },
+      {
+        "id": "Q123750350",
+        "label": "RC Strasbourg - FBBP01 (2017-05-19)",
+        "description": "2017 association football match"
+      },
+      {
+        "id": "Q2945325",
+        "label": "Training Center of Racing Club of Strasbourg",
+        "description": "Academy of RC Strasbourg Alsace"
+      },
+      {
+        "id": "Q61694469",
+        "label": "2019 Coupe de la Ligue Final",
+        "description": "association football match"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "FRA|Toulouse",
+    "query": "Toulouse FC",
+    "candidates": [
+      {
+        "id": "Q19518",
+        "label": "Toulouse FC",
+        "description": "French association football club"
+      },
+      {
+        "id": "Q2422417",
+        "label": "Toulouse FC",
+        "description": "former association football club (1937-1967)"
+      },
+      {
+        "id": "Q7828889",
+        "label": "Toulouse FC",
+        "description": "football club"
+      },
+      {
+        "id": "Q56150474",
+        "label": "Toulouse FC II",
+        "description": "second team of Toulouse FC"
+      },
+      {
+        "id": "Q123752311",
+        "label": "Toulouse FC - Angers SCO, 21 April 2018",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Augsburg",
+    "query": "FC Augsburg",
+    "candidates": [
+      {
+        "id": "Q15755",
+        "label": "FC Augsburg",
+        "description": "German association football club"
+      },
+      {
+        "id": "Q97905916",
+        "label": "FC Augsburg",
+        "description": "first men's team of FC Augsburg"
+      },
+      {
+        "id": "Q5424829",
+        "label": "FC Augsburg II",
+        "description": "German football team"
+      },
+      {
+        "id": "Q27825120",
+        "label": "FC Augsburg versus SV Werder Bremen 2011–12 Fußball-Bundesliga",
+        "description": "Association football game in 2011–12 Fußball-Bundesliga between FC Augsburg and SV Werder Bremen"
+      },
+      {
+        "id": "Q30068383",
+        "label": "FC Augsburg versus FC Bayern Munich 2015–16 Bundesliga",
+        "description": "Association football game in 2015–16 Bundesliga between FC Augsburg and FC Bayern Munich"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Bayern Munich",
+    "query": "FC Bayern Munich",
+    "candidates": [
+      {
+        "id": "Q15789",
+        "label": "FC Bayern Munich",
+        "description": "association football club in Munich, Germany"
+      },
+      {
+        "id": "Q600149",
+        "label": "FC Bayern Munich",
+        "description": "men's basketball section of the FC Bayern Munich sports club"
+      },
+      {
+        "id": "Q540384",
+        "label": "FC Bayern Munich Women",
+        "description": "women's football team of the German sports club FC Bayern Munich"
+      },
+      {
+        "id": "Q994701",
+        "label": "FC Bayern Munich II",
+        "description": "German association football team and the reserve team of FC Bayern Munich"
+      },
+      {
+        "id": "Q1386920",
+        "label": "FC Bayern Munich",
+        "description": "Chess department of FC Bayern Munich"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Dortmund",
+    "query": "Borussia Dortmund",
+    "candidates": [
+      {
+        "id": "Q41420",
+        "label": "Borussia Dortmund",
+        "description": "German professional sports club based in Dortmund"
+      },
+      {
+        "id": "Q865720",
+        "label": "Borussia Dortmund II",
+        "description": "reserve association football team in Germany"
+      },
+      {
+        "id": "Q52345683",
+        "label": "IMO 9162681",
+        "description": "container ship built in 1998"
+      },
+      {
+        "id": "Q894278",
+        "label": "Borussia Dortmund Handball",
+        "description": "women's handball team of the sports club of the same name"
+      },
+      {
+        "id": "Q133465682",
+        "label": "Borussia Dortmund",
+        "description": "German women's football club"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Frankfurt",
+    "query": "Eintracht Frankfurt",
+    "candidates": [
+      {
+        "id": "Q38245",
+        "label": "Eintracht Frankfurt",
+        "description": "sports club based in Frankfurt am Main, Hesse, Germany"
+      },
+      {
+        "id": "Q97905908",
+        "label": "Eintracht Frankfurt",
+        "description": "first men's team of Eintracht Frankfurt"
+      },
+      {
+        "id": "Q1309485",
+        "label": "Eintracht Frankfurt",
+        "description": "women's association football club in Frankfurt am Main, Hesse, Germany"
+      },
+      {
+        "id": "Q14118284",
+        "label": "Eintracht Frankfurt II",
+        "description": "reserve association football team in Germany"
+      },
+      {
+        "id": "Q140591099",
+        "label": "Eintracht Frankfurt",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Freiburg",
+    "query": "SC Freiburg",
+    "candidates": [
+      {
+        "id": "Q106394",
+        "label": "SC Freiburg",
+        "description": "German football club"
+      },
+      {
+        "id": "Q820739",
+        "label": "SC Freiburg",
+        "description": "Women's football team of SC Freiburg"
+      },
+      {
+        "id": "Q97905964",
+        "label": "SC Freiburg",
+        "description": "first men's team of SC Freiburg"
+      },
+      {
+        "id": "Q20631356",
+        "label": "SC Freiburg II",
+        "description": "second team of SC Freiburg"
+      },
+      {
+        "id": "Q27929176",
+        "label": "SC Freiburg versus 1. FC Nürnberg 2011–12 Fußball-Bundesliga",
+        "description": "Association football game in 2011–12 Fußball-Bundesliga between SC Freiburg and 1. FC Nürnberg"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Gladbach",
+    "query": "Borussia Monchengladbach",
+    "candidates": [
+      {
+        "id": "Q101959",
+        "label": "Borussia Mönchengladbach",
+        "description": "professional association football club in Mönchengladbach, North Rhine-Westphalia, Germany"
+      },
+      {
+        "id": "Q13397712",
+        "label": "Borussia Mönchengladbach II",
+        "description": "football club in Germany"
+      },
+      {
+        "id": "Q19962426",
+        "label": "Borussia Mönchengladbach",
+        "description": "women soccer team"
+      },
+      {
+        "id": "Q28483704",
+        "label": "Borussia M'Gladbach sacks coach Schubert; appoints Hecking",
+        "description": "Wikinews article"
+      },
+      {
+        "id": "Q1478425",
+        "label": "Borussia Mönchengladbach 12–0 Borussia Dortmund",
+        "description": "football match"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Hamburger SV",
+    "query": "Hamburger SV",
+    "candidates": [
+      {
+        "id": "Q51974",
+        "label": "Hamburger SV",
+        "description": "German sports club based in Hamburg, with its largest branch being its football department"
+      },
+      {
+        "id": "Q97905930",
+        "label": "Hamburger SV",
+        "description": "first men's football team of Hamburger SV"
+      },
+      {
+        "id": "Q826386",
+        "label": "Hamburger SV Women",
+        "description": "association women's football club"
+      },
+      {
+        "id": "Q5644342",
+        "label": "Hamburger SV II",
+        "description": "the reserve team of German association football club Hamburger SV"
+      },
+      {
+        "id": "Q127433422",
+        "label": "Hamburger SV",
+        "description": "first U-19 soccer team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Heidenheim",
+    "query": "1. FC Heidenheim",
+    "candidates": [
+      {
+        "id": "Q162251",
+        "label": "1. FC Heidenheim 1846",
+        "description": "German association football club"
+      },
+      {
+        "id": "Q97927357",
+        "label": "1. FC Heidenheim",
+        "description": "first men's team of 1. FC Heidenheim"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Hoffenheim",
+    "query": "TSG 1899 Hoffenheim",
+    "candidates": [
+      {
+        "id": "Q22707",
+        "label": "TSG 1899 Hoffenheim",
+        "description": "German association football club"
+      },
+      {
+        "id": "Q15849946",
+        "label": "TSG 1899 Hoffenheim",
+        "description": "football club"
+      },
+      {
+        "id": "Q97905997",
+        "label": "TSG 1899 Hoffenheim",
+        "description": "first men's team of TSG 1899 Hoffenheim"
+      },
+      {
+        "id": "Q16637410",
+        "label": "TSG 1899 Hoffenheim II",
+        "description": "football club"
+      },
+      {
+        "id": "Q29870154",
+        "label": "TSG 1899 Hoffenheim versus Werder Bremen 2010-11 Fußball-Bundesliga",
+        "description": "Association football game in 2010–11 Fußball-Bundesliga between TSG 1899 Hoffenheim and SV Werder Bremen"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Köln",
+    "query": "1. FC Köln",
+    "candidates": [
+      {
+        "id": "Q104770",
+        "label": "1. FC Köln",
+        "description": "German football club based in Cologne, in North Rhine-Westphalia"
+      },
+      {
+        "id": "Q97905877",
+        "label": "1. FC Köln",
+        "description": "first men's team of 1. FC Köln"
+      },
+      {
+        "id": "Q162289",
+        "label": "1. FC Köln (women)",
+        "description": "FC Köln's women's football section"
+      },
+      {
+        "id": "Q15972883",
+        "label": "1. FC Köln II",
+        "description": "Reserve team of the German football club 1. FC Köln"
+      },
+      {
+        "id": "Q30010494",
+        "label": "1. FC Köln versus SV Werder Bremen 2014–15 Bundesliga",
+        "description": "Association football game in 2014–15 Bundesliga between 1. FC Köln and SV Werder Bremen"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Leverkusen",
+    "query": "Bayer 04 Leverkusen",
+    "candidates": [
+      {
+        "id": "Q104761",
+        "label": "Bayer 04 Leverkusen",
+        "description": "association football club in Leverkusen, Germany"
+      },
+      {
+        "id": "Q329252",
+        "label": "TSV Bayer 04 Leverkusen",
+        "description": "handball club"
+      },
+      {
+        "id": "Q812128",
+        "label": "Bayer 04 Leverkusen Women",
+        "description": "German women's football club"
+      },
+      {
+        "id": "Q97905892",
+        "label": "Bayer 04 Leverkusen",
+        "description": "first men's team of Bayer 04 Leverkusen"
+      },
+      {
+        "id": "Q16536906",
+        "label": "Bayer 04 Leverkusen II",
+        "description": "first men's soccer team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Mainz 05",
+    "query": "1. FSV Mainz 05",
+    "candidates": [
+      {
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05",
+        "description": "Bundesliga football club in Germany"
+      },
+      {
+        "id": "Q97905884",
+        "label": "1. FSV Mainz 05",
+        "description": "first men's team of 1. FSV Mainz 05"
+      },
+      {
+        "id": "Q16525419",
+        "label": "1. FSV Mainz 05 II",
+        "description": "association football club in Germany"
+      },
+      {
+        "id": "Q126888369",
+        "label": "1. FSV Mainz 05",
+        "description": "German women's team"
+      },
+      {
+        "id": "Q27940430",
+        "label": "1. FSV Mainz 05 versus Borussia Dortmund 2011–12 Fußball-Bundesliga",
+        "description": "Association football game in 2011–12 Fußball-Bundesliga between 1. FSV Mainz 05 and Borussia Dortmund"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|RB Leipzig",
+    "query": "RB Leipzig",
+    "candidates": [
+      {
+        "id": "Q702455",
+        "label": "RB Leipzig",
+        "description": "association football club in Leipzig, Saxony, Germany"
+      },
+      {
+        "id": "Q30033219",
+        "label": "RB Leipzig (women)",
+        "description": "Association football club in Leipzig, Saxony, Germany"
+      },
+      {
+        "id": "Q97905954",
+        "label": "RB Leipzig",
+        "description": "first men's team of RB Leipzig"
+      },
+      {
+        "id": "Q127433421",
+        "label": "RB Leipzig",
+        "description": "first U-19 soccer team"
+      },
+      {
+        "id": "Q60740747",
+        "label": "RB Leipzig in European football",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|St Pauli",
+    "query": "FC St. Pauli",
+    "candidates": [
+      {
+        "id": "Q6463",
+        "label": "FC St. Pauli",
+        "description": "sports club in Hamburg, Germany"
+      },
+      {
+        "id": "Q97905925",
+        "label": "FC St. Pauli",
+        "description": "first men's soccer team of FC St. Pauli"
+      },
+      {
+        "id": "Q206838",
+        "label": "FC Viktoria Plzeň",
+        "description": "Czech football club based in Plzeň"
+      },
+      {
+        "id": "Q127433424",
+        "label": "FC St. Pauli",
+        "description": "first U-19 soccer team"
+      },
+      {
+        "id": "Q29870817",
+        "label": "FC St. Pauli versus 1. FC Kaiserslautern 2010–11 Fußball-Bundesliga",
+        "description": "Association football game in 2010–11 Fußball-Bundesliga between FC St. Pauli and 1. FC Kaiserslautern"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Stuttgart",
+    "query": "VfB Stuttgart",
+    "candidates": [
+      {
+        "id": "Q4512",
+        "label": "VfB Stuttgart",
+        "description": "German football team based in the city of Stuttgart, founded in 1893"
+      },
+      {
+        "id": "Q97906005",
+        "label": "VfB Stuttgart",
+        "description": "first men's team of VfB Stuttgart"
+      },
+      {
+        "id": "Q107421",
+        "label": "VfB Stuttgart II",
+        "description": "association football club"
+      },
+      {
+        "id": "Q112958274",
+        "label": "VfB Stuttgart Women",
+        "description": "German women's football team"
+      },
+      {
+        "id": "Q27922980",
+        "label": "VfB Stuttgart versus FC Bayern Munich 2011–12 Fußball-Bundesliga",
+        "description": "Association football game in 2011–12 Fußball-Bundesliga between VfB Stuttgart and FC Bayern Munich"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Union Berlin",
+    "query": "Union Berlin",
+    "candidates": [
+      {
+        "id": "Q141971",
+        "label": "1. FC Union Berlin",
+        "description": "association football club in Berlin, Germany"
+      },
+      {
+        "id": "Q124634735",
+        "label": "Union Berlin TV",
+        "description": ""
+      },
+      {
+        "id": "Q121762235",
+        "label": "Union Berlin 4–1 Mainz 05",
+        "description": "Association football game in 2023–24 Fußball-Bundesliga between Union Berlin and Mainz 05"
+      },
+      {
+        "id": "Q1217293",
+        "label": "Union Berlin",
+        "description": "Wikimedia disambiguation page"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Werder Bremen",
+    "query": "Werder Bremen",
+    "candidates": [
+      {
+        "id": "Q51976",
+        "label": "SV Werder Bremen",
+        "description": "association football club in Bremen, Germany"
+      },
+      {
+        "id": "Q113380685",
+        "label": "Seba",
+        "description": "ship launched in 1985"
+      },
+      {
+        "id": "Q127433425",
+        "label": "Werder Bremen",
+        "description": "first U-19 soccer team"
+      },
+      {
+        "id": "Q29872568",
+        "label": "Werder Bremen versus TSG 1899 Hoffenheim 2010-11 Fußball-Bundesliga",
+        "description": "Association football game in 2010–11 Fußball-Bundesliga between SV Werder Bremen and TSG 1899 Hoffenheim"
+      },
+      {
+        "id": "Q29871401",
+        "label": "Werder Bremen versus 1. FC Kaiserslautern 2010-11 Fußball-Bundesliga",
+        "description": "Association football game in 2010–11 Fußball-Bundesliga between SV Werder Bremen and 1. FC Kaiserslautern"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "GER|Wolfsburg",
+    "query": "VfL Wolfsburg",
+    "candidates": [
+      {
+        "id": "Q101859",
+        "label": "VfL Wolfsburg",
+        "description": "association football club from Wolfsburg, Lower Saxony, Germany"
+      },
+      {
+        "id": "Q19964966",
+        "label": "VfL Wolfsburg",
+        "description": "sports club in Germany"
+      },
+      {
+        "id": "Q285131",
+        "label": "VfL Wolfsburg",
+        "description": "German association women's football club"
+      },
+      {
+        "id": "Q97906010",
+        "label": "VfL Wolfsburg",
+        "description": "first men's association football team"
+      },
+      {
+        "id": "Q16645947",
+        "label": "VfL Wolfsburg II",
+        "description": "former reserve association football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Atalanta",
+    "query": "Atalanta BC",
+    "candidates": [
+      {
+        "id": "Q1886",
+        "label": "Atalanta BC",
+        "description": "association football club in Bergamo, Italy"
+      },
+      {
+        "id": "Q140472222",
+        "label": "Atalanta BC 0-0 SK Slavia Prague",
+        "description": ""
+      },
+      {
+        "id": "Q140472152",
+        "label": "Atalanta BC 2-1 Club Brugge K.V.",
+        "description": ""
+      },
+      {
+        "id": "Q140472264",
+        "label": "Atalanta BC 4-1 Borussia Dortmund",
+        "description": ""
+      },
+      {
+        "id": "Q140472272",
+        "label": "Atalanta BC 1-6 FC Bayern Munich",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Bologna",
+    "query": "Bologna FC 1909",
+    "candidates": [
+      {
+        "id": "Q1893",
+        "label": "Bologna F.C. 1909",
+        "description": "Italian football club based in Bologna, Emilia-Romagna"
+      },
+      {
+        "id": "Q130629423",
+        "label": "Bologna FC 1909 (women)",
+        "description": "women's football club based in Bologna"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Cagliari",
+    "query": "Cagliari Calcio",
+    "candidates": [
+      {
+        "id": "Q1900",
+        "label": "Cagliari Calcio",
+        "description": "association football club in Cagliari, Italy"
+      },
+      {
+        "id": "Q118949981",
+        "label": "Cagliari Calcio fans",
+        "description": "Italian fans"
+      },
+      {
+        "id": "Q131599358",
+        "label": "Cagliari Calcio v SS Lazio, 10 February 2024",
+        "description": ""
+      },
+      {
+        "id": "Q137290888",
+        "label": "Cagliari Calcio v Venezia FC, 27 May 2023",
+        "description": ""
+      },
+      {
+        "id": "Q135480285",
+        "label": "Cagliari Calcio v US Catanzaro, 30 July 2024",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Como",
+    "query": "Como 1907",
+    "candidates": [
+      {
+        "id": "Q1120838",
+        "label": "Como 1907",
+        "description": "association football club in Italy"
+      },
+      {
+        "id": "Q135334608",
+        "label": "Como 1907",
+        "description": "women's association football club, based in Como, Italy"
+      },
+      {
+        "id": "Q128694624",
+        "label": "Como 1907 Primavera",
+        "description": "youth system of Italian football club Como 1907."
+      },
+      {
+        "id": "Q131599363",
+        "label": "Como 1907 v US Catanzaro, 28 October 2023",
+        "description": ""
+      },
+      {
+        "id": "Q131782629",
+        "label": "Como 1907 v SPAL, 17 September 2022",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Cremonese",
+    "query": "US Cremonese",
+    "candidates": [
+      {
+        "id": "Q759482",
+        "label": "US Cremonese",
+        "description": "Italian football club based in Cremona, Lombardy"
+      },
+      {
+        "id": "Q131599520",
+        "label": "US Cremonese v Como 1907, 9 March 2024",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Fiorentina",
+    "query": "ACF Fiorentina",
+    "candidates": [
+      {
+        "id": "Q2052",
+        "label": "ACF Fiorentina",
+        "description": "association football club in Florence, Italy"
+      },
+      {
+        "id": "Q21211104",
+        "label": "ACF Fiorentina Femminile",
+        "description": "women's football club based in Florence, Italy"
+      },
+      {
+        "id": "Q4650648",
+        "label": "ACF Fiorentina in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q96354776",
+        "label": "ACF Fiorentina Hall of Fame",
+        "description": "Wikimedia template"
+      },
+      {
+        "id": "Q3973980",
+        "label": "history of ACF Fiorentina",
+        "description": "aspect of history"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Genoa",
+    "query": "Genoa CFC",
+    "candidates": [
+      {
+        "id": "Q2074",
+        "label": "Genoa CFC",
+        "description": "association football club in Genoa, Italy"
+      },
+      {
+        "id": "Q8482349",
+        "label": "Category:Genoa CFC",
+        "description": "Wikimedia category"
+      },
+      {
+        "id": "Q123734215",
+        "label": "Genoa CFC v SL Benfica, 23 August 1971",
+        "description": ""
+      },
+      {
+        "id": "Q123744509",
+        "label": "Genoa CFC vs Brescia Calcio, 26 October 2019",
+        "description": ""
+      },
+      {
+        "id": "Q3759976",
+        "label": "1990–91 Genoa Cricket and Football Club season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Hellas Verona",
+    "query": "Hellas Verona",
+    "candidates": [
+      {
+        "id": "Q8639",
+        "label": "Hellas Verona FC",
+        "description": "Italian football club based in Verona, Veneto"
+      },
+      {
+        "id": "Q59374435",
+        "label": "Women Hellas Verona",
+        "description": "Women's football club based in Verona, Italy"
+      },
+      {
+        "id": "Q2790836",
+        "label": "Hellas Verona F.C.#Derby with ChievoVerona",
+        "description": "ChievoVerona–Hellas Verona football derby in Italy"
+      },
+      {
+        "id": "Q16642124",
+        "label": "Hellas Verona F.C. in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q17442681",
+        "label": "2014–15 Hellas Verona F.C. season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Inter",
+    "query": "Inter Milan",
+    "candidates": [
+      {
+        "id": "Q631",
+        "label": "Inter Milan",
+        "description": "association football club based in Milan, Lombardy, Italy"
+      },
+      {
+        "id": "Q3626866",
+        "label": "Inter Women",
+        "description": "women's association football club, based in Milan, Italy"
+      },
+      {
+        "id": "Q2259328",
+        "label": "Inter TV",
+        "description": "subscription-based channel, entirely dedicated to the Italian professional football club Inter"
+      },
+      {
+        "id": "Q135451504",
+        "label": "Inter Milan Under-23",
+        "description": "Inter Milan's association football reserve team"
+      },
+      {
+        "id": "Q3799370",
+        "label": "Inter Campus",
+        "description": "a non-profit social project founded and run by Inter"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Juventus",
+    "query": "Juventus",
+    "candidates": [
+      {
+        "id": "Q1422",
+        "label": "Juventus FC",
+        "description": "association football club in Turin, Italy"
+      },
+      {
+        "id": "Q63180",
+        "label": "Kamil Glik",
+        "description": "Polish association football player"
+      },
+      {
+        "id": "Q1138834",
+        "label": "Juventus",
+        "description": "Lithuanian basketball team"
+      },
+      {
+        "id": "Q528151",
+        "label": "Juventus",
+        "description": "association football club from Belize"
+      },
+      {
+        "id": "Q17621653",
+        "label": "Juventus F.C. Women",
+        "description": "women's association football club from Italy"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Lazio",
+    "query": "SS Lazio",
+    "candidates": [
+      {
+        "id": "Q2609",
+        "label": "SS Lazio",
+        "description": "football section of the sports club based in Rome, Lazio, Italy"
+      },
+      {
+        "id": "Q3907390",
+        "label": "SS Lazio (multisports club)",
+        "description": "multisports club based in Rome, Italy"
+      },
+      {
+        "id": "Q3963707",
+        "label": "SS Lazio CF",
+        "description": "women's association football club based in Rome, Italy"
+      },
+      {
+        "id": "Q59390189",
+        "label": "SS Lazio Women 2015",
+        "description": "Italian women's football club based in Rome and owned by SS Lazio"
+      },
+      {
+        "id": "Q1101990",
+        "label": "SS Lazio Rugby 1927",
+        "description": "rugby union branch of the multisport club SS Lazio"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Lecce",
+    "query": "US Lecce",
+    "candidates": [
+      {
+        "id": "Q13391",
+        "label": "US Lecce",
+        "description": "Italian football club based in Lecce"
+      },
+      {
+        "id": "Q140045042",
+        "label": "US Lecce v AS Roma, 7 April 2012",
+        "description": ""
+      },
+      {
+        "id": "Q4005225",
+        "label": "1990–91 Unione Sportiva Lecce season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Milan",
+    "query": "AC Milan",
+    "candidates": [
+      {
+        "id": "Q1543",
+        "label": "AC Milan",
+        "description": "football club in Milan, Italy"
+      },
+      {
+        "id": "Q55602896",
+        "label": "A.C. Milan",
+        "description": "women's section of Italian association football club based in Milan"
+      },
+      {
+        "id": "Q2478275",
+        "label": "Milan TV",
+        "description": "subscription-based television channel operated by Italian football club AC Milan"
+      },
+      {
+        "id": "Q862108",
+        "label": "Derby della Madonnina",
+        "description": "Club football rivalry match between the two clubs of the city of Milan, Inter and AC Milan"
+      },
+      {
+        "id": "Q17623939",
+        "label": "Casa Milan",
+        "description": "headquarters of AC Milan"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Napoli",
+    "query": "SSC Napoli",
+    "candidates": [
+      {
+        "id": "Q2641",
+        "label": "SSC Napoli",
+        "description": "Italian professional football club based in Naples"
+      },
+      {
+        "id": "Q8694504",
+        "label": "Category:SSC Napoli",
+        "description": "Wikimedia category"
+      },
+      {
+        "id": "Q17624567",
+        "label": "SSC Napoli Training Center",
+        "description": ""
+      },
+      {
+        "id": "Q140472102",
+        "label": "SSC Napoli 2-3 Chelsea F.C.",
+        "description": ""
+      },
+      {
+        "id": "Q140472134",
+        "label": "SSC Napoli 2-0 Qarabağ FK",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Parma",
+    "query": "Parma Calcio 1913",
+    "candidates": [
+      {
+        "id": "Q2693",
+        "label": "Parma Calcio 1913",
+        "description": "Italian professional football club based in Parma, Emilia-Romagna"
+      },
+      {
+        "id": "Q3973932",
+        "label": "history of Parma Calcio 1913",
+        "description": "aspect of history"
+      },
+      {
+        "id": "Q113326146",
+        "label": "Parma Calcio 2022",
+        "description": "women's soccer team in Italy"
+      },
+      {
+        "id": "Q55388356",
+        "label": "2018–19 Parma Calcio 1913 season",
+        "description": "season of football team"
+      },
+      {
+        "id": "Q38195911",
+        "label": "2017–18 Parma season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Pisa",
+    "query": "Pisa SC",
+    "candidates": [
+      {
+        "id": "Q289613",
+        "label": "Pisa SC",
+        "description": "association football club in Italy"
+      },
+      {
+        "id": "Q131298567",
+        "label": "Pisa SC v FC Südtirol, 4 February 2023",
+        "description": ""
+      },
+      {
+        "id": "Q323481",
+        "label": "Programme for International Student Assessment",
+        "description": "scholastic performance study by the OECD"
+      },
+      {
+        "id": "Q3905711",
+        "label": "1990–91 A.C. Pisa 1909 season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Roma",
+    "query": "AS Roma",
+    "candidates": [
+      {
+        "id": "Q56084793",
+        "label": "A.S. Roma Women",
+        "description": "professional Italian women's football club"
+      },
+      {
+        "id": "Q2739",
+        "label": "AS Roma",
+        "description": "association football club in Rome, Italy"
+      },
+      {
+        "id": "Q7596266",
+        "label": "AS Roma Stadium",
+        "description": "proposed association football stadium in Rome, Italy"
+      },
+      {
+        "id": "Q376895",
+        "label": "as",
+        "description": "bronze and later copper coin used in Ancient Rome"
+      },
+      {
+        "id": "Q3440562",
+        "label": "AS Roma Racing Pallanuoto",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Sassuolo",
+    "query": "US Sassuolo Calcio",
+    "candidates": [
+      {
+        "id": "Q8603",
+        "label": "US Sassuolo Calcio",
+        "description": "Italian football club based in Sassuolo, Emilia-Romagna"
+      },
+      {
+        "id": "Q28670545",
+        "label": "A.S.D. Sassuolo Calcio Femminile",
+        "description": "football club"
+      },
+      {
+        "id": "Q135707618",
+        "label": "US Sassuolo Calcio v SSD Napoli Femminile, 7 December 2024",
+        "description": ""
+      },
+      {
+        "id": "Q135271076",
+        "label": "US Sassuolo Calcio v Torino FC, 22 December 2018",
+        "description": ""
+      },
+      {
+        "id": "Q123752423",
+        "label": "US Sassuolo Calcio (women) v SSD Napoli Femminile, 5 September 2020",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Torino",
+    "query": "Torino FC",
+    "candidates": [
+      {
+        "id": "Q2768",
+        "label": "Torino FC",
+        "description": "Italian football club based in Turin, Piedmont"
+      },
+      {
+        "id": "Q8858102",
+        "label": "Category:Torino FC",
+        "description": "Wikimedia category"
+      },
+      {
+        "id": "Q131782610",
+        "label": "Torino FC v Juventus FC, 2 November 2019",
+        "description": ""
+      },
+      {
+        "id": "Q105806772",
+        "label": "Torino FC Hall of Fame",
+        "description": "hall of fame of Italian football club Torino FC"
+      },
+      {
+        "id": "Q3747607",
+        "label": "Torino FCC",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "club",
+    "key": "ITA|Udinese",
+    "query": "Udinese Calcio",
+    "candidates": [
+      {
+        "id": "Q2798",
+        "label": "Udinese Calcio",
+        "description": "Italian association football club based in Udine, Italy"
+      },
+      {
+        "id": "Q2693379",
+        "label": "Udinese Calcio in European football",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q131782329",
+        "label": "Udinese Calcio v Genoa CFC, 1 December 2024",
+        "description": ""
+      },
+      {
+        "id": "Q55388730",
+        "label": "2018–19 Udinese Calcio season",
+        "description": "season of football team"
+      },
+      {
+        "id": "Q4002623",
+        "label": "2011–12 Udinese Calcio season",
+        "description": "season of football team"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Erling Haaland|Manchester City|ENG|2025-2026",
+    "query": "Erling Haaland",
+    "age": 25.0,
+    "candidates": [
+      {
+        "id": "Q28967995",
+        "label": "Erling Haaland",
+        "description": "Norwegian footballer (born 2000)"
+      },
+      {
+        "id": "Q122141793",
+        "label": "Erling Haaland",
+        "description": "book edition published in 2023"
+      },
+      {
+        "id": "Q130517327",
+        "label": "list of international goals scored by Erling Haaland",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q124354265",
+        "label": "Erling Haaland został wybrany piłkarzem roku 2023 w plebiscycie Globe Soccer Awards",
+        "description": ""
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Lamine Yamal|Barcelona|ESP|2025-2026",
+    "query": "Lamine Yamal",
+    "age": 18.0,
+    "candidates": [
+      {
+        "id": "Q113704154",
+        "label": "Lamine Yamal",
+        "description": "Spanish association football player (born 2007)"
+      },
+      {
+        "id": "Q118132466",
+        "label": "Lamine Yamal",
+        "description": "male given name"
+      },
+      {
+        "id": "Q133844868",
+        "label": "Lamine Yamal Statistics",
+        "description": "Wikimedia list article"
+      },
+      {
+        "id": "Q133771520",
+        "label": "Lamine Yamal's Records",
+        "description": "Wikimedia list article"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Kylian Mbappé|Real Madrid|ESP|2025-2026",
+    "query": "Kylian Mbappé",
+    "age": 26.0,
+    "candidates": [
+      {
+        "id": "Q21621995",
+        "label": "Kylian Mbappé",
+        "description": "French association football player (born 1998)"
+      },
+      {
+        "id": "Q122141574",
+        "label": "Kylian Mbappé",
+        "description": "book edition published in 2023"
+      },
+      {
+        "id": "Q123410299",
+        "label": "Kylian Mbappé",
+        "description": "fictional character from the 2023 video game EA Sports FC 24"
+      },
+      {
+        "id": "Q122126093",
+        "label": "Kylian Mbappé",
+        "description": "book edition published in 2022"
+      },
+      {
+        "id": "Q122079710",
+        "label": "Kylian Mbappé: malý princ",
+        "description": "book edition published in 2020"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Michael Olise|Bayern Munich|GER|2025-2026",
+    "query": "Michael Olise",
+    "age": 23.0,
+    "candidates": [
+      {
+        "id": "Q62050484",
+        "label": "Michael Olise",
+        "description": "French footballer (born 2001)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Jude Bellingham|Real Madrid|ESP|2025-2026",
+    "query": "Jude Bellingham",
+    "age": 22.0,
+    "candidates": [
+      {
+        "id": "Q66241169",
+        "label": "Jude Bellingham",
+        "description": "English footballer (born 2003)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Pedri|Barcelona|ESP|2025-2026",
+    "query": "Pedri",
+    "age": 22.0,
+    "candidates": [
+      {
+        "id": "Q66606355",
+        "label": "Pedri",
+        "description": "Spanish association football player"
+      },
+      {
+        "id": "Q36976285",
+        "label": "Pedrini",
+        "description": "family name"
+      },
+      {
+        "id": "Q37084978",
+        "label": "Pedri",
+        "description": "family name"
+      },
+      {
+        "id": "Q7159399",
+        "label": "Pedrilliomorpha",
+        "description": "genus of beetles"
+      },
+      {
+        "id": "Q15839866",
+        "label": "Pedrito Martinez",
+        "description": "Cuban musician"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "João Neves|PSG|FRA|2025-2026",
+    "query": "João Neves",
+    "age": 20.0,
+    "candidates": [
+      {
+        "id": "Q113551733",
+        "label": "João Neves",
+        "description": "Portuguese footballer (born 2004)"
+      },
+      {
+        "id": "Q108120629",
+        "label": "João Neves",
+        "description": "Portuguese politician"
+      },
+      {
+        "id": "Q52699686",
+        "label": "João S. Neves",
+        "description": "researcher"
+      },
+      {
+        "id": "Q41055750",
+        "label": "João V. Neves",
+        "description": "researcher"
+      },
+      {
+        "id": "Q55360959",
+        "label": "João Neves",
+        "description": "Portuguese judoka"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Khvicha Kvaratskhelia|PSG|FRA|2025-2026",
+    "query": "Khvicha Kvaratskhelia",
+    "age": 24.0,
+    "candidates": [
+      {
+        "id": "Q61780902",
+        "label": "Khvicha Kvaratskhelia",
+        "description": "Georgian footballer (born 2001)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Vinicius Júnior|Real Madrid|ESP|2025-2026",
+    "query": "Vinicius Júnior",
+    "age": 25.0,
+    "candidates": [
+      {
+        "id": "Q28973866",
+        "label": "Vinícius Júnior",
+        "description": "Brazilian association football player (born 2000)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Vitinha|PSG|FRA|2025-2026",
+    "query": "Vitinha footballer born February 2000",
+    "age": 25.0,
+    "candidates": [],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Vitinha|Genoa|ITA|2025-2026",
+    "query": "Vitinha footballer born March 2000",
+    "age": 25.0,
+    "candidates": [],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Declan Rice|Arsenal|ENG|2025-2026",
+    "query": "Declan Rice",
+    "age": 26.0,
+    "candidates": [
+      {
+        "id": "Q30007142",
+        "label": "Declan Rice",
+        "description": "English footballer (born 1999)"
+      },
+      {
+        "id": "Q121115168",
+        "label": "DECLAN RICE",
+        "description": "vocal track by Odumodublvck; 2023 studio recording"
+      },
+      {
+        "id": "Q125671591",
+        "label": "Declan Rice",
+        "description": "2023 single by Odumodublvck"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Désiré Doué|PSG|FRA|2025-2026",
+    "query": "Désiré Doué",
+    "age": 20.0,
+    "candidates": [
+      {
+        "id": "Q112170256",
+        "label": "Désiré Doué",
+        "description": "French footballer (born 2005)"
+      },
+      {
+        "id": "Q553226",
+        "label": "Noumandiez Doué",
+        "description": "Ivorian association football referee"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Bukayo Saka|Arsenal|ENG|2025-2026",
+    "query": "Bukayo Saka",
+    "age": 23.0,
+    "candidates": [
+      {
+        "id": "Q59306386",
+        "label": "Bukayo Saka",
+        "description": "English footballer (born 2001)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Elliot Anderson|Nottingham|ENG|2025-2026",
+    "query": "Elliot Anderson",
+    "age": 22.0,
+    "candidates": [
+      {
+        "id": "Q104762954",
+        "label": "Elliot Anderson",
+        "description": "English footballer (born 2002)"
+      },
+      {
+        "id": "Q18643323",
+        "label": "Elliot Anderson",
+        "description": "musher"
+      },
+      {
+        "id": "Q16146021",
+        "label": "Elliot Anderson",
+        "description": "American politician"
+      },
+      {
+        "id": "Q28924132",
+        "label": "Elliot Parke",
+        "description": "British cricketer (1850-1923)"
+      },
+      {
+        "id": "Q112621769",
+        "label": "Elliot Anderson",
+        "description": "Wikimedia disambiguation page"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Morgan Rogers|Aston Villa|ENG|2025-2026",
+    "query": "Morgan Rogers",
+    "age": 23.0,
+    "candidates": [
+      {
+        "id": "Q61598452",
+        "label": "Morgan Rogers",
+        "description": "English association football player"
+      },
+      {
+        "id": "Q119558510",
+        "label": "Morgan Rogers",
+        "description": "college basketball player (2013–2015) Tulane"
+      },
+      {
+        "id": "Q86328610",
+        "label": "Morgan M Rogers",
+        "description": "researcher"
+      },
+      {
+        "id": "Q98087876",
+        "label": "Morgan Rogers",
+        "description": "Welsh footballer"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Jamal Musiala|Bayern Munich|GER|2025-2026",
+    "query": "Jamal Musiala",
+    "age": 22.0,
+    "candidates": [
+      {
+        "id": "Q96072055",
+        "label": "Jamal Musiala",
+        "description": "German footballer (born 2003)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Ousmane Dembélé|PSG|FRA|2025-2026",
+    "query": "Ousmane Dembélé",
+    "age": 28.0,
+    "candidates": [
+      {
+        "id": "Q20851003",
+        "label": "Ousmane Dembélé",
+        "description": "French footballer (born 1997)"
+      },
+      {
+        "id": "Q141269840",
+        "label": "Zoumana Dembélé",
+        "description": "Burkinabe percussionist"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Aleksandar Pavlovic|Bayern Munich|GER|2025-2026",
+    "query": "Aleksandar Pavlovic",
+    "age": 21.0,
+    "candidates": [
+      {
+        "id": "Q121068701",
+        "label": "Aleksandar Pavlović",
+        "description": "German footballer (born 2004)"
+      },
+      {
+        "id": "Q123697670",
+        "label": "Aleksandar Pavlović",
+        "description": "rugby league footballer"
+      },
+      {
+        "id": "Q458552",
+        "label": "Sasha Pavlović",
+        "description": "Montenegrin basketball player"
+      },
+      {
+        "id": "Q141043696",
+        "label": "Aleksandar Pavlović, Gazela Pudar Draško and Rigels Halili: Rethinking Serbian-Albanian Relations. Figuring Out the Enemy",
+        "description": "scholarly article published in Comparative Southeast European Studies, vol. 69, no. 2-3 (2021) (DOI: 10.1515/SOEU-2021-0018)"
+      },
+      {
+        "id": "Q124465144",
+        "label": "Aleksandar Pavlović",
+        "description": "Wikimedia disambiguation page"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Yan Diomandé|RB Leipzig|GER|2025-2026",
+    "query": "Yan Diomandé",
+    "age": 18.0,
+    "candidates": [
+      {
+        "id": "Q133698867",
+        "label": "Yan Diomande",
+        "description": "Ivorian footballer"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Lautaro Martínez|Inter|ITA|2025-2026",
+    "query": "Lautaro Martínez",
+    "age": 27.0,
+    "candidates": [
+      {
+        "id": "Q21484126",
+        "label": "Lautaro Martínez",
+        "description": "Argentine association football player (born 1997)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Dayot Upamecano|Bayern Munich|GER|2025-2026",
+    "query": "Dayot Upamecano",
+    "age": 26.0,
+    "candidates": [
+      {
+        "id": "Q20723878",
+        "label": "Dayot Upamecano",
+        "description": "French footballer (born 1998)"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Kenan Yıldız|Juventus|ITA|2025-2026",
+    "query": "Kenan Yıldız",
+    "age": 20.0,
+    "candidates": [
+      {
+        "id": "Q113184832",
+        "label": "Kenan Yıldız",
+        "description": "Turkish association football player (born 2005)"
+      },
+      {
+        "id": "Q96221960",
+        "label": "Kenan Yildizhan",
+        "description": "researcher"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Alessandro Bastoni|Inter|ITA|2025-2026",
+    "query": "Alessandro Bastoni",
+    "age": 26.0,
+    "candidates": [
+      {
+        "id": "Q28561068",
+        "label": "Alessandro Bastoni",
+        "description": "Italian association football player"
+      }
+    ],
+    "approved": false
+  },
+  {
+    "kind": "player",
+    "key": "Rasmus Højlund|Napoli|ITA|2025-2026",
+    "query": "Rasmus Højlund",
+    "age": 22.0,
+    "candidates": [
+      {
+        "id": "Q66467324",
+        "label": "Rasmus Højlund",
+        "description": "Danish association football player"
+      }
+    ],
+    "approved": false
+  }
+]

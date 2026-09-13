@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#55d6b0"
+backgroundColor = "#10151e"
+secondaryBackgroundColor = "#192230"
+textColor = "#edf2f7"
+font = "sans serif"
+
+[server]
+address = "0.0.0.0"
+port = 8501
+headless = true
+websocketPingInterval = 20

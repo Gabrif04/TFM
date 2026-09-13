@@ -1,0 +1,986 @@
+{
+  "club": {
+    "ENG|Arsenal": {
+      "status": "no_image",
+      "entity": "Q9617"
+    },
+    "ENG|Aston Villa": {
+      "status": "no_image",
+      "entity": "Q18711"
+    },
+    "ENG|Bournemouth": {
+      "status": "no_image",
+      "entity": "Q19568"
+    },
+    "ENG|Brentford": {
+      "status": "no_image",
+      "entity": "Q19571"
+    },
+    "ENG|Brighton": {
+      "status": "no_image",
+      "entity": "Q19453"
+    },
+    "ENG|Burnley": {
+      "status": "no_image",
+      "entity": "Q19458"
+    },
+    "ENG|Chelsea": {
+      "status": "no_image",
+      "entity": "Q9616"
+    },
+    "ENG|Crystal Palace": {
+      "status": "no_image",
+      "entity": "Q19467"
+    },
+    "ENG|Everton": {
+      "status": "no_image",
+      "entity": "Q5794"
+    },
+    "ENG|Fulham": {
+      "status": "no_image",
+      "entity": "Q18708"
+    },
+    "ENG|Leeds United": {
+      "status": "no_image",
+      "entity": "Q1128631"
+    },
+    "ENG|Liverpool": {
+      "status": "ready",
+      "path": "club/c4fbb9e65ae06181e837.webp",
+      "entity": "Q1130849",
+      "file": "Logo Liverpool FC (2024).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Liverpool_FC_(2024).png",
+      "author": "Liverpool FC",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://seeklogo.com/vector-logo/547647/liverpool-f-c",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ENG|Manchester City": {
+      "status": "no_image",
+      "entity": "Q50602"
+    },
+    "ENG|Manchester Utd": {
+      "status": "no_image",
+      "entity": "Q18656"
+    },
+    "ENG|Newcastle": {
+      "status": "no_image",
+      "entity": "Q18716"
+    },
+    "ENG|Nottingham": {
+      "status": "no_image",
+      "entity": "Q19490"
+    },
+    "ENG|Sunderland": {
+      "status": "no_image",
+      "entity": "Q18739"
+    },
+    "ENG|Tottenham": {
+      "status": "no_image",
+      "entity": "Q18741"
+    },
+    "ENG|West Ham": {
+      "status": "no_image",
+      "entity": "Q18747"
+    },
+    "ENG|Wolves": {
+      "status": "no_image",
+      "entity": "Q19500"
+    },
+    "ESP|Alavés": {
+      "status": "no_image",
+      "entity": "Q223620"
+    },
+    "ESP|Athletic Club": {
+      "status": "no_image",
+      "entity": "Q8687"
+    },
+    "ESP|Atlético Madrid": {
+      "status": "no_image",
+      "entity": "Q8701"
+    },
+    "ESP|Barcelona": {
+      "status": "ready",
+      "path": "club/066d579a9f938dc2f09b.webp",
+      "entity": "Q7156",
+      "file": "Football Club Barcelona Color Update.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Football_Club_Barcelona_Color_Update.png",
+      "author": "HAMDANI 72",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ESP|Celta Vigo": {
+      "status": "ready",
+      "path": "club/a5b417d04533ab415246.webp",
+      "entity": "Q8749",
+      "file": "Escudo RC Celta de Vigo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Escudo_RC_Celta_de_Vigo.svg",
+      "author": "File:Coa Illustration Shield Heater.svg by User:Madboy74\nFile:Corona real cerrada.svg by User:HansenBCN\nFile:Cross Santiago.svg by User:WarX\nderivative work by Elisardojm",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "This file was derived from: \n Coa Illustration Shield Heater.svg\nCorona real cerrada.svg\nCross Santiago.svg",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ESP|Elche": {
+      "status": "no_image",
+      "entity": "Q10512"
+    },
+    "ESP|Espanyol": {
+      "status": "no_image",
+      "entity": "Q8780"
+    },
+    "ESP|Getafe": {
+      "status": "ready",
+      "path": "club/92fedd7e47accf2f5bc8.webp",
+      "entity": "Q8806",
+      "file": "Getafe CF Logo.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Getafe_CF_Logo.png",
+      "author": "Yawen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "https://resultados.as.com/resultados/ficha/equipo/getafe/172/%7CImagen principal = FC Bayern München logo (2017).svg",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ESP|Girona": {
+      "status": "no_image",
+      "entity": "Q11945"
+    },
+    "ESP|Levante": {
+      "status": "no_image",
+      "entity": "Q8823"
+    },
+    "ESP|Mallorca": {
+      "status": "no_image",
+      "entity": "Q8835"
+    },
+    "ESP|Osasuna": {
+      "status": "no_image",
+      "entity": "Q10286"
+    },
+    "ESP|Oviedo": {
+      "status": "no_image",
+      "entity": "Q271574"
+    },
+    "ESP|Rayo Vallecano": {
+      "status": "no_image",
+      "entity": "Q10300"
+    },
+    "ESP|Real Betis": {
+      "status": "no_image",
+      "entity": "Q8723"
+    },
+    "ESP|Real Madrid": {
+      "status": "no_image",
+      "entity": "Q8682"
+    },
+    "ESP|Real Sociedad": {
+      "status": "no_image",
+      "entity": "Q10315"
+    },
+    "ESP|Sevilla": {
+      "status": "no_image",
+      "entity": "Q10329"
+    },
+    "ESP|Valencia": {
+      "status": "no_image",
+      "entity": "Q10333"
+    },
+    "ESP|Villarreal": {
+      "status": "no_image",
+      "entity": "Q12297"
+    },
+    "FRA|Angers": {
+      "status": "ready",
+      "path": "club/de34e92a1003f3cdb49d.webp",
+      "entity": "Q845137",
+      "file": "Angers Sporting Club de l'Ouest logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Angers_Sporting_Club_de_l%27Ouest_logo.svg",
+      "author": "Angers Sporting Club de l'Ouest",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.angers-sco.fr/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Auxerre": {
+      "status": "no_image",
+      "entity": "Q182876"
+    },
+    "FRA|Brest": {
+      "status": "ready",
+      "path": "club/1767e101d1159ec2fc0e.webp",
+      "entity": "Q218372",
+      "file": "Stade Brestois Logo avant 1985.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Stade_Brestois_Logo_avant_1985.svg",
+      "author": "Kilyann Le Hen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Le Havre": {
+      "status": "no_image",
+      "entity": "Q328658"
+    },
+    "FRA|Lens": {
+      "status": "no_image",
+      "entity": "Q191843"
+    },
+    "FRA|Lille": {
+      "status": "no_image",
+      "entity": "Q19516"
+    },
+    "FRA|Lorient": {
+      "status": "no_image",
+      "entity": "Q48911"
+    },
+    "FRA|Lyon": {
+      "status": "no_image",
+      "entity": "Q704"
+    },
+    "FRA|Marseille": {
+      "status": "ready",
+      "path": "club/3f0ab60b7d0e220eb959.webp",
+      "entity": "Q132885",
+      "file": "Olympique de Marseille 2026 logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Olympique_de_Marseille_2026_logo.svg",
+      "author": "Olympique de Marseille",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://billetterie.om.fr/media/2026/04/olympique_de_marseille_2026.png",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Metz": {
+      "status": "ready",
+      "path": "club/0d26af8b1e02bbc893fe.webp",
+      "entity": "Q221525",
+      "file": "FC Metz 2021 Logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:FC_Metz_2021_Logo.svg",
+      "author": "Fc Metz",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work using: https://www.fcmetz.com/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Monaco": {
+      "status": "no_image",
+      "entity": "Q180305"
+    },
+    "FRA|Nantes": {
+      "status": "ready",
+      "path": "club/3533b4980cc490ec3c29.webp",
+      "entity": "Q192071",
+      "file": "Logo FC Nantes (avec fond) - 2019.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_FC_Nantes_(avec_fond)_-_2019.svg",
+      "author": "FC Nantes",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work using: https://www.fcnantes.com",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Nice": {
+      "status": "ready",
+      "path": "club/0b1545bc3f4816074ce8.webp",
+      "entity": "Q185163",
+      "file": "OGC Nice (simplified logo).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:OGC_Nice_(simplified_logo).svg",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "files.ogcnice.com/pdf/acces-global-allianzRiviera.pdf",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|PSG": {
+      "status": "no_image",
+      "entity": "Q483020"
+    },
+    "FRA|Paris FC": {
+      "status": "no_image",
+      "entity": "Q1051013"
+    },
+    "FRA|Rennes": {
+      "status": "ready",
+      "path": "club/57f01b4451e3f9cdc076.webp",
+      "entity": "Q19509",
+      "file": "Stade Rennais (logo 1960).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Stade_Rennais_(logo_1960).svg",
+      "author": "Stade rennais football club\nKilyann Le Hen (vectorisation)",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://seeklogo.com/images/S/stade-rennais-logo-42C91505C7-seeklogo.com.jpg (vectorisé)",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Strasbourg": {
+      "status": "ready",
+      "path": "club/824cc602fc37dac4cff7.webp",
+      "entity": "Q126334",
+      "file": "Racing Club de Strasbourg contre Racing Lens décembre 2016 .jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Racing_Club_de_Strasbourg_contre_Racing_Lens_d%C3%A9cembre_2016_.jpg",
+      "author": "KOBI FRANCK",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "FRA|Toulouse": {
+      "status": "no_image",
+      "entity": "Q19518"
+    },
+    "GER|Augsburg": {
+      "status": "no_image",
+      "entity": "Q15755"
+    },
+    "GER|Bayern Munich": {
+      "status": "ready",
+      "path": "club/fbffad5b5a035ed37ce1.webp",
+      "entity": "Q15789",
+      "file": "FC Bayern München logo (2024).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:FC_Bayern_M%C3%BCnchen_logo_(2024).svg",
+      "author": "FC Bayern Munich",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "fcbayern.com",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Dortmund": {
+      "status": "ready",
+      "path": "club/5ea0aea1e2923700cf33.webp",
+      "entity": "Q41420",
+      "file": "Borussia Dortmund logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Borussia_Dortmund_logo.svg",
+      "author": "Lispir (Lispir)",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "azulgrana.futbolowo.pl/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Frankfurt": {
+      "status": "no_image",
+      "entity": "Q38245"
+    },
+    "GER|Freiburg": {
+      "status": "no_image",
+      "entity": "Q106394"
+    },
+    "GER|Gladbach": {
+      "status": "ready",
+      "path": "club/5fb0dc93088232892093.webp",
+      "entity": "Q101959",
+      "file": "Borussia Mönchengladbach logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Borussia_M%C3%B6nchengladbach_logo.svg",
+      "author": "Borussia Mönchengladbach",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.borussia.de/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Hamburger SV": {
+      "status": "ready",
+      "path": "club/889c589ff6198b14c40b.webp",
+      "entity": "Q51974",
+      "file": "Hamburger SV logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hamburger_SV_logo.svg",
+      "author": "Hamburger SV",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "hsv.de",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Heidenheim": {
+      "status": "ready",
+      "path": "club/c87e70b619b79c71e456.webp",
+      "entity": "Q162251",
+      "file": "1. FC Heidenheim 1846.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:1._FC_Heidenheim_1846.svg",
+      "author": "1. FC Heidenheim",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "http://www.fc-heidenheim.de/home.html",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Hoffenheim": {
+      "status": "ready",
+      "path": "club/0a5680317eb1e6105c2b.webp",
+      "entity": "Q22707",
+      "file": "TSG Logo-Standard 4c.png",
+      "source": "https://commons.wikimedia.org/wiki/File:TSG_Logo-Standard_4c.png",
+      "author": "Template:Lalilu123",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Das offizielle Logo der TSG 1899 Hoffenheim",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Köln": {
+      "status": "ready",
+      "path": "club/ceb356967969c1c75d82.webp",
+      "entity": "Q104770",
+      "file": "1. FC Koeln Logo 2014–.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "author": "1. FC Köln",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "1. FC Köln - taken from fc.de",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Leverkusen": {
+      "status": "no_image",
+      "entity": "Q104761"
+    },
+    "GER|Mainz 05": {
+      "status": "ready",
+      "path": "club/36642b0e217006c956aa.webp",
+      "entity": "Q105254",
+      "file": "Logo Mainz 05.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Mainz_05.svg",
+      "author": "1. FSV Mainz 05",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.mainz05.de",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|RB Leipzig": {
+      "status": "ready",
+      "path": "club/605507f5d3e535859e10.webp",
+      "entity": "Q702455",
+      "file": "2019-07-12 Fußball; Freundschaftsspiel RB Leipzig - FC Zürich 1DX 0881 by Stepro 2.png",
+      "source": "https://commons.wikimedia.org/wiki/File:2019-07-12_Fu%C3%9Fball;_Freundschaftsspiel_RB_Leipzig_-_FC_Z%C3%BCrich_1DX_0881_by_Stepro_2.png",
+      "author": "Steffen Prößdorf, edited by User:CennoxX",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "File:2019-07-12 Fußball; Freundschaftsspiel RB Leipzig - FC Zürich 1DX 0881 by Stepro.jpg",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|St Pauli": {
+      "status": "no_image",
+      "entity": "Q6463"
+    },
+    "GER|Stuttgart": {
+      "status": "ready",
+      "path": "club/0f4980cb3f3d1967ffc9.webp",
+      "entity": "Q4512",
+      "file": "VfB Stuttgart 1893 Logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:VfB_Stuttgart_1893_Logo.svg",
+      "author": "VfB Stuttgart",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "VfB Stuttgart - extracted from PDF",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Union Berlin": {
+      "status": "no_image",
+      "entity": "Q141971"
+    },
+    "GER|Werder Bremen": {
+      "status": "ready",
+      "path": "club/475f4ff20ab469eb013c.webp",
+      "entity": "Q51976",
+      "file": "SV-Werder-Bremen-Logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:SV-Werder-Bremen-Logo.svg",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "transfered from de.wikipedia",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "GER|Wolfsburg": {
+      "status": "ready",
+      "path": "club/9c73a1f58ecc63902e0c.webp",
+      "entity": "Q101859",
+      "file": "VfL Wolfsburg logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:VfL_Wolfsburg_logo.svg",
+      "author": "VfL Wolfsburg",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work This W3C-unspecified vector image was created with Inkscape .",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Atalanta": {
+      "status": "ready",
+      "path": "club/69578eacb7cc956d260c.webp",
+      "entity": "Q1886",
+      "file": "Atalanta BC.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Atalanta_BC.png",
+      "author": "Atalanta BC",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.atalanta.it/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Bologna": {
+      "status": "ready",
+      "path": "club/55c01f0c68f9c7e68c49.webp",
+      "entity": "Q1893",
+      "file": "Bologna F.C. 1909 logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bologna_F.C._1909_logo.svg",
+      "author": "Bologna FC",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.bolognafc.it/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Cagliari": {
+      "status": "no_image",
+      "entity": "Q1900"
+    },
+    "ITA|Como": {
+      "status": "ready",
+      "path": "club/5b85c6a9c37fd2ecd2d8.webp",
+      "entity": "Q1120838",
+      "file": "Calcio Como - logo (Italy, 2019-).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Calcio_Como_-_logo_(Italy,_2019-).svg",
+      "author": "Como 1907 srl",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.corrieredicomo.it/como-1907-la-societa-ha-presentato-il-nuovo-logo/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Cremonese": {
+      "status": "no_image",
+      "entity": "Q759482"
+    },
+    "ITA|Fiorentina": {
+      "status": "ready",
+      "path": "club/3980c51cf8a2ca4a69e2.webp",
+      "entity": "Q2052",
+      "file": "ACF Fiorentina - logo (Italy, 2022).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ACF_Fiorentina_-_logo_(Italy,_2022).svg",
+      "author": "FutureBrand Creative Agency / ACF Fiorentina S.r.l. a socio unico",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "acffiorentina.com",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Genoa": {
+      "status": "no_image",
+      "entity": "Q2074"
+    },
+    "ITA|Hellas Verona": {
+      "status": "no_image",
+      "entity": "Q8639"
+    },
+    "ITA|Inter": {
+      "status": "ready",
+      "path": "club/d2a58d11a23c3bbd99ef.webp",
+      "entity": "Q631",
+      "file": "FC Internazionale Milano 2021.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg",
+      "author": "FC Internazionale Milano S.p.A. / Bureau Borsche",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "im.inter.it and @Inter",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Juventus": {
+      "status": "ready",
+      "path": "club/e862a02f67768ad1c0c4.webp",
+      "entity": "Q1422",
+      "file": "Juventus FC - logo black (Italy, 2020).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Juventus_FC_-_logo_black_(Italy,_2020).svg",
+      "author": "Interbrand – Global Brand Consultancy / Juventus Football Club SpA",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work based on: Juventus FC 2017 logo.svg",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Lazio": {
+      "status": "ready",
+      "path": "club/1c4b0d51b4e0fae5c862.webp",
+      "entity": "Q2609",
+      "file": "S.S. Lazio logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:S.S._Lazio_logo.svg",
+      "author": "S.S. Lazio",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Lecce": {
+      "status": "no_image",
+      "entity": "Q13391"
+    },
+    "ITA|Milan": {
+      "status": "ready",
+      "path": "club/6f0c1e904ba38763e881.webp",
+      "entity": "Q1543",
+      "file": "Logo of AC Milan.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_AC_Milan.svg",
+      "author": "A.C. Milan\n\nUploaded by Vargklo at en.wikipedia",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://www.acmilan.com/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Napoli": {
+      "status": "ready",
+      "path": "club/a6f44630b871c9404cdd.webp",
+      "entity": "Q2641",
+      "file": "SSC Napoli 2024 (deep blue navy).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:SSC_Napoli_2024_(deep_blue_navy).svg",
+      "author": "Logo:  SSC Napoli S.p.A.\nUpload:  The White Lion",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Parma": {
+      "status": "ready",
+      "path": "club/44d471576c61b85776c0.webp",
+      "entity": "Q2693",
+      "file": "Logo Parma Calcio 1913 (adozione 2016).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Parma_Calcio_1913_(adozione_2016).svg",
+      "author": "Parma Calcio 1913",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "Parma Calcio 1913",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Pisa": {
+      "status": "ready",
+      "path": "club/99b46b2d268b3c413c11.webp",
+      "entity": "Q289613",
+      "file": "Logo Pisa Sporting Club.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Pisa_Sporting_Club.svg",
+      "author": "Pisa Sporting Club S.r.l.",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://pisasportingclub.com/",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Roma": {
+      "status": "ready",
+      "path": "club/fea206b1fcc54bbb2f14.webp",
+      "entity": "Q2739",
+      "file": "AS ROMA Text Logo 2020 - 2021 .svg",
+      "source": "https://commons.wikimedia.org/wiki/File:AS_ROMA_Text_Logo_2020_-_2021_.svg",
+      "author": "Associazione Sportiva Roma S.p.A.",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "All-New AS Roma 2020 Branding Revealed (english). footyheadlines.com (September 17, 2020).",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "ITA|Sassuolo": {
+      "status": "no_image",
+      "entity": "Q8603"
+    },
+    "ITA|Torino": {
+      "status": "no_image",
+      "entity": "Q2768"
+    },
+    "ITA|Udinese": {
+      "status": "ready",
+      "path": "club/ad4f664918fb04d83990.webp",
+      "entity": "Q2798",
+      "file": "Udinese Calcio 2010.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Udinese_Calcio_2010.svg",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "credit": "https://it.wikipedia.org/wiki/File:Logo_Udinese_Calcio_2010.svg",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    }
+  },
+  "player": {
+    "Erling Haaland|Manchester City|ENG|2025-2026": {
+      "status": "ready",
+      "path": "player/797dbdca29948112882e.webp",
+      "entity": "Q28967995",
+      "file": "Erling Haaland France v Norway 26 June 26-008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_France_v_Norway_26_June_26-008.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Lamine Yamal|Barcelona|ESP|2025-2026": {
+      "status": "ready",
+      "path": "player/8aba48b47fc584bed8cd.webp",
+      "entity": "Q113704154",
+      "file": "Lamine Yamal Argentina v Spain 19 July 2026-214 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Kylian Mbappé|Real Madrid|ESP|2025-2026": {
+      "status": "ready",
+      "path": "player/f995b5b1066c8574dee4.webp",
+      "entity": "Q21621995",
+      "file": "Kylian Mbappe France v Senegal 16 June 2026-391 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Michael Olise|Bayern Munich|GER|2025-2026": {
+      "status": "ready",
+      "path": "player/66277ac4c921ba024dda.webp",
+      "entity": "Q62050484",
+      "file": "Michael Olise France v Senegal 16 June 2026-307 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Michael_Olise_France_v_Senegal_16_June_2026-307_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Jude Bellingham|Real Madrid|ESP|2025-2026": {
+      "status": "ready",
+      "path": "player/07da43c3310dd0aa48ab.webp",
+      "entity": "Q66241169",
+      "file": "Jude Bellingham England v Ghana 23 June 2026-061 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Pedri|Barcelona|ESP|2025-2026": {
+      "status": "ready",
+      "path": "player/2d24a9025d6d7fe00d69.webp",
+      "entity": "Q66606355",
+      "file": "Pedri France v Spain 7.24.26-245.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "João Neves|PSG|FRA|2025-2026": {
+      "status": "ready",
+      "path": "player/2f52146dd1e94a09ac9a.webp",
+      "entity": "Q113551733",
+      "file": "João Neves USMNT v Portugal Mar 31 2026-18 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_Neves_USMNT_v_Portugal_Mar_31_2026-18_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Khvicha Kvaratskhelia|PSG|FRA|2025-2026": {
+      "status": "ready",
+      "path": "player/f6feaf29c5f31ae629a6.webp",
+      "entity": "Q61780902",
+      "file": "Kvaratskhelia asse psg 2425.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Kvaratskhelia_asse_psg_2425.png",
+      "author": "Paté kroute",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Vinicius Júnior|Real Madrid|ESP|2025-2026": {
+      "status": "ready",
+      "path": "player/475d0e27ea5c6922ce00.webp",
+      "entity": "Q28973866",
+      "file": "Vinícius Júnior Brazil V Morocco 13 June 2026-207 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Vitinha|PSG|FRA|2025-2026": {
+      "status": "ready",
+      "path": "player/517f5213922c6a8bfbc4.webp",
+      "entity": "Q66818509",
+      "file": "Vitinha USMNT v Portugal Mar 31 2026-50 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vitinha_USMNT_v_Portugal_Mar_31_2026-50_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Vitinha|Genoa|ITA|2025-2026": {
+      "status": "ready",
+      "path": "player/0d32d88f3ef769b79b7c.webp",
+      "entity": "Q106200290",
+      "file": "Vitinha.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vitinha.jpg",
+      "author": "Tekkila91",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Declan Rice|Arsenal|ENG|2025-2026": {
+      "status": "ready",
+      "path": "player/d87246c092a3c8ea6223.webp",
+      "entity": "Q30007142",
+      "file": "Declan Rice England v Ghana 23 June 2026-150.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Declan_Rice_England_v_Ghana_23_June_2026-150.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Désiré Doué|PSG|FRA|2025-2026": {
+      "status": "ready",
+      "path": "player/da18fbb860158c7b4bfb.webp",
+      "entity": "Q112170256",
+      "file": "Desire Doue France v Norway 26 June 26-032.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Desire_Doue_France_v_Norway_26_June_26-032.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Bukayo Saka|Arsenal|ENG|2025-2026": {
+      "status": "ready",
+      "path": "player/b386e6898fffbc149ef2.webp",
+      "entity": "Q59306386",
+      "file": "Bukayo Saka England v Ghana 23 June 2026-057 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Ghana_23_June_2026-057_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Elliot Anderson|Nottingham|ENG|2025-2026": {
+      "status": "ready",
+      "path": "player/65d7bbcc7f9037e8512f.webp",
+      "entity": "Q104762954",
+      "file": "Elliot Anderson England v Ghana 23 June 2026-059 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Elliot_Anderson_England_v_Ghana_23_June_2026-059_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Morgan Rogers|Aston Villa|ENG|2025-2026": {
+      "status": "ready",
+      "path": "player/791dededca290bffe9a3.webp",
+      "entity": "Q61598452",
+      "file": "Morgan Rogers England v Panama 27 June 26-144 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Morgan_Rogers_England_v_Panama_27_June_26-144_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Jamal Musiala|Bayern Munich|GER|2025-2026": {
+      "status": "ready",
+      "path": "player/f09dfed5cb744eeaa437.webp",
+      "entity": "Q96072055",
+      "file": "Jamal Musiala Ecuador v Germany 25 June 2026-174 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Ousmane Dembélé|PSG|FRA|2025-2026": {
+      "status": "ready",
+      "path": "player/5760b3d3049aab46c91e.webp",
+      "entity": "Q20851003",
+      "file": "Ousmane Dembele France v Senegal 16 June 2026-341 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ousmane_Dembele_France_v_Senegal_16_June_2026-341_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Aleksandar Pavlovic|Bayern Munich|GER|2025-2026": {
+      "status": "ready",
+      "path": "player/bd3c870c587a72ac0077.webp",
+      "entity": "Q121068701",
+      "file": "Aleksandar Pavlovic Ecuador v Germany 25 June 2026-036.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aleksandar_Pavlovic_Ecuador_v_Germany_25_June_2026-036.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Yan Diomandé|RB Leipzig|GER|2025-2026": {
+      "status": "ready",
+      "path": "player/6b150f3ae7cd76b3d1b6.webp",
+      "entity": "Q133698867",
+      "file": "Yan Diomande Cote D'Ivoire v Ecuador 14 June 2026-17 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Lautaro Martínez|Inter|ITA|2025-2026": {
+      "status": "ready",
+      "path": "player/93907b1b857674530b08.webp",
+      "entity": "Q21484126",
+      "file": "Lautaro Martinez Argentina v Spain 19 July 2026-049 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Dayot Upamecano|Bayern Munich|GER|2025-2026": {
+      "status": "ready",
+      "path": "player/7e0f348423febac8d80f.webp",
+      "entity": "Q20723878",
+      "file": "Dayot Upamecano France v Senegal 16 June 2026-402 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dayot_Upamecano_France_v_Senegal_16_June_2026-402_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Kenan Yıldız|Juventus|ITA|2025-2026": {
+      "status": "ready",
+      "path": "player/fd5aab45e3a699d6ce20.webp",
+      "entity": "Q113184832",
+      "file": "Kenan Yıldız in the international match (March 2025) (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kenan_Y%C4%B1ld%C4%B1z_in_the_international_match_(March_2025)_(cropped).jpg",
+      "author": "Original:  mlsz.hu – the official website of the Hungarian Football Federation / Derivative work:  Danyele",
+      "license": "Attribution",
+      "license_url": "",
+      "credit": "mlsz.hu – the official website of the Hungarian Football Federation (original photo)",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Alessandro Bastoni|Inter|ITA|2025-2026": {
+      "status": "ready",
+      "path": "player/c4ec50d9869e16325c66.webp",
+      "entity": "Q28561068",
+      "file": "Norway Italy - June 2025 A 36 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_36_(cropped).jpg",
+      "author": "MichaelEmilio",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    },
+    "Rasmus Højlund|Napoli|ITA|2025-2026": {
+      "status": "ready",
+      "path": "player/e7648e3ce6d3427c297b.webp",
+      "entity": "Q66467324",
+      "file": "Rasmus Højlund with a fan.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rasmus_H%C3%B8jlund_with_a_fan.jpg",
+      "author": "VietnamJ25",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Own work",
+      "modifications": "Resized and converted to WebP; original framing retained"
+    }
+  }
+}
