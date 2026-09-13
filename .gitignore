@@ -2,5 +2,11 @@ venv/
 .env
 estado_actual.md
 __pycache__/
+<<<<<<< HEAD
 *.py[cod]
 .streamlit/secrets.toml
+=======
+data/*.db
+downloaded_files/
+logs/
+>>>>>>> upstream/modelos-branch-luis

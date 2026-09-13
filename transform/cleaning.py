@@ -17,6 +17,20 @@ POSITION_MAP = {
 }
 
 
+def normalize_league(raw: str) -> str:
+    """Unifica el código de liga a las claves cortas de config.LEAGUES.
+
+    soccerdata devuelve nombres largos ('ESP-La Liga') y los extractores de
+    fbref/understat ya los sobreescriben con el código corto ('ESP'), pero
+    whoscored agrupa por la columna nativa y conserva el largo. Sin esto,
+    un join o un filtro por `league` entre fuentes no casa.
+    """
+    if not isinstance(raw, str) or not raw.strip():
+        return ""
+    code = raw.strip().split("-")[0].strip().upper()
+    return code
+
+
 def normalize_name(name: str) -> str:
     if not isinstance(name, str):
         return ""

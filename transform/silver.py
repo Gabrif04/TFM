@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 from transform.cleaning import (
-    clean_players_dataframe, normalize_name, parse_market_value,
+    clean_players_dataframe, normalize_name, normalize_league, parse_market_value,
     parse_contract_date, coerce_numeric_columns, parse_height_cm,
 )
 from utils.database import make_player_id
@@ -16,7 +16,30 @@ from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-FBREF_NUMERIC_COLS = ["minutes_played", "crosses", "tackles", "interceptions"]
+#FBref
+# El payload de bronze trae 43 campos; aquí se conservan los que tienen valor
+# para el modelo (goles, asistencias, titularidades, tarjetas, faltas...).
+# Los nombres largos de fbref se renombran a snake_case del proyecto.
+FBREF_RENAME = {
+    "Playing Time_MP": "matches_played",
+    "Playing Time_Starts": "starts",
+    "Performance_Gls": "goals",
+    "Performance_Ast": "assists",
+    "Performance_G-PK": "goals_np",
+    "Performance_PK": "penalties_scored",
+    "Performance_PKatt": "penalties_attempted",
+    "Performance_CrdY": "yellow_cards",
+    "Performance_CrdR": "red_cards",
+    "Performance_misc_Fls": "fouls_committed",
+    "Performance_misc_Fld": "fouls_drawn",
+    "Performance_misc_Off": "offsides",
+}
+FBREF_NUMERIC_COLS = [
+    "minutes_played", "crosses", "tackles", "interceptions",
+    "matches_played", "starts", "goals", "assists", "goals_np",
+    "penalties_scored", "penalties_attempted", "yellow_cards", "red_cards",
+    "fouls_committed", "fouls_drawn", "offsides",
+]
 FBREF_REQUIRED_COLS = ["player_name", "team", "league", "season", "position"]
 FBREF_KEY_COLS = ["player_name_normalized", "team", "season"]
 
@@ -24,7 +47,9 @@ FBREF_KEY_COLS = ["player_name_normalized", "team", "season"]
 def build_silver_fbref(fbref_raw: pd.DataFrame) -> pd.DataFrame:
     if fbref_raw.empty:
         return pd.DataFrame()
+    fbref_raw = fbref_raw.rename(columns=FBREF_RENAME)
     df = clean_players_dataframe(fbref_raw, FBREF_NUMERIC_COLS)
+    df["league"] = df["league"].apply(normalize_league)
     df["player_id"] = df.apply(
         lambda r: make_player_id(r["player_name_normalized"], r["team"], r["season"]), axis=1
     )
@@ -33,6 +58,7 @@ def build_silver_fbref(fbref_raw: pd.DataFrame) -> pd.DataFrame:
     cols = [
         "player_id", "player_name", "player_name_normalized", "team", "league", "season",
         "position", "age", "minutes_played", "crosses", "tackles", "interceptions",
+        *[c for c in FBREF_RENAME.values()],
         "is_outlier", "processed_at",
     ]
     return df[[c for c in cols if c in df.columns]]
@@ -48,6 +74,7 @@ def build_silver_understat(understat_raw: pd.DataFrame) -> pd.DataFrame:
     if understat_raw.empty:
         return pd.DataFrame()
     df = clean_players_dataframe(understat_raw, UNDERSTAT_NUMERIC_COLS)
+    df["league"] = df["league"].apply(normalize_league)
     df["player_id"] = df.apply(
         lambda r: make_player_id(r["player_name_normalized"], r["team"], r["season"]), axis=1
     )
@@ -105,6 +132,7 @@ def build_silver_teams(teams_raw: pd.DataFrame) -> pd.DataFrame:
     if teams_raw.empty:
         return pd.DataFrame()
     df = teams_raw.rename(columns={"id": "team_api_id", "name": "team_name", "shortName": "short_name"})
+    df["league"] = df["league"].apply(normalize_league)
     if "founded" in df.columns:
         df["founded"] = pd.to_numeric(df["founded"], errors="coerce")
     df["processed_at"] = pd.Timestamp.now().isoformat()
@@ -187,6 +215,7 @@ def build_silver_whoscored(whoscored_raw: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
     df = whoscored_raw.copy()
     df["player_name_normalized"] = df["player_name"].apply(normalize_name)
+    df["league"] = df["league"].apply(normalize_league)
     df = coerce_numeric_columns(df, WHOSCORED_NUMERIC_COLS)
     df["event_id"] = df.apply(
         lambda r: hashlib.md5(
@@ -212,6 +241,7 @@ def build_silver_standings(standings_raw: pd.DataFrame) -> pd.DataFrame:
     if standings_raw.empty:
         return pd.DataFrame()
     df = standings_raw.copy()
+    df["league"] = df["league"].apply(normalize_league)
     for col in ["position", "points", "won", "draw", "lost", "goal_difference"]:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
