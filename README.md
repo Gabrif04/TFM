@@ -1,3 +1,16 @@
+## Dashboard de valoración
+
+La visualización usa exclusivamente los CSV de `salida_modelos/`. Incluye datos de
+la muestra, buscador con perfil individual y ranking interactivo con exportación.
+
+```powershell
+python -m pip install -r dashboard/requirements.txt
+python -m streamlit run dashboard/app.py
+```
+
+Más información: [documentación del dashboard](dashboard/README.md).
+Las instrucciones siguientes corresponden al pipeline de extracción original.
+
 ## 1. Requisitos previos
 
 - **Python 3.11+**

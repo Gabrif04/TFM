@@ -11,6 +11,9 @@ logger = get_logger(__name__)
 POSITION_MAP = {
     "GK": "Portero", "DF": "Defensa", "MF": "Centrocampista", "FW": "Delantero",
     "DFMF": "Defensa/Centrocampista", "MFFW": "Centrocampista/Delantero",
+    "MF,FW": "Centrocampista/Delantero", "FW,MF": "Delantero/Centrocampista",
+    "DF,MF": "Defensa/Centrocampista", "MF,DF": "Centrocampista/Defensa",
+    "DF,FW": "Defensa/Delantero", "FW,DF": "Delantero/Defensa"
 }
 
 

@@ -899,3 +899,829 @@
 2026-07-25 20:03:15,873 | INFO     | extractors.whoscored_extractor | WhoScored: 4446 eventos extraídos de ESP 2025-2026
 2026-07-25 20:03:16,187 | INFO     | utils.database | 96 filas insertadas/actualizadas en 'bronze_whoscored'
 2026-07-25 20:03:16,217 | INFO     | utils.database | 96 filas insertadas/actualizadas en 'silver_whoscored'
+2026-09-06 13:36:51,247 | INFO     | transform.cleaning | 44 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-09-06 13:36:51,249 | INFO     | transform.cleaning | 2 outliers detectados en 'tackles' (no eliminados, solo marcados)
+2026-09-06 13:36:51,251 | INFO     | transform.cleaning | 1 outliers detectados en 'interceptions' (no eliminados, solo marcados)
+2026-09-06 13:36:51,335 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'silver_fbref'
+2026-09-06 13:36:51,479 | INFO     | transform.cleaning | 57 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-09-06 13:36:51,481 | INFO     | transform.cleaning | 16 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-09-06 13:36:51,483 | INFO     | transform.cleaning | 47 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-09-06 13:36:51,485 | INFO     | transform.cleaning | 56 outliers detectados en 'goals' (no eliminados, solo marcados)
+2026-09-06 13:36:51,488 | INFO     | transform.cleaning | 8 outliers detectados en 'assists' (no eliminados, solo marcados)
+2026-09-06 13:36:51,492 | INFO     | transform.cleaning | 20 outliers detectados en 'shots' (no eliminados, solo marcados)
+2026-09-06 13:36:51,495 | INFO     | transform.cleaning | 11 outliers detectados en 'key_passes' (no eliminados, solo marcados)
+2026-09-06 13:36:51,499 | INFO     | transform.cleaning | 160 outliers detectados en 'red_cards' (no eliminados, solo marcados)
+2026-09-06 13:36:51,501 | INFO     | transform.cleaning | 6 outliers detectados en 'xg_chain' (no eliminados, solo marcados)
+2026-09-06 13:36:51,504 | INFO     | transform.cleaning | 9 outliers detectados en 'xg_buildup' (no eliminados, solo marcados)
+2026-09-06 13:36:51,539 | ERROR    | utils.database | Error escribiendo en 'silver_understat': table silver_understat has no column named goals
+2026-09-06 13:40:33,380 | INFO     | transform.cleaning | 44 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-09-06 13:40:33,382 | INFO     | transform.cleaning | 2 outliers detectados en 'tackles' (no eliminados, solo marcados)
+2026-09-06 13:40:33,383 | INFO     | transform.cleaning | 1 outliers detectados en 'interceptions' (no eliminados, solo marcados)
+2026-09-06 13:40:33,403 | ERROR    | utils.database | Error escribiendo en 'silver_fbref': no such table: silver_fbref
+2026-09-06 13:40:33,501 | INFO     | transform.cleaning | 57 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-09-06 13:40:33,502 | INFO     | transform.cleaning | 16 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-09-06 13:40:33,503 | INFO     | transform.cleaning | 47 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-09-06 13:40:33,504 | INFO     | transform.cleaning | 56 outliers detectados en 'goals' (no eliminados, solo marcados)
+2026-09-06 13:40:33,505 | INFO     | transform.cleaning | 8 outliers detectados en 'assists' (no eliminados, solo marcados)
+2026-09-06 13:40:33,506 | INFO     | transform.cleaning | 20 outliers detectados en 'shots' (no eliminados, solo marcados)
+2026-09-06 13:40:33,507 | INFO     | transform.cleaning | 11 outliers detectados en 'key_passes' (no eliminados, solo marcados)
+2026-09-06 13:40:33,510 | INFO     | transform.cleaning | 160 outliers detectados en 'red_cards' (no eliminados, solo marcados)
+2026-09-06 13:40:33,511 | INFO     | transform.cleaning | 6 outliers detectados en 'xg_chain' (no eliminados, solo marcados)
+2026-09-06 13:40:33,513 | INFO     | transform.cleaning | 9 outliers detectados en 'xg_buildup' (no eliminados, solo marcados)
+2026-09-06 13:40:33,533 | ERROR    | utils.database | Error escribiendo en 'silver_understat': no such table: silver_understat
+2026-09-06 13:42:03,625 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-06 13:45:04,963 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-06 13:45:19,566 | INFO     | transform.cleaning | 44 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-09-06 13:45:19,567 | INFO     | transform.cleaning | 2 outliers detectados en 'tackles' (no eliminados, solo marcados)
+2026-09-06 13:45:19,569 | INFO     | transform.cleaning | 1 outliers detectados en 'interceptions' (no eliminados, solo marcados)
+2026-09-06 13:45:19,605 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'silver_fbref'
+2026-09-06 13:45:19,721 | INFO     | transform.cleaning | 57 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-09-06 13:45:19,722 | INFO     | transform.cleaning | 16 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-09-06 13:45:19,723 | INFO     | transform.cleaning | 47 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-09-06 13:45:19,724 | INFO     | transform.cleaning | 56 outliers detectados en 'goals' (no eliminados, solo marcados)
+2026-09-06 13:45:19,725 | INFO     | transform.cleaning | 8 outliers detectados en 'assists' (no eliminados, solo marcados)
+2026-09-06 13:45:19,726 | INFO     | transform.cleaning | 20 outliers detectados en 'shots' (no eliminados, solo marcados)
+2026-09-06 13:45:19,727 | INFO     | transform.cleaning | 11 outliers detectados en 'key_passes' (no eliminados, solo marcados)
+2026-09-06 13:45:19,729 | INFO     | transform.cleaning | 160 outliers detectados en 'red_cards' (no eliminados, solo marcados)
+2026-09-06 13:45:19,730 | INFO     | transform.cleaning | 6 outliers detectados en 'xg_chain' (no eliminados, solo marcados)
+2026-09-06 13:45:19,731 | INFO     | transform.cleaning | 9 outliers detectados en 'xg_buildup' (no eliminados, solo marcados)
+2026-09-06 13:45:19,769 | INFO     | utils.database | 1190 filas insertadas/actualizadas en 'silver_understat'
+2026-09-07 10:33:42,094 | INFO     | pipeline_main | Iniciando pipeline para ligas=['ESP'], temporadas=['2024-2025', '2025-2026']
+2026-09-07 10:33:42,110 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:33:42,114 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:35:26,120 | INFO     | extractors.soccerdata_extractor | FBref: 1212 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-09-07 10:35:26,120 | INFO     | extractors.soccerdata_extractor | Columnas disponibles: ['league', 'season', 'team', 'player_name', 'nation', 'position', 'age', 'born', 'Playing Time_MP', 'Playing Time_Starts', 'minutes_played', 'Playing Time_90s', 'Performance_Gls', 'Performance_Ast', 'Performance_G+A', 'Performance_G-PK', 'Performance_PK', 'Performance_PKatt', 'Performance_CrdY', 'Performance_CrdR', 'Per 90 Minutes_Gls', 'Per 90 Minutes_Ast', 'Per 90 Minutes_G+A', 'Per 90 Minutes_G-PK', 'Per 90 Minutes_G+A-PK', 'nation_misc', 'pos_misc', 'age_misc', 'born_misc', '90s', 'Performance_misc_CrdY', 'Performance_misc_CrdR', 'Performance_misc_2CrdY', 'Performance_misc_Fls', 'Performance_misc_Fld', 'Performance_misc_Off', 'crosses', 'interceptions', 'tackles', 'Performance_misc_PKwon', 'Performance_misc_PKcon', 'Performance_misc_OG', 'source']
+2026-09-07 10:35:50,785 | INFO     | extractors.soccerdata_extractor | Understat: 1190 jugadores extraídos de ESP ['2024-2025', '2025-2026']
+2026-09-07 10:35:50,883 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'bronze_fbref'
+2026-09-07 10:35:50,964 | INFO     | utils.database | 1190 filas insertadas/actualizadas en 'bronze_understat'
+2026-09-07 10:35:50,993 | INFO     | transform.cleaning | 44 outliers detectados en 'crosses' (no eliminados, solo marcados)
+2026-09-07 10:35:50,996 | INFO     | transform.cleaning | 2 outliers detectados en 'tackles' (no eliminados, solo marcados)
+2026-09-07 10:35:50,999 | INFO     | transform.cleaning | 1 outliers detectados en 'interceptions' (no eliminados, solo marcados)
+2026-09-07 10:35:51,041 | INFO     | utils.validators | OK: 1212 filas
+2026-09-07 10:35:51,041 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-09-07 10:35:51,041 | INFO     | utils.validators | OK: sin duplicados
+2026-09-07 10:35:51,115 | INFO     | utils.database | 1212 filas insertadas/actualizadas en 'silver_fbref'
+2026-09-07 10:35:51,157 | INFO     | transform.cleaning | 57 outliers detectados en 'xg' (no eliminados, solo marcados)
+2026-09-07 10:35:51,159 | INFO     | transform.cleaning | 16 outliers detectados en 'xa' (no eliminados, solo marcados)
+2026-09-07 10:35:51,161 | INFO     | transform.cleaning | 47 outliers detectados en 'npxg' (no eliminados, solo marcados)
+2026-09-07 10:35:51,164 | INFO     | transform.cleaning | 56 outliers detectados en 'goals' (no eliminados, solo marcados)
+2026-09-07 10:35:51,167 | INFO     | transform.cleaning | 8 outliers detectados en 'assists' (no eliminados, solo marcados)
+2026-09-07 10:35:51,169 | INFO     | transform.cleaning | 20 outliers detectados en 'shots' (no eliminados, solo marcados)
+2026-09-07 10:35:51,172 | INFO     | transform.cleaning | 11 outliers detectados en 'key_passes' (no eliminados, solo marcados)
+2026-09-07 10:35:51,176 | INFO     | transform.cleaning | 160 outliers detectados en 'red_cards' (no eliminados, solo marcados)
+2026-09-07 10:35:51,178 | INFO     | transform.cleaning | 6 outliers detectados en 'xg_chain' (no eliminados, solo marcados)
+2026-09-07 10:35:51,181 | INFO     | transform.cleaning | 9 outliers detectados en 'xg_buildup' (no eliminados, solo marcados)
+2026-09-07 10:35:51,209 | INFO     | utils.validators | OK: 1190 filas
+2026-09-07 10:35:51,210 | INFO     | utils.validators | OK: columnas requeridas presentes
+2026-09-07 10:35:51,210 | INFO     | utils.validators | OK: sin duplicados
+2026-09-07 10:35:51,243 | INFO     | utils.database | 1190 filas insertadas/actualizadas en 'silver_understat'
+2026-09-07 10:35:51,248 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:35:52,057 | ERROR    | extractors.football_data_api | Error al llamar a https://api.football-data.org/v4/competitions/PD/teams: 403 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/teams
+2026-09-07 10:35:52,060 | WARNING  | extractors.football_data_api | Sin datos de equipos para ESP
+2026-09-07 10:35:58,562 | WARNING  | extractors.football_data_api | get_all_leagues_teams: no se extrajo ningún equipo, no se escribe en bronze
+2026-09-07 10:35:58,563 | WARNING  | utils.database | DataFrame vacío, no se escribe nada en 'silver_teams'
+2026-09-07 10:35:58,567 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:35:59,213 | ERROR    | extractors.football_data_api | Error al llamar a https://api.football-data.org/v4/competitions/PD/standings: 403 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/standings?season=2024
+2026-09-07 10:35:59,215 | WARNING  | extractors.football_data_api | Sin standings para ESP
+2026-09-07 10:36:05,716 | WARNING  | extractors.football_data_api | get_all_leagues_standings: no se extrajo ninguna clasificación, no se escribe en bronze
+2026-09-07 10:36:05,720 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:36:06,384 | ERROR    | extractors.football_data_api | Error al llamar a https://api.football-data.org/v4/competitions/PD/standings: 403 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/standings?season=2025
+2026-09-07 10:36:06,387 | WARNING  | extractors.football_data_api | Sin standings para ESP
+2026-09-07 10:36:12,888 | WARNING  | extractors.football_data_api | get_all_leagues_standings: no se extrajo ninguna clasificación, no se escribe en bronze
+2026-09-07 10:36:12,903 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 10:36:12,906 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 708 jugadores nuevos por buscar, 126 ya en bronze
+2026-09-07 10:36:16,955 | INFO     | extractors.transfermarkt_extractor | 'Cristhian Mosquera' -> 'Cristhian Mosquera' (), score=100.0
+2026-09-07 10:36:24,792 | INFO     | extractors.transfermarkt_extractor | 'Antonio Raillo' -> 'Antonio Raíllo' (), score=92.85714285714286
+2026-09-07 10:36:32,319 | INFO     | extractors.transfermarkt_extractor | 'Dodi Lukebakio' -> 'Dodi Lukébakio' (), score=92.85714285714286
+2026-09-07 10:36:40,486 | INFO     | extractors.transfermarkt_extractor | 'Carlos Vicente' -> 'Carlos Vicente' (), score=100.0
+2026-09-07 10:36:48,181 | INFO     | extractors.transfermarkt_extractor | 'Jesús Areso' -> 'Jesús Areso' (), score=100.0
+2026-09-07 10:36:58,175 | INFO     | extractors.transfermarkt_extractor | 'Giorgi Mamardashvili' -> 'Giorgi Mamardashvili' (), score=100.0
+2026-09-07 10:37:08,914 | INFO     | extractors.transfermarkt_extractor | 'Vicente Guaita' -> 'Vicente Guaita' (), score=100.0
+2026-09-07 10:37:19,650 | INFO     | extractors.transfermarkt_extractor | 'Javi Puado' -> 'Javi Puado' (), score=100.0
+2026-09-07 10:37:27,111 | INFO     | extractors.transfermarkt_extractor | 'Marash Kumbulla' -> 'Marash Kumbulla' (), score=100.0
+2026-09-07 10:37:34,711 | INFO     | extractors.transfermarkt_extractor | 'Omar Alderete' -> 'Omar Alderete' (), score=100.0
+2026-09-07 10:37:42,382 | INFO     | extractors.transfermarkt_extractor | 'Aimar Oroz' -> 'Aimar Oroz' (), score=100.0
+2026-09-07 10:37:50,085 | INFO     | extractors.transfermarkt_extractor | 'Martín Zubimendi' -> 'Martín Zubimendi' (), score=100.0
+2026-09-07 10:37:58,177 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Sergi' fue 'Sergio Rico' con score 62.5 (< umbral 80), se descarta
+2026-09-07 10:38:05,250 | INFO     | extractors.transfermarkt_extractor | 'Sergi Cardona' -> 'Sergi Cardona' (), score=100.0
+2026-09-07 10:38:13,144 | INFO     | extractors.transfermarkt_extractor | 'Pedri' -> 'Pedri' (), score=100.0
+2026-09-07 10:38:24,177 | INFO     | extractors.transfermarkt_extractor | 'Raphinha' -> 'Raphinha' (), score=100.0
+2026-09-07 10:38:31,718 | INFO     | extractors.transfermarkt_extractor | 'Diego Rico' -> 'Diego Rico' (), score=100.0
+2026-09-07 10:38:45,362 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Karl Jakob Hein' fue 'Karl Hein' con score 75.0 (< umbral 80), se descarta
+2026-09-07 10:38:52,832 | INFO     | extractors.transfermarkt_extractor | 'Dominik Greif' -> 'Dominik Greif' (), score=100.0
+2026-09-07 10:39:03,226 | INFO     | extractors.transfermarkt_extractor | 'Diego López' -> 'Diego López' (), score=100.0
+2026-09-07 10:39:22,978 | INFO     | extractors.transfermarkt_extractor | 'Óscar Mingueza' -> 'Óscar Mingueza' (), score=100.0
+2026-09-07 10:39:37,162 | INFO     | extractors.transfermarkt_extractor | 'Alex Král' -> 'Alex Král' (), score=100.0
+2026-09-07 10:39:46,185 | INFO     | extractors.transfermarkt_extractor | 'Loïc Bade' -> 'Loïc Badé' (), score=88.88888888888889
+2026-09-07 10:39:53,815 | INFO     | extractors.transfermarkt_extractor | 'Ørjan Nyland' -> 'Ørjan Nyland' (), score=100.0
+2026-09-07 10:40:01,618 | INFO     | extractors.transfermarkt_extractor | 'Iñaki Williams' -> 'Iñaki Williams' (), score=100.0
+2026-09-07 10:40:09,306 | INFO     | extractors.transfermarkt_extractor | 'Álex Baena' -> 'Álex Baena' (), score=100.0
+2026-09-07 10:40:17,269 | INFO     | extractors.transfermarkt_extractor | 'Javier Muñoz' -> 'Javier Muñoz' (), score=100.0
+2026-09-07 10:40:24,955 | INFO     | extractors.transfermarkt_extractor | 'Logan Costa' -> 'Logan Costa' (), score=100.0
+2026-09-07 10:40:32,878 | INFO     | extractors.transfermarkt_extractor | 'Javier Guerra' -> 'Javier Guerra' (), score=100.0
+2026-09-07 10:40:40,723 | INFO     | extractors.transfermarkt_extractor | 'Álvaro García' -> 'Álvaro García' (), score=100.0
+2026-09-07 10:40:48,934 | INFO     | extractors.transfermarkt_extractor | 'Luis Pérez' -> 'Luis Pérez' (), score=100.0
+2026-09-07 10:40:57,692 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Kiké' fue 'Kike Pérez' con score 57.14285714285714 (< umbral 80), se descarta
+2026-09-07 10:41:04,902 | INFO     | extractors.transfermarkt_extractor | 'Diego Llorente' -> 'Diego Llorente' (), score=100.0
+2026-09-07 10:41:12,926 | INFO     | extractors.transfermarkt_extractor | 'Marcos Llorente' -> 'Marcos Llorente' (), score=100.0
+2026-09-07 10:41:20,392 | INFO     | extractors.transfermarkt_extractor | 'Julián Álvarez' -> 'Julián Álvarez' (), score=100.0
+2026-09-07 10:41:28,516 | INFO     | extractors.transfermarkt_extractor | 'Iñigo Martínez' -> 'Iñigo Martínez' (), score=100.0
+2026-09-07 10:41:35,841 | INFO     | extractors.transfermarkt_extractor | 'Jude Bellingham' -> 'Jude Bellingham' (), score=100.0
+2026-09-07 10:41:43,628 | INFO     | extractors.transfermarkt_extractor | 'Christantus Uche' -> 'Christantus Uche' (), score=100.0
+2026-09-07 10:41:51,159 | INFO     | extractors.transfermarkt_extractor | 'Scott McKenna' -> 'Scott McKenna' (), score=100.0
+2026-09-07 10:41:58,928 | INFO     | extractors.transfermarkt_extractor | 'Abdel Abqar' -> 'Abdel Abqar' (), score=100.0
+2026-09-07 10:42:06,655 | INFO     | extractors.transfermarkt_extractor | 'Álex Suárez' -> 'Álex Suárez' (), score=100.0
+2026-09-07 10:42:14,445 | INFO     | extractors.transfermarkt_extractor | 'Miguel Gutiérrez' -> 'Miguel Gutiérrez' (), score=100.0
+2026-09-07 10:42:29,452 | INFO     | extractors.transfermarkt_extractor | 'Seydouba Cissé' -> 'Seydouba Cissé' (), score=100.0
+2026-09-07 10:42:37,222 | INFO     | extractors.transfermarkt_extractor | 'David López' -> 'David López' (), score=100.0
+2026-09-07 10:42:44,555 | INFO     | extractors.transfermarkt_extractor | 'Renato Tapia' -> 'Renato Tapia' (), score=100.0
+2026-09-07 10:42:51,912 | INFO     | extractors.transfermarkt_extractor | 'Fran Beltrán' -> 'Fran Beltrán' (), score=100.0
+2026-09-07 10:42:59,958 | INFO     | extractors.transfermarkt_extractor | 'Mika Mármol' -> 'Mika Mármol' (), score=100.0
+2026-09-07 10:43:08,822 | INFO     | extractors.transfermarkt_extractor | 'Javi Hernández' -> 'Javi Hernández' (), score=100.0
+2026-09-07 10:43:16,856 | INFO     | extractors.transfermarkt_extractor | 'Takefusa Kubo' -> 'Takefusa Kubo' (), score=100.0
+2026-09-07 10:43:24,965 | INFO     | extractors.transfermarkt_extractor | 'Raúl Moro' -> 'Raúl Moro' (), score=100.0
+2026-09-07 10:43:32,599 | INFO     | extractors.transfermarkt_extractor | 'Álex Berenguer' -> 'Álex Berenguer' (), score=100.0
+2026-09-07 10:43:39,973 | INFO     | extractors.transfermarkt_extractor | 'Jasper Cillessen' -> 'Jasper Cillessen' (), score=100.0
+2026-09-07 10:43:48,168 | INFO     | extractors.transfermarkt_extractor | 'Pablo Barrios' -> 'Pablo Barrios' (), score=100.0
+2026-09-07 10:43:56,448 | INFO     | extractors.transfermarkt_extractor | 'Thierno Barry' -> 'Thierno Barry' (), score=100.0
+2026-09-07 10:44:04,262 | INFO     | extractors.transfermarkt_extractor | 'Yvan Neyou' -> 'Yvan Neyou' (), score=100.0
+2026-09-07 10:44:11,758 | INFO     | extractors.transfermarkt_extractor | 'Dimitri Foulquier' -> 'Dimitri Foulquier' (), score=100.0
+2026-09-07 10:44:19,062 | INFO     | extractors.transfermarkt_extractor | 'Adrià Pedrosa' -> 'Adrià Pedrosa' (), score=100.0
+2026-09-07 10:44:26,613 | INFO     | extractors.transfermarkt_extractor | 'Antonio Rüdiger' -> 'Antonio Rüdiger' (), score=100.0
+2026-09-07 10:44:34,136 | INFO     | extractors.transfermarkt_extractor | 'Alejandro Balde' -> 'Alejandro Balde' (), score=100.0
+2026-09-07 10:44:41,633 | INFO     | extractors.transfermarkt_extractor | 'Daniel Parejo' -> 'Dani Parejo' (), score=91.66666666666666
+2026-09-07 10:44:49,232 | INFO     | extractors.transfermarkt_extractor | 'Carl Starfelt' -> 'Carl Starfelt' (), score=100.0
+2026-09-07 10:44:56,768 | INFO     | extractors.transfermarkt_extractor | 'Igor Zubeldia' -> 'Igor Zubeldia' (), score=100.0
+2026-09-07 10:45:04,561 | INFO     | extractors.transfermarkt_extractor | 'Yangel Herrera' -> 'Yangel Herrera' (), score=100.0
+2026-09-07 10:45:12,605 | INFO     | extractors.transfermarkt_extractor | 'Juan Cruz' -> 'Juan Cruz' (), score=100.0
+2026-09-07 10:45:20,689 | INFO     | extractors.transfermarkt_extractor | 'Kiko Femenía' -> 'Kiko Femenía' (), score=100.0
+2026-09-07 10:45:28,447 | INFO     | extractors.transfermarkt_extractor | 'Pape Gueye' -> 'Pape Gueye' (), score=100.0
+2026-09-07 10:45:36,826 | INFO     | extractors.transfermarkt_extractor | 'Enzo Barrenechea' -> 'Enzo Barrenechea' (), score=100.0
+2026-09-07 10:45:45,219 | INFO     | extractors.transfermarkt_extractor | 'Lucas Vázquez' -> 'Lucas Vázquez' (), score=100.0
+2026-09-07 10:45:53,713 | INFO     | extractors.transfermarkt_extractor | 'Djibril Sow' -> 'Djibril Sow' (), score=100.0
+2026-09-07 10:46:02,399 | INFO     | extractors.transfermarkt_extractor | 'Fran Garcia' -> 'Fran Garcia' (), score=100.0
+2026-09-07 10:46:10,907 | INFO     | extractors.transfermarkt_extractor | 'Hugo Duro' -> 'Hugo Duro' (), score=100.0
+2026-09-07 10:46:19,150 | INFO     | extractors.transfermarkt_extractor | 'Víctor Chust' -> 'Víctor Chust' (), score=100.0
+2026-09-07 10:46:27,302 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Jofre' fue 'Jofre Mateu' con score 62.5 (< umbral 80), se descarta
+2026-09-07 10:46:31,471 | INFO     | extractors.transfermarkt_extractor | 'Dani Rodríguez' -> 'Dani Rodríguez' (), score=100.0
+2026-09-07 10:46:39,861 | INFO     | extractors.transfermarkt_extractor | 'Pol Lozano' -> 'Pol Lozano' (), score=100.0
+2026-09-07 10:46:48,062 | INFO     | extractors.transfermarkt_extractor | 'Isaac Romero' -> 'Isaac Romero' (), score=100.0
+2026-09-07 10:46:56,547 | INFO     | extractors.transfermarkt_extractor | 'Robin Le Normand' -> 'Robin Le Normand' (), score=100.0
+2026-09-07 10:47:09,239 | INFO     | extractors.transfermarkt_extractor | 'Fernando Calero' -> 'Fernando Calero' (), score=100.0
+2026-09-07 10:47:17,623 | INFO     | extractors.transfermarkt_extractor | 'Victor Parada' -> 'Victor Parada' (), score=100.0
+2026-09-07 10:47:25,952 | INFO     | extractors.transfermarkt_extractor | 'Johnny Cardoso' -> 'Johnny Cardoso' (), score=100.0
+2026-09-07 10:47:34,108 | INFO     | extractors.transfermarkt_extractor | 'Pathé Ciss' -> 'Pathé Ciss' (), score=100.0
+2026-09-07 10:47:42,893 | INFO     | extractors.transfermarkt_extractor | 'Mario Martín' -> 'Mario Martín' (), score=100.0
+2026-09-07 10:47:51,510 | INFO     | extractors.transfermarkt_extractor | 'Gerard Martín' -> 'Gerard Martín' (), score=100.0
+2026-09-07 10:48:08,977 | INFO     | extractors.transfermarkt_extractor | 'Georges Mikautadze' -> 'Georges Mikautadze' (), score=100.0
+2026-09-07 10:48:17,220 | INFO     | extractors.transfermarkt_extractor | 'Óscar Valentín' -> 'Óscar Valentín' (), score=100.0
+2026-09-07 10:48:25,576 | INFO     | extractors.transfermarkt_extractor | 'Rodrigo De Paul' -> 'Rodrigo De Paul' (), score=100.0
+2026-09-07 10:48:33,759 | INFO     | extractors.transfermarkt_extractor | 'Marc Bartra' -> 'Marc Bartra' (), score=100.0
+2026-09-07 10:48:42,210 | INFO     | extractors.transfermarkt_extractor | 'Giuliano Simeone' -> 'Giuliano Simeone' (), score=100.0
+2026-09-07 10:48:50,535 | INFO     | extractors.transfermarkt_extractor | 'Gabriel Suazo' -> 'Gabriel Suazo' (), score=100.0
+2026-09-07 10:48:59,028 | INFO     | extractors.transfermarkt_extractor | 'Jon Guridi' -> 'Jon Guridi' (), score=100.0
+2026-09-07 10:49:07,049 | INFO     | extractors.transfermarkt_extractor | 'Abel Bretones' -> 'Abel Bretones' (), score=100.0
+2026-09-07 10:49:15,446 | INFO     | extractors.transfermarkt_extractor | 'Dani Olmo' -> 'Dani Olmo' (), score=100.0
+2026-09-07 10:49:23,758 | INFO     | extractors.transfermarkt_extractor | 'David Costas' -> 'David Costas' (), score=100.0
+2026-09-07 10:49:31,996 | INFO     | extractors.transfermarkt_extractor | 'Akor Adams' -> 'Akor Adams' (), score=100.0
+2026-09-07 10:49:40,575 | INFO     | extractors.transfermarkt_extractor | 'Santiago Colombatto' -> 'Santiago Colombatto' (), score=100.0
+2026-09-07 10:49:48,994 | INFO     | extractors.transfermarkt_extractor | 'Pedro Bigas' -> 'Pedro Bigas' (), score=100.0
+2026-09-07 10:49:57,557 | INFO     | extractors.transfermarkt_extractor | 'Aymeric Laporte' -> 'Aymeric Laporte' (), score=100.0
+2026-09-07 10:50:05,848 | INFO     | extractors.transfermarkt_extractor | 'Dean Huijsen' -> 'Dean Huijsen' (), score=100.0
+2026-09-07 10:50:14,280 | INFO     | extractors.transfermarkt_extractor | 'Sandro Ramírez' -> 'Sandro Ramírez' (), score=100.0
+2026-09-07 10:50:22,500 | INFO     | extractors.transfermarkt_extractor | 'Marc Roca' -> 'Marc Roca' (), score=100.0
+2026-09-07 10:50:30,812 | INFO     | extractors.transfermarkt_extractor | 'Javi Sánchez' -> 'Javi Sánchez' (), score=100.0
+2026-09-07 10:50:39,484 | INFO     | extractors.transfermarkt_extractor | 'Abdul Mumin' -> 'Abdul Mumin' (), score=100.0
+2026-09-07 10:50:47,979 | INFO     | extractors.transfermarkt_extractor | 'Arda Güler' -> 'Arda Güler' (), score=100.0
+2026-09-07 10:50:56,374 | INFO     | extractors.transfermarkt_extractor | 'Romain Perraud' -> 'Romain Perraud' (), score=100.0
+2026-09-07 10:51:04,681 | INFO     | extractors.transfermarkt_extractor | 'José María Giménez' -> 'José María Giménez' (), score=100.0
+2026-09-07 10:51:12,911 | INFO     | extractors.transfermarkt_extractor | 'Nico Williams' -> 'Nico Williams' (), score=100.0
+2026-09-07 10:51:21,440 | INFO     | extractors.transfermarkt_extractor | 'Juanlu Sánchez' -> 'Juanlu Sánchez' (), score=100.0
+2026-09-07 10:51:29,958 | INFO     | extractors.transfermarkt_extractor | 'Carles Aleñá' -> 'Carles Aleñá' (), score=100.0
+2026-09-07 10:51:38,947 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Viti' fue 'Vitinha' con score 72.72727272727273 (< umbral 80), se descarta
+2026-09-07 10:51:42,956 | INFO     | extractors.transfermarkt_extractor | 'Matías Dituro' -> 'Matías Dituro' (), score=100.0
+2026-09-07 10:51:51,272 | INFO     | extractors.transfermarkt_extractor | 'Alexander Sørloth' -> 'Alexander Sørloth' (), score=100.0
+2026-09-07 10:51:59,756 | INFO     | extractors.transfermarkt_extractor | 'Rafa Marín' -> 'Rafa Marín' (), score=100.0
+2026-09-07 10:52:08,135 | INFO     | extractors.transfermarkt_extractor | 'André Almeida' -> 'André Almeida' (), score=100.0
+2026-09-07 10:52:16,359 | INFO     | extractors.transfermarkt_extractor | 'Pere Milla' -> 'Pere Milla' (), score=100.0
+2026-09-07 10:52:24,846 | INFO     | extractors.transfermarkt_extractor | 'Sergi Altimira' -> 'Sergi Altimira' (), score=100.0
+2026-09-07 10:52:33,130 | INFO     | extractors.transfermarkt_extractor | 'Clément Lenglet' -> 'Clément Lenglet' (), score=100.0
+2026-09-07 10:52:41,458 | INFO     | extractors.transfermarkt_extractor | 'Ayoze Pérez' -> 'Ayoze Pérez' (), score=100.0
+2026-09-07 10:52:49,518 | INFO     | extractors.transfermarkt_extractor | 'Ferran Torres' -> 'Ferran Torres' (), score=100.0
+2026-09-07 10:52:57,729 | INFO     | extractors.transfermarkt_extractor | 'Diego Conde' -> 'Diego Conde' (), score=100.0
+2026-09-07 10:53:05,832 | INFO     | extractors.transfermarkt_extractor | 'Lucas Boyé' -> 'Lucas Boyé' (), score=100.0
+2026-09-07 10:53:15,838 | INFO     | extractors.transfermarkt_extractor | 'Borja Iglesias' -> 'Borja Iglesias' (), score=100.0
+2026-09-07 10:53:24,388 | INFO     | extractors.transfermarkt_extractor | 'Haissem Hassan' -> 'Haissem Hassan' (), score=100.0
+2026-09-07 10:53:32,831 | INFO     | extractors.transfermarkt_extractor | 'Vladyslav Vanat' -> 'Vladyslav Vanat' (), score=100.0
+2026-09-07 10:53:40,894 | INFO     | extractors.transfermarkt_extractor | 'Dario Essugo' -> 'Dário Essugo' (), score=91.66666666666666
+2026-09-07 10:53:49,381 | INFO     | extractors.transfermarkt_extractor | 'Javi López' -> 'Javi López' (), score=100.0
+2026-09-07 10:53:57,917 | INFO     | extractors.transfermarkt_extractor | 'Yéremy Pino' -> 'Yéremy Pino' (), score=100.0
+2026-09-07 10:54:06,344 | INFO     | extractors.transfermarkt_extractor | 'Rodrygo' -> 'Rodrygo' (), score=100.0
+2026-09-07 10:54:14,708 | INFO     | extractors.transfermarkt_extractor | 'Pau Navarro' -> 'Pau Navarro' (), score=100.0
+2026-09-07 10:54:23,353 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Lucas Oliveira Rosa' fue 'Lucas Rosa' con score 68.96551724137932 (< umbral 80), se descarta
+2026-09-07 10:54:27,688 | INFO     | extractors.transfermarkt_extractor | 'Carlos Álvarez' -> 'Carlos Álvarez' (), score=100.0
+2026-09-07 10:54:36,201 | INFO     | extractors.transfermarkt_extractor | 'Valentín Gómez' -> 'Valentín Gómez' (), score=100.0
+2026-09-07 10:54:44,595 | INFO     | extractors.transfermarkt_extractor | 'Dani Raba' -> 'Dani Raba' (), score=100.0
+2026-09-07 10:54:53,134 | INFO     | extractors.transfermarkt_extractor | 'Pedro Díaz' -> 'Pedro Díaz' (), score=100.0
+2026-09-07 10:55:01,434 | INFO     | extractors.transfermarkt_extractor | 'Moussa Diarra' -> 'Moussa Diarra' (), score=100.0
+2026-09-07 10:55:10,016 | INFO     | extractors.transfermarkt_extractor | 'Fábio Silva' -> 'Fábio Silva' (), score=100.0
+2026-09-07 10:55:17,995 | INFO     | extractors.transfermarkt_extractor | 'Pablo Martínez' -> 'Pablo Martínez' (), score=100.0
+2026-09-07 10:55:26,833 | INFO     | extractors.transfermarkt_extractor | 'André Silva' -> 'André Silva' (), score=100.0
+2026-09-07 10:55:34,598 | INFO     | extractors.transfermarkt_extractor | 'Oliver McBurnie' -> 'Oli McBurnie' (), score=88.88888888888889
+2026-09-07 10:55:42,448 | INFO     | extractors.transfermarkt_extractor | 'Bryan Zaragoza' -> 'Bryan Zaragoza' (), score=100.0
+2026-09-07 10:55:58,136 | INFO     | extractors.transfermarkt_extractor | 'Gonçalo Guedes' -> 'Gonçalo Guedes' (), score=100.0
+2026-09-07 10:56:05,725 | INFO     | extractors.transfermarkt_extractor | 'Héctor Bellerín' -> 'Héctor Bellerín' (), score=100.0
+2026-09-07 10:56:13,609 | INFO     | extractors.transfermarkt_extractor | 'Tajon Buchanan' -> 'Tajon Buchanan' (), score=100.0
+2026-09-07 10:56:21,152 | INFO     | extractors.transfermarkt_extractor | 'Aitor Paredes' -> 'Aitor Paredes' (), score=100.0
+2026-09-07 10:56:29,885 | INFO     | extractors.transfermarkt_extractor | 'Aitor Ruibal' -> 'Aitor Ruibal' (), score=100.0
+2026-09-07 10:56:38,030 | INFO     | extractors.transfermarkt_extractor | 'Rafa Mir' -> 'Rafa Mir' (), score=100.0
+2026-09-07 10:56:46,263 | INFO     | extractors.transfermarkt_extractor | 'Stole Dimitrievski' -> 'Stole Dimitrievski' (), score=100.0
+2026-09-07 10:56:54,297 | INFO     | extractors.transfermarkt_extractor | 'Nobel Mendy' -> 'Nobel Mendy' (), score=100.0
+2026-09-07 10:57:13,468 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fermin López' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Fermin+L%C3%B3pez (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd86065bd0>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 10:57:25,740 | INFO     | extractors.transfermarkt_extractor | 'Jan Virgili' -> 'Jan Virgili' (), score=100.0
+2026-09-07 10:57:34,062 | INFO     | extractors.transfermarkt_extractor | 'Oihan Sancet' -> 'Oihan Sancet' (), score=100.0
+2026-09-07 10:57:42,415 | INFO     | extractors.transfermarkt_extractor | 'David Carmo' -> 'David Carmo' (), score=100.0
+2026-09-07 10:57:50,798 | INFO     | extractors.transfermarkt_extractor | 'Javi Galán' -> 'Javi Galán' (), score=100.0
+2026-09-07 10:58:00,983 | INFO     | extractors.transfermarkt_extractor | 'Yeray Álvarez' -> 'Yeray Álvarez' (), score=100.0
+2026-09-07 10:58:09,108 | INFO     | extractors.transfermarkt_extractor | 'Eray Cömert' -> 'Eray Cömert' (), score=100.0
+2026-09-07 10:58:17,675 | INFO     | extractors.transfermarkt_extractor | 'Matteo Ruggeri' -> 'Matteo Ruggeri' (), score=100.0
+2026-09-07 10:58:25,683 | INFO     | extractors.transfermarkt_extractor | 'Manu Morlanes' -> 'Manu Morlanes' (), score=100.0
+2026-09-07 10:58:34,091 | INFO     | extractors.transfermarkt_extractor | 'Cyle Larin' -> 'Cyle Larin' (), score=100.0
+2026-09-07 10:58:42,253 | INFO     | extractors.transfermarkt_extractor | 'Marcus Rashford' -> 'Marcus Rashford' (), score=100.0
+2026-09-07 10:58:50,643 | INFO     | extractors.transfermarkt_extractor | 'Ander Barrenetxea' -> 'Ander Barrenetxea' (), score=100.0
+2026-09-07 10:58:59,150 | INFO     | extractors.transfermarkt_extractor | 'Nayef Aguerd' -> 'Nayef Aguerd' (), score=100.0
+2026-09-07 10:59:07,223 | INFO     | extractors.transfermarkt_extractor | 'Azzedine Ounahi' -> 'Azzedine Ounahi' (), score=100.0
+2026-09-07 10:59:15,433 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Copete' fue 'José Copete' con score 70.58823529411764 (< umbral 80), se descarta
+2026-09-07 10:59:19,602 | INFO     | extractors.transfermarkt_extractor | 'Kirian Rodríguez' -> 'Kirian Rodríguez' (), score=100.0
+2026-09-07 10:59:28,352 | INFO     | extractors.transfermarkt_extractor | 'Hugo Rincón' -> 'Hugo Rincón' (), score=100.0
+2026-09-07 10:59:37,283 | INFO     | extractors.transfermarkt_extractor | 'Iago Aspas' -> 'Iago Aspas' (), score=100.0
+2026-09-07 10:59:45,434 | INFO     | extractors.transfermarkt_extractor | 'Jon Pacheco' -> 'Jon Pacheco' (), score=100.0
+2026-09-07 11:00:00,467 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo Transfermarkt https://www.transfermarkt.com/jon-pacheco/profil/spieler/580560: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /jon-pacheco/profil/spieler/580560 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd88d7a850>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:00:04,737 | INFO     | extractors.transfermarkt_extractor | 'Olasagasti' -> 'José Olasagasti' (), score=80.0
+2026-09-07 11:00:22,980 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Miguel' fue 'Miguel Muñoz' con score 66.66666666666667 (< umbral 80), se descarta
+2026-09-07 11:00:27,181 | INFO     | extractors.transfermarkt_extractor | 'Bryan Gil' -> 'Bryan Gil' (), score=100.0
+2026-09-07 11:00:35,934 | INFO     | extractors.transfermarkt_extractor | 'Anuar' -> 'Anuar' (), score=100.0
+2026-09-07 11:00:44,032 | INFO     | extractors.transfermarkt_extractor | 'Beñat Prados' -> 'Beñat Prados' (), score=100.0
+2026-09-07 11:00:49,559 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Rahim Bonkano'
+2026-09-07 11:00:57,522 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Adrián' fue 'Adriano' con score 76.92307692307692 (< umbral 80), se descarta
+2026-09-07 11:01:01,445 | INFO     | extractors.transfermarkt_extractor | 'Raúl Asencio' -> 'Raúl Asencio' (), score=100.0
+2026-09-07 11:01:09,451 | INFO     | extractors.transfermarkt_extractor | 'Unai López' -> 'Unai López' (), score=100.0
+2026-09-07 11:01:17,728 | INFO     | extractors.transfermarkt_extractor | 'Adrián Liso' -> 'Adrián Liso' (), score=100.0
+2026-09-07 11:01:26,009 | INFO     | extractors.transfermarkt_extractor | 'Mateo Joseph' -> 'Mateo Joseph' (), score=100.0
+2026-09-07 11:01:34,011 | INFO     | extractors.transfermarkt_extractor | 'Jorge Sáenz' -> 'Jorge Sáenz' (), score=100.0
+2026-09-07 11:01:42,221 | INFO     | extractors.transfermarkt_extractor | 'Alfonso Pedraza' -> 'Alfonso Pedraza' (), score=100.0
+2026-09-07 11:01:50,314 | INFO     | extractors.transfermarkt_extractor | 'Kwasi Sibo' -> 'Kwasi Sibo' (), score=100.0
+2026-09-07 11:01:58,500 | INFO     | extractors.transfermarkt_extractor | 'Brais Méndez' -> 'Brais Méndez' (), score=100.0
+2026-09-07 11:02:06,658 | INFO     | extractors.transfermarkt_extractor | 'Ferran Jutglà' -> 'Ferran Jutglà' (), score=100.0
+2026-09-07 11:02:14,913 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Núñez' -> 'Álvaro Núñez' (), score=100.0
+2026-09-07 11:02:23,260 | INFO     | extractors.transfermarkt_extractor | 'Frenkie de Jong' -> 'Frenkie de Jong' (), score=100.0
+2026-09-07 11:02:31,474 | INFO     | extractors.transfermarkt_extractor | 'Conor Gallagher' -> 'Conor Gallagher' (), score=100.0
+2026-09-07 11:02:39,721 | INFO     | extractors.transfermarkt_extractor | 'Adrià Altimira' -> 'Adrià Altimira' (), score=100.0
+2026-09-07 11:02:48,110 | INFO     | extractors.transfermarkt_extractor | 'Arnaut Danjuma' -> 'Arnaut Danjuma' (), score=100.0
+2026-09-07 11:02:56,540 | INFO     | extractors.transfermarkt_extractor | 'Julen Agirrezabala' -> 'Julen Agirrezabala' (), score=100.0
+2026-09-07 11:03:04,823 | INFO     | extractors.transfermarkt_extractor | 'Darko Brašanac' -> 'Darko Brasanac' (), score=92.85714285714286
+2026-09-07 11:03:13,036 | INFO     | extractors.transfermarkt_extractor | 'Batista Mendy' -> 'Batista Mendy' (), score=100.0
+2026-09-07 11:03:21,607 | INFO     | extractors.transfermarkt_extractor | 'Dani Calvo' -> 'Dani Calvo' (), score=100.0
+2026-09-07 11:03:29,671 | INFO     | extractors.transfermarkt_extractor | 'Marc Casado' -> 'Marc Casadó' (), score=90.9090909090909
+2026-09-07 11:03:34,938 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Adri Embarba'
+2026-09-07 11:03:42,337 | INFO     | extractors.transfermarkt_extractor | 'Martin Satriano' -> 'Martín Satriano' (), score=93.33333333333333
+2026-09-07 11:03:50,622 | INFO     | extractors.transfermarkt_extractor | 'Jorge Herrando' -> 'Jorge Herrando' (), score=100.0
+2026-09-07 11:03:59,032 | INFO     | extractors.transfermarkt_extractor | 'Pablo Torre' -> 'Pablo Torre' (), score=100.0
+2026-09-07 11:04:07,269 | INFO     | extractors.transfermarkt_extractor | 'Ruben Vargas' -> 'Rubén Vargas' (), score=91.66666666666666
+2026-09-07 11:04:15,628 | INFO     | extractors.transfermarkt_extractor | 'Nahuel Molina' -> 'Nahuel Molina' (), score=100.0
+2026-09-07 11:04:23,864 | INFO     | extractors.transfermarkt_extractor | 'Mamadou Sylla' -> 'Mamadou Sylla' (), score=100.0
+2026-09-07 11:04:32,468 | INFO     | extractors.transfermarkt_extractor | 'Youssouf Sabaly' -> 'Youssouf Sabaly' (), score=100.0
+2026-09-07 11:04:40,985 | INFO     | extractors.transfermarkt_extractor | 'Hugo Álvarez' -> 'Hugo Álvarez' (), score=100.0
+2026-09-07 11:04:49,216 | INFO     | extractors.transfermarkt_extractor | 'Léo Pétrot' -> 'Léo Pétrot' (), score=100.0
+2026-09-07 11:04:57,485 | INFO     | extractors.transfermarkt_extractor | 'Óscar de Marcos' -> 'Óscar de Marcos' (), score=100.0
+2026-09-07 11:05:05,870 | INFO     | extractors.transfermarkt_extractor | 'Saúl Ñíguez' -> 'Saúl Ñíguez' (), score=100.0
+2026-09-07 11:05:14,169 | INFO     | extractors.transfermarkt_extractor | 'Samuel Lino' -> 'Samuel Lino' (), score=100.0
+2026-09-07 11:05:22,525 | INFO     | extractors.transfermarkt_extractor | 'Ricardo Rodríguez' -> 'Ricardo Rodríguez' (), score=100.0
+2026-09-07 11:05:31,374 | INFO     | extractors.transfermarkt_extractor | 'Isco' -> 'Isco' (), score=100.0
+2026-09-07 11:05:39,586 | INFO     | extractors.transfermarkt_extractor | 'Kervin Arriaga' -> 'Kervin Arriaga' (), score=100.0
+2026-09-07 11:05:47,896 | INFO     | extractors.transfermarkt_extractor | 'Eduardo Camavinga' -> 'Eduardo Camavinga' (), score=100.0
+2026-09-07 11:05:55,992 | INFO     | extractors.transfermarkt_extractor | 'Juan Foyth' -> 'Juan Foyth' (), score=100.0
+2026-09-07 11:06:04,368 | INFO     | extractors.transfermarkt_extractor | 'Filip Ugrinic' -> 'Filip Ugrinic' (), score=100.0
+2026-09-07 11:06:12,394 | INFO     | extractors.transfermarkt_extractor | 'Pablo Marín' -> 'Pablo Marín' (), score=100.0
+2026-09-07 11:06:17,815 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Juan Cruz Armada'
+2026-09-07 11:06:24,900 | INFO     | extractors.transfermarkt_extractor | 'Alfonso Espino' -> 'Alfonso Espino' (), score=100.0
+2026-09-07 11:06:34,541 | INFO     | extractors.transfermarkt_extractor | 'Andoni Gorosabel' -> 'Andoni Gorosabel' (), score=100.0
+2026-09-07 11:06:42,656 | INFO     | extractors.transfermarkt_extractor | 'Joel Roca' -> 'Joel Roca' (), score=100.0
+2026-09-07 11:06:51,057 | INFO     | extractors.transfermarkt_extractor | 'Albert Sambi Lokonga' -> 'Albert Sambi Lokonga' (), score=100.0
+2026-09-07 11:07:02,006 | INFO     | extractors.transfermarkt_extractor | 'Giovani Lo Celso' -> 'Giovani Lo Celso' (), score=100.0
+2026-09-07 11:07:10,419 | INFO     | extractors.transfermarkt_extractor | 'Aritz Elustondo' -> 'Aritz Elustondo' (), score=100.0
+2026-09-07 11:07:19,074 | INFO     | extractors.transfermarkt_extractor | 'Nicolás González' -> 'Nicolás González' (), score=100.0
+2026-09-07 11:07:27,320 | INFO     | extractors.transfermarkt_extractor | 'Iñaki Peña' -> 'Iñaki Peña' (), score=100.0
+2026-09-07 11:07:36,094 | INFO     | extractors.transfermarkt_extractor | 'Carles Pérez' -> 'Carles Pérez' (), score=100.0
+2026-09-07 11:07:44,270 | INFO     | extractors.transfermarkt_extractor | 'Pablo Durán' -> 'Pablo Durán' (), score=100.0
+2026-09-07 11:07:52,434 | INFO     | extractors.transfermarkt_extractor | 'Donny van de Beek' -> 'Donny van de Beek' (), score=100.0
+2026-09-07 11:08:00,658 | INFO     | extractors.transfermarkt_extractor | 'Karl Etta Eyong' -> 'Karl Etta Eyong' (), score=100.0
+2026-09-07 11:08:19,767 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Muñoz' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+Mu%C3%B1oz (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd88d7b250>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:08:24,001 | INFO     | extractors.transfermarkt_extractor | 'Joan Jordán' -> 'Joan Jordán' (), score=100.0
+2026-09-07 11:08:32,165 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Joaquín Martínez Gauna' fue 'Oso' con score 7.9999999999999964 (< umbral 80), se descarta
+2026-09-07 11:08:36,317 | INFO     | extractors.transfermarkt_extractor | 'Denis Suárez' -> 'Denis Suárez' (), score=100.0
+2026-09-07 11:08:44,666 | INFO     | extractors.transfermarkt_extractor | 'Yaser Asprilla' -> 'Yáser Asprilla' (), score=92.85714285714286
+2026-09-07 11:08:58,831 | INFO     | extractors.transfermarkt_extractor | 'Iván Sánchez' -> 'Iván Sánchez' (), score=100.0
+2026-09-07 11:09:07,351 | INFO     | extractors.transfermarkt_extractor | 'Javi Rueda' -> 'Javi Rueda' (), score=100.0
+2026-09-07 11:09:15,821 | INFO     | extractors.transfermarkt_extractor | 'Juanmi Latasa' -> 'Juanmi Latasa' (), score=100.0
+2026-09-07 11:09:24,755 | INFO     | extractors.transfermarkt_extractor | 'Clemens Riedel' -> 'Clemens Riedel' (), score=100.0
+2026-09-07 11:09:33,817 | INFO     | extractors.transfermarkt_extractor | 'Antonio Sánchez' -> 'Antonio Sánchez' (), score=100.0
+2026-09-07 11:09:41,957 | INFO     | extractors.transfermarkt_extractor | 'Thierry Correia' -> 'Thierry Correia' (), score=100.0
+2026-09-07 11:09:50,564 | INFO     | extractors.transfermarkt_extractor | 'David Torres' -> 'David Torres' (), score=100.0
+2026-09-07 11:09:59,609 | INFO     | extractors.transfermarkt_extractor | 'Brahim Díaz' -> 'Brahim Díaz' (), score=100.0
+2026-09-07 11:10:07,778 | INFO     | extractors.transfermarkt_extractor | 'Marc Pubill' -> 'Marc Pubill' (), score=100.0
+2026-09-07 11:10:16,085 | INFO     | extractors.transfermarkt_extractor | 'Selim Amallah' -> 'Selim Amallah' (), score=100.0
+2026-09-07 11:10:24,614 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Alfon' fue 'Alfonso Fraile' con score 52.63157894736843 (< umbral 80), se descarta
+2026-09-07 11:10:28,753 | INFO     | extractors.transfermarkt_extractor | 'Lucas Beltrán' -> 'Lucas Beltrán' (), score=100.0
+2026-09-07 11:10:36,894 | INFO     | extractors.transfermarkt_extractor | 'Oriol Romeu' -> 'Oriol Romeu' (), score=100.0
+2026-09-07 11:10:45,647 | INFO     | extractors.transfermarkt_extractor | 'Rui Silva' -> 'Rui Silva' (), score=100.0
+2026-09-07 11:11:02,282 | INFO     | extractors.transfermarkt_extractor | 'Zaid Romero' -> 'Zaid Romero' (), score=100.0
+2026-09-07 11:11:10,604 | INFO     | extractors.transfermarkt_extractor | 'Beñat Turrientes' -> 'Beñat Turrientes' (), score=100.0
+2026-09-07 11:11:18,771 | INFO     | extractors.transfermarkt_extractor | 'Williot Swedberg' -> 'Williot Swedberg' (), score=100.0
+2026-09-07 11:11:26,796 | INFO     | extractors.transfermarkt_extractor | 'Martim Neto' -> 'Martim Neto' (), score=100.0
+2026-09-07 11:11:34,968 | INFO     | extractors.transfermarkt_extractor | 'Abel Ruiz' -> 'Abel Ruiz' (), score=100.0
+2026-09-07 11:11:43,334 | INFO     | extractors.transfermarkt_extractor | 'Gerard Moreno' -> 'Gerard Moreno' (), score=100.0
+2026-09-07 11:11:51,583 | INFO     | extractors.transfermarkt_extractor | 'Carlos Espí' -> 'Carlos Espí' (), score=100.0
+2026-09-07 11:11:59,667 | INFO     | extractors.transfermarkt_extractor | 'Hugo Sotelo' -> 'Hugo Sotelo' (), score=100.0
+2026-09-07 11:12:07,737 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Youssef Lekhedim' fue 'Youssef Enríquez' con score 62.5 (< umbral 80), se descarta
+2026-09-07 11:12:12,379 | INFO     | extractors.transfermarkt_extractor | 'Carlos Martín' -> 'Carlos Martín' (), score=100.0
+2026-09-07 11:12:20,450 | INFO     | extractors.transfermarkt_extractor | 'Óscar Rodríguez Arnaiz' -> 'Óscar Rodríguez' (), score=81.08108108108108
+2026-09-07 11:12:28,517 | INFO     | extractors.transfermarkt_extractor | 'Leander Dendoncker' -> 'Leander Dendoncker' (), score=100.0
+2026-09-07 11:12:36,598 | INFO     | extractors.transfermarkt_extractor | 'Oriol Rey' -> 'Oriol Rey' (), score=100.0
+2026-09-07 11:12:44,806 | INFO     | extractors.transfermarkt_extractor | 'Juanma Herzog' -> 'Juanma Herzog' (), score=100.0
+2026-09-07 11:12:52,889 | INFO     | extractors.transfermarkt_extractor | 'Miguel Román' -> 'Miguel Román' (), score=100.0
+2026-09-07 11:13:01,319 | INFO     | extractors.transfermarkt_extractor | 'Thiago Almada' -> 'Thiago Almada' (), score=100.0
+2026-09-07 11:13:09,627 | INFO     | extractors.transfermarkt_extractor | 'Guido Rodríguez' -> 'Guido Rodríguez' (), score=100.0
+2026-09-07 11:13:18,357 | INFO     | extractors.transfermarkt_extractor | 'Alexis Sánchez' -> 'Alexis Sánchez' (), score=100.0
+2026-09-07 11:13:26,741 | INFO     | extractors.transfermarkt_extractor | 'Roberto Navarro' -> 'Roberto Navarro' (), score=100.0
+2026-09-07 11:13:34,808 | INFO     | extractors.transfermarkt_extractor | 'Sofyan Amrabat' -> 'Sofyan Amrabat' (), score=100.0
+2026-09-07 11:13:43,263 | INFO     | extractors.transfermarkt_extractor | 'Ángel Pérez' -> 'Ángel Pérez' (), score=100.0
+2026-09-07 11:13:51,459 | INFO     | extractors.transfermarkt_extractor | 'Unai Gómez' -> 'Unai Gómez' (), score=100.0
+2026-09-07 11:13:59,481 | INFO     | extractors.transfermarkt_extractor | 'Alejandro Rego' -> 'Alejandro Rego' (), score=100.0
+2026-09-07 11:14:07,526 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Castrin' fue 'Pablo Castrín' con score 60.0 (< umbral 80), se descarta
+2026-09-07 11:14:11,785 | INFO     | extractors.transfermarkt_extractor | 'Thomas Lemar' -> 'Thomas Lemar' (), score=100.0
+2026-09-07 11:14:19,969 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Tejero' -> 'Álvaro Tejero' (), score=100.0
+2026-09-07 11:14:28,330 | INFO     | extractors.transfermarkt_extractor | 'Francisco Perez' -> 'Francisco Pérez' (), score=93.33333333333333
+2026-09-07 11:14:36,603 | INFO     | extractors.transfermarkt_extractor | 'Vitor Roque' -> 'Vitor Roque' (), score=100.0
+2026-09-07 11:14:44,871 | INFO     | extractors.transfermarkt_extractor | 'Eric Bailly' -> 'Eric Bailly' (), score=100.0
+2026-09-07 11:14:53,049 | INFO     | extractors.transfermarkt_extractor | 'Largie Ramazani' -> 'Largie Ramazani' (), score=100.0
+2026-09-07 11:15:01,392 | INFO     | extractors.transfermarkt_extractor | 'Ramón Terrats' -> 'Ramón Terrats' (), score=100.0
+2026-09-07 11:15:09,920 | INFO     | extractors.transfermarkt_extractor | 'Dani Ceballos' -> 'Dani Ceballos' (), score=100.0
+2026-09-07 11:15:17,920 | INFO     | extractors.transfermarkt_extractor | 'César Azpilicueta' -> 'César Azpilicueta' (), score=100.0
+2026-09-07 11:15:26,511 | INFO     | extractors.transfermarkt_extractor | 'Moi Gómez' -> 'Moi Gómez' (), score=100.0
+2026-09-07 11:15:34,827 | INFO     | extractors.transfermarkt_extractor | 'Iván Balliu' -> 'Iván Balliu' (), score=100.0
+2026-09-07 11:15:43,019 | INFO     | extractors.transfermarkt_extractor | 'Diego' -> 'Diego' (), score=100.0
+2026-09-07 11:15:51,008 | INFO     | extractors.transfermarkt_extractor | 'Luis Vázquez' -> 'Luis Vázquez' (), score=100.0
+2026-09-07 11:15:58,887 | INFO     | extractors.transfermarkt_extractor | 'Kike Pérez' -> 'Kike Pérez' (), score=100.0
+2026-09-07 11:16:06,639 | INFO     | extractors.transfermarkt_extractor | 'José Campaña' -> 'José Campaña' (), score=100.0
+2026-09-07 11:16:15,255 | INFO     | extractors.transfermarkt_extractor | 'Raúl Albiol' -> 'Raúl Albiol' (), score=100.0
+2026-09-07 11:16:24,106 | INFO     | extractors.transfermarkt_extractor | 'Marcos André' -> 'Marcos André' (), score=100.0
+2026-09-07 11:16:32,359 | INFO     | extractors.transfermarkt_extractor | 'Carlos Dominguez' -> 'Carlos Dominguez' (), score=100.0
+2026-09-07 11:16:39,780 | INFO     | extractors.transfermarkt_extractor | 'Gerard Gumbau' -> 'Gerard Gumbau' (), score=100.0
+2026-09-07 11:16:47,385 | INFO     | extractors.transfermarkt_extractor | 'Alejandro Francés' -> 'Alejandro Francés' (), score=100.0
+2026-09-07 11:16:55,035 | INFO     | extractors.transfermarkt_extractor | 'Fer López' -> 'Fer López' (), score=100.0
+2026-09-07 11:17:03,021 | INFO     | extractors.transfermarkt_extractor | 'Trent Alexander-Arnold' -> 'Trent Alexander-Arnold' (), score=100.0
+2026-09-07 11:17:11,241 | INFO     | extractors.transfermarkt_extractor | 'Éder Militão' -> 'Éder Militão' (), score=100.0
+2026-09-07 11:17:19,765 | INFO     | extractors.transfermarkt_extractor | 'Alexandre Alemão' -> 'Alexandre Alemão' (), score=100.0
+2026-09-07 11:17:27,864 | INFO     | extractors.transfermarkt_extractor | 'Sergio Camello' -> 'Sergio Camello' (), score=100.0
+2026-09-07 11:17:35,786 | INFO     | extractors.transfermarkt_extractor | 'Peque' -> 'Peque' (), score=100.0
+2026-09-07 11:17:43,505 | INFO     | extractors.transfermarkt_extractor | 'Kareem Tunde' -> 'Kareem Tunde' (), score=100.0
+2026-09-07 11:17:54,037 | INFO     | extractors.transfermarkt_extractor | 'Randy Nteka' -> 'Randy Nteka' (), score=100.0
+2026-09-07 11:18:04,959 | INFO     | extractors.transfermarkt_extractor | 'Alejo Véliz' -> 'Alejo Veliz' (), score=90.9090909090909
+2026-09-07 11:18:15,660 | INFO     | extractors.transfermarkt_extractor | 'Willy Kambwala' -> 'Willy Kambwala' (), score=100.0
+2026-09-07 11:18:27,243 | INFO     | extractors.transfermarkt_extractor | 'Borja Mayoral' -> 'Borja Mayoral' (), score=100.0
+2026-09-07 11:18:35,899 | INFO     | extractors.transfermarkt_extractor | 'Jesus Rodríguez' -> 'Jesús Rodríguez' (), score=93.33333333333333
+2026-09-07 11:18:43,836 | INFO     | extractors.transfermarkt_extractor | 'Adama Boiro' -> 'Adama Boiro' (), score=100.0
+2026-09-07 11:18:51,960 | INFO     | extractors.transfermarkt_extractor | 'Aihen Muñoz' -> 'Aihen Muñoz' (), score=100.0
+2026-09-07 11:18:59,994 | INFO     | extractors.transfermarkt_extractor | 'Lucas Ahijado' -> 'Lucas Ahijado' (), score=100.0
+2026-09-07 11:19:08,490 | INFO     | extractors.transfermarkt_extractor | 'Gavi' -> 'Gavi' (), score=100.0
+2026-09-07 11:19:16,994 | INFO     | extractors.transfermarkt_extractor | 'Dinko Horkaš' -> 'Dinko Horkas' (), score=91.66666666666666
+2026-09-07 11:19:32,023 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo Transfermarkt https://www.transfermarkt.com/dinko-horkas/profil/spieler/357770: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /dinko-horkas/profil/spieler/357770 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd88d7a850>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:19:44,237 | INFO     | extractors.transfermarkt_extractor | 'Cristhian Stuani' -> 'Cristhian Stuani' (), score=100.0
+2026-09-07 11:19:52,685 | INFO     | extractors.transfermarkt_extractor | 'Ronald Araújo' -> 'Ronald Araujo' (), score=92.3076923076923
+2026-09-07 11:20:00,827 | INFO     | extractors.transfermarkt_extractor | 'Juan Berrocal' -> 'Juan Berrocal' (), score=100.0
+2026-09-07 11:20:08,962 | INFO     | extractors.transfermarkt_extractor | 'Takuma Asano' -> 'Takuma Asano' (), score=100.0
+2026-09-07 11:20:17,773 | INFO     | extractors.transfermarkt_extractor | 'Raúl' -> 'Raúl' (), score=100.0
+2026-09-07 11:20:26,431 | INFO     | extractors.transfermarkt_extractor | 'Víctor García' -> 'Víctor García' (), score=100.0
+2026-09-07 11:20:35,080 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Marvin' fue 'Marvin Young' con score 66.66666666666667 (< umbral 80), se descarta
+2026-09-07 11:20:39,303 | INFO     | extractors.transfermarkt_extractor | 'Franco Mastantuono' -> 'Franco Mastantuono' (), score=100.0
+2026-09-07 11:20:54,335 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo Transfermarkt https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1057316: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /franco-mastantuono/profil/spieler/1057316 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd86066210>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:20:58,386 | INFO     | extractors.transfermarkt_extractor | 'Salomón Rondón' -> 'Salomón Rondón' (), score=100.0
+2026-09-07 11:21:06,625 | INFO     | extractors.transfermarkt_extractor | 'Alex Sola' -> 'Alex Sola' (), score=100.0
+2026-09-07 11:21:14,978 | INFO     | extractors.transfermarkt_extractor | 'Aridane Hernández' -> 'Aridane Hernández' (), score=100.0
+2026-09-07 11:21:24,122 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Antoniu' fue 'Antoniu Roca' con score 73.6842105263158 (< umbral 80), se descarta
+2026-09-07 11:21:28,364 | INFO     | extractors.transfermarkt_extractor | 'Nicolas Fonseca' -> 'Nicolás Fonseca' (), score=93.33333333333333
+2026-09-07 11:21:36,852 | INFO     | extractors.transfermarkt_extractor | 'Brian Oliván' -> 'Brian Oliván' (), score=100.0
+2026-09-07 11:21:45,082 | INFO     | extractors.transfermarkt_extractor | 'Coba da Costa' -> 'Coba da Costa' (), score=100.0
+2026-09-07 11:21:53,254 | INFO     | extractors.transfermarkt_extractor | 'Ferland Mendy' -> 'Ferland Mendy' (), score=100.0
+2026-09-07 11:21:59,036 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Brugui'
+2026-09-07 11:22:06,269 | INFO     | extractors.transfermarkt_extractor | 'Manuel Fuster' -> 'Manuel Fuster' (), score=100.0
+2026-09-07 11:22:18,448 | INFO     | extractors.transfermarkt_extractor | 'Sheraldo Becker' -> 'Sheraldo Becker' (), score=100.0
+2026-09-07 11:22:26,908 | INFO     | extractors.transfermarkt_extractor | 'Mikel Vesga' -> 'Mikel Vesga' (), score=100.0
+2026-09-07 11:22:35,379 | INFO     | extractors.transfermarkt_extractor | 'Dani Carvajal' -> 'Daniel Carvajal' (), score=92.85714285714286
+2026-09-07 11:22:43,590 | INFO     | extractors.transfermarkt_extractor | 'Jesus Vazquez' -> 'Jesús Vázquez' (), score=84.61538461538461
+2026-09-07 11:22:51,062 | INFO     | extractors.transfermarkt_extractor | 'Stefan Bajcetic' -> 'Stefan Bajcetic' (), score=100.0
+2026-09-07 11:22:58,415 | INFO     | extractors.transfermarkt_extractor | 'Chidera Ejuke' -> 'Chidera Ejuke' (), score=100.0
+2026-09-07 11:23:06,259 | INFO     | extractors.transfermarkt_extractor | 'Gonzalo García' -> 'Gonzalo García' (), score=100.0
+2026-09-07 11:23:13,622 | INFO     | extractors.transfermarkt_extractor | 'Unai Elgezabal' -> 'Unai Elgezabal' (), score=100.0
+2026-09-07 11:23:21,084 | INFO     | extractors.transfermarkt_extractor | 'João Cancelo' -> 'João Cancelo' (), score=100.0
+2026-09-07 11:23:28,504 | INFO     | extractors.transfermarkt_extractor | 'Iker Muñoz' -> 'Iker Muñoz' (), score=100.0
+2026-09-07 11:23:38,254 | INFO     | extractors.transfermarkt_extractor | 'Yarek Gasiorowski' -> 'Yarek Gasiorowski' (), score=100.0
+2026-09-07 11:23:45,868 | INFO     | extractors.transfermarkt_extractor | 'Alan Matturro' -> 'Alan Matturro' (), score=100.0
+2026-09-07 11:23:53,103 | INFO     | extractors.transfermarkt_extractor | 'Orri Steinn Óskarsson' -> 'Orri Óskarsson' (), score=80.0
+2026-09-07 11:24:00,470 | INFO     | extractors.transfermarkt_extractor | 'Arthur Melo' -> 'Arthur Melo' (), score=100.0
+2026-09-07 11:24:07,798 | INFO     | extractors.transfermarkt_extractor | 'Reinildo Mandava' -> 'Reinildo Mandava' (), score=100.0
+2026-09-07 11:24:17,845 | INFO     | extractors.transfermarkt_extractor | 'Santi Cazorla' -> 'Santi Cazorla' (), score=100.0
+2026-09-07 11:24:25,202 | INFO     | extractors.transfermarkt_extractor | 'Marcão' -> 'Marcão' (), score=100.0
+2026-09-07 11:24:32,510 | INFO     | extractors.transfermarkt_extractor | 'Yoel Lago' -> 'Yoel Lago' (), score=100.0
+2026-09-07 11:24:39,951 | INFO     | extractors.transfermarkt_extractor | 'Thomas Partey' -> 'Thomas Partey' (), score=100.0
+2026-09-07 11:24:47,216 | INFO     | extractors.transfermarkt_extractor | 'Tete Morente' -> 'Tete Morente' (), score=100.0
+2026-09-07 11:24:54,874 | INFO     | extractors.transfermarkt_extractor | 'Damián Rodríguez' -> 'Damián Rodríguez' (), score=100.0
+2026-09-07 11:25:01,994 | INFO     | extractors.transfermarkt_extractor | 'Grady Diangana' -> 'Grady Diangana' (), score=100.0
+2026-09-07 11:25:09,359 | INFO     | extractors.transfermarkt_extractor | 'Umar Sadiq' -> 'Umar Sadiq' (), score=100.0
+2026-09-07 11:25:16,645 | INFO     | extractors.transfermarkt_extractor | 'Unai Núñez' -> 'Unai Núñez' (), score=100.0
+2026-09-07 11:25:24,122 | INFO     | extractors.transfermarkt_extractor | 'Antonio Candela' -> 'Antonio Candela' (), score=100.0
+2026-09-07 11:25:31,284 | INFO     | extractors.transfermarkt_extractor | 'Iker Losada' -> 'Iker Losada' (), score=100.0
+2026-09-07 11:25:38,574 | INFO     | extractors.transfermarkt_extractor | 'Tani Oluwaseyi' -> 'Tani Oluwaseyi' (), score=100.0
+2026-09-07 11:25:46,066 | INFO     | extractors.transfermarkt_extractor | 'Arnau Tenas' -> 'Arnau Tenas' (), score=100.0
+2026-09-07 11:25:53,412 | INFO     | extractors.transfermarkt_extractor | 'Allan Nyom' -> 'Allan Nyom' (), score=100.0
+2026-09-07 11:26:00,747 | INFO     | extractors.transfermarkt_extractor | 'Adam Aznou' -> 'Adam Aznou' (), score=100.0
+2026-09-07 11:26:08,072 | INFO     | extractors.transfermarkt_extractor | 'Bojan Miovski' -> 'Bojan Miovski' (), score=100.0
+2026-09-07 11:26:15,453 | INFO     | extractors.transfermarkt_extractor | 'Neal Maupay' -> 'Neal Maupay' (), score=100.0
+2026-09-07 11:26:22,809 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Abdulai Juma Bah' fue 'Juma Bah' con score 66.66666666666667 (< umbral 80), se descarta
+2026-09-07 11:26:26,511 | INFO     | extractors.transfermarkt_extractor | 'Munir El Haddadi' -> 'Munir El Haddadi' (), score=100.0
+2026-09-07 11:26:34,026 | INFO     | extractors.transfermarkt_extractor | 'Tamás Nikitscher' -> 'Tamás Nikitscher' (), score=100.0
+2026-09-07 11:26:38,314 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Tomás Conechny' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Tom%C3%A1s+Conechny
+2026-09-07 11:26:38,969 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Junior Firpo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Junior+Firpo
+2026-09-07 11:26:39,523 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rodrigo Riquelme' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rodrigo+Riquelme
+2026-09-07 11:26:40,194 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Thiago Fernández' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Thiago+Fern%C3%A1ndez
+2026-09-07 11:26:40,752 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Unai Vencedor Paris' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Unai+Vencedor+Paris
+2026-09-07 11:26:41,325 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rubén' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rub%C3%A9n
+2026-09-07 11:26:42,036 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jonathan Bamba' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jonathan+Bamba
+2026-09-07 11:26:42,688 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pau López' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pau+L%C3%B3pez
+2026-09-07 11:26:43,233 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ángel Correa' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81ngel+Correa
+2026-09-07 11:26:43,800 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rodrigo Mendoza' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rodrigo+Mendoza
+2026-09-07 11:26:44,354 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Facundo Garcés' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Facundo+Garc%C3%A9s
+2026-09-07 11:26:45,027 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Bernal' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Marc+Bernal
+2026-09-07 11:26:46,461 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Portu' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Portu
+2026-09-07 11:26:47,012 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rubén Peña' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rub%C3%A9n+Pe%C3%B1a
+2026-09-07 11:26:47,562 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iñigo Lekue' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=I%C3%B1igo+Lekue
+2026-09-07 11:26:48,310 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Manu Fernández' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Manu+Fern%C3%A1ndez
+2026-09-07 11:26:48,932 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Cenk Özkacar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Cenk+%C3%96zkacar
+2026-09-07 11:26:49,554 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Maroan Sannadi' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Maroan+Sannadi
+2026-09-07 11:26:50,234 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Baptiste Santamaria' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Baptiste+Santamaria
+2026-09-07 11:26:50,882 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Calebe' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Calebe
+2026-09-07 11:26:51,613 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Fernández' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Fern%C3%A1ndez
+2026-09-07 11:26:52,099 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nelson Deossa' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Nelson+Deossa
+2026-09-07 11:26:53,247 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mateu Morey' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Mateu+Morey
+2026-09-07 11:26:53,876 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Obed Vargas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Obed+Vargas
+2026-09-07 11:26:54,535 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Chuky san jose' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Chuky+san+jose
+2026-09-07 11:26:55,090 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juanpe' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juanpe
+2026-09-07 11:26:55,606 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juan Musso' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juan+Musso
+2026-09-07 11:26:56,285 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gonzalo Villar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Gonzalo+Villar
+2026-09-07 11:26:56,839 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Cédric Bakambu' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=C%C3%A9dric+Bakambu
+2026-09-07 11:26:57,359 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ilias Akhomach' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ilias+Akhomach
+2026-09-07 11:26:58,007 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Sancris' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+Sancris
+2026-09-07 11:26:58,592 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Charles Pickel' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Charles+Pickel
+2026-09-07 11:26:59,132 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ugo Raghouber' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ugo+Raghouber
+2026-09-07 11:26:59,687 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Davinchi' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Davinchi
+2026-09-07 11:27:00,198 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Anastasios Douvikas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Anastasios+Douvikas
+2026-09-07 11:27:00,788 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hamari Traoré' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Hamari+Traor%C3%A9
+2026-09-07 11:27:01,370 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Stoichkov' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Stoichkov
+2026-09-07 11:27:01,888 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juan Bernat' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juan+Bernat
+2026-09-07 11:27:02,428 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juanmi' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juanmi
+2026-09-07 11:27:02,967 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Enzo Loiodice' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Enzo+Loiodice
+2026-09-07 11:27:03,707 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jones El-Abdellaoui' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jones+El-Abdellaoui
+2026-09-07 11:27:04,316 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ezequiel Ávila' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ezequiel+%C3%81vila
+2026-09-07 11:27:04,929 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc-André ter Stegen' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Marc-Andr%C3%A9+ter+Stegen
+2026-09-07 11:27:05,518 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'John Donald' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=John+Donald
+2026-09-07 11:27:06,278 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sergi Gómez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Sergi+G%C3%B3mez
+2026-09-07 11:27:06,828 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro djaló' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+djal%C3%B3
+2026-09-07 11:27:07,387 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jaime Mata' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jaime+Mata
+2026-09-07 11:27:07,933 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Tanguy Nianzou' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Tanguy+Nianzou
+2026-09-07 11:27:08,515 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mouctar Diakhaby' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Mouctar+Diakhaby
+2026-09-07 11:27:09,025 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Roony Bardghji' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Roony+Bardghji
+2026-09-07 11:27:09,704 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Walid Cheddira' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Walid+Cheddira
+2026-09-07 11:27:10,330 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Darwin Machís' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Darwin+Mach%C3%ADs
+2026-09-07 11:27:11,009 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Joseph Aidoo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Joseph+Aidoo
+2026-09-07 11:27:11,584 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Andriy Lunin' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Andriy+Lunin
+2026-09-07 11:27:12,135 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Claudio Echeverri' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Claudio+Echeverri
+2026-09-07 11:27:12,802 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Florian Grillitsch' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Florian+Grillitsch
+2026-09-07 11:27:13,368 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Toni Lato' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Toni+Lato
+2026-09-07 11:27:13,978 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ademola Lookman' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ademola+Lookman
+2026-09-07 11:27:14,629 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Enric Franquesa' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Enric+Franquesa
+2026-09-07 11:27:15,265 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jailson Siqueira' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jailson+Siqueira
+2026-09-07 11:27:15,816 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Suso' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Suso
+2026-09-07 11:27:16,449 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Irvin Cardona' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Irvin+Cardona
+2026-09-07 11:27:17,056 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Adnan Januzaj' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Adnan+Januzaj
+2026-09-07 11:27:17,697 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Aleksandar Sedlar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Aleksandar+Sedlar
+2026-09-07 11:27:18,305 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Thiago Pinar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Thiago+Pinar
+2026-09-07 11:27:18,878 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Héctor Fort' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=H%C3%A9ctor+Fort
+2026-09-07 11:27:19,451 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ángel Ortíz' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81ngel+Ort%C3%ADz
+2026-09-07 11:27:20,120 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ibrahim Diabaté' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ibrahim+Diabat%C3%A9
+2026-09-07 11:27:20,643 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'José Gragera' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9+Gragera
+2026-09-07 11:27:21,131 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Josan' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Josan
+2026-09-07 11:27:21,647 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yan Diomandé' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Yan+Diomand%C3%A9
+2026-09-07 11:27:22,230 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Fidalgo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Fidalgo
+2026-09-07 11:27:22,770 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'André Ferreira' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Andr%C3%A9+Ferreira
+2026-09-07 11:27:23,332 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Dani Cárdenas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Dani+C%C3%A1rdenas
+2026-09-07 11:27:23,988 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Juan Soriano' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juan+Soriano
+2026-09-07 11:27:24,587 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Buba Sangaré' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Buba+Sangar%C3%A9
+2026-09-07 11:27:25,247 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jhon Solis' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jhon+Solis
+2026-09-07 11:27:25,906 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Diego Pampín' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Diego+Pamp%C3%ADn
+2026-09-07 11:27:26,506 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Dani Gómez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Dani+G%C3%B3mez
+2026-09-07 11:27:27,239 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javier Manquillo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Javier+Manquillo
+2026-09-07 11:27:27,704 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Zito Luvumbo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Zito+Luvumbo
+2026-09-07 11:27:28,277 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pica' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pica
+2026-09-07 11:27:28,973 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Óscar Trejo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%93scar+Trejo
+2026-09-07 11:27:29,534 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jesús Owono' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jes%C3%BAs+Owono
+2026-09-07 11:27:30,095 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Carlos Benavídez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Carlos+Benav%C3%ADdez
+2026-09-07 11:27:30,698 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Josip Brekalo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Josip+Brekalo
+2026-09-07 11:27:31,375 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'William Carvalho' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=William+Carvalho
+2026-09-07 11:27:31,981 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Benito Ramírez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Benito+Ram%C3%ADrez
+2026-09-07 11:27:32,552 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Peter González' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Peter+Gonz%C3%A1lez
+2026-09-07 11:27:33,182 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Paco Cortés' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Paco+Cort%C3%A9s
+2026-09-07 11:27:33,752 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Luiz Felipe' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Luiz+Felipe
+2026-09-07 11:27:34,350 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Arsen Zakharyan' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Arsen+Zakharyan
+2026-09-07 11:27:34,994 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Abdón Prats' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Abd%C3%B3n+Prats
+2026-09-07 11:27:35,572 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Lucas Bergström' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Lucas+Bergstr%C3%B6m
+2026-09-07 11:27:36,262 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jozhua Vertrouwd' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jozhua+Vertrouwd
+2026-09-07 11:27:36,852 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Kike Barja' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Kike+Barja
+2026-09-07 11:27:37,381 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Aguado' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Aguado
+2026-09-07 11:27:38,558 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jesús Navas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jes%C3%BAs+Navas
+2026-09-07 11:27:39,177 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Cyril Ngonge' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Cyril+Ngonge
+2026-09-07 11:27:39,738 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'David Alaba' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=David+Alaba
+2026-09-07 11:27:40,345 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Víctor Meseguer' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=V%C3%ADctor+Meseguer
+2026-09-07 11:27:40,926 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Andreas Christensen' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Andreas+Christensen
+2026-09-07 11:27:41,444 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Pascual' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Pascual
+2026-09-07 11:27:42,072 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sébastien Haller' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=S%C3%A9bastien+Haller
+2026-09-07 11:27:42,580 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Lucas Cepeda' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Lucas+Cepeda
+2026-09-07 11:27:43,137 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Kelechi Iheanacho' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Kelechi+Iheanacho
+2026-09-07 11:27:43,713 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Roberto López' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Roberto+L%C3%B3pez
+2026-09-07 11:27:44,292 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pablo Garcia' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pablo+Garcia
+2026-09-07 11:27:44,945 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sebastián Boselli' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Sebasti%C3%A1n+Boselli
+2026-09-07 11:27:45,483 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Amath' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Amath
+2026-09-07 11:27:46,092 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yellu Santiago' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Yellu+Santiago
+2026-09-07 11:27:46,711 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sergi Canós' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Sergi+Can%C3%B3s
+2026-09-07 11:27:47,298 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nicolás Serrano' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Nicol%C3%A1s+Serrano
+2026-09-07 11:27:47,861 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo Guillamón' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Hugo+Guillam%C3%B3n
+2026-09-07 11:27:48,426 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'José Luis Morales' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9+Luis+Morales
+2026-09-07 11:27:52,155 | INFO     | extractors.transfermarkt_extractor | 'Endrick' -> 'Endrick' (), score=100.0
+2026-09-07 11:27:56,473 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jorge Cabello' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jorge+Cabello
+2026-09-07 11:27:57,105 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sergi Guardiola' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Sergi+Guardiola
+2026-09-07 11:27:57,693 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iván Villar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Iv%C3%A1n+Villar
+2026-09-07 11:27:58,348 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fran Vieites' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Fran+Vieites
+2026-09-07 11:27:58,904 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álex Forés' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lex+For%C3%A9s
+2026-09-07 11:27:59,510 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Henrique' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Henrique
+2026-09-07 11:28:00,049 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Renzo Saravia' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Renzo+Saravia
+2026-09-07 11:28:00,714 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Alex Freeman' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Alex+Freeman
+2026-09-07 11:28:01,301 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Asier Osambela' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Asier+Osambela
+2026-09-07 11:28:01,937 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Asier Villalibre' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Asier+Villalibre
+2026-09-07 11:28:02,594 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Alex Padilla' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Alex+Padilla
+2026-09-07 11:28:03,164 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pau Victor' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pau+Victor
+2026-09-07 11:28:03,832 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Julio Diaz' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Julio+Diaz
+2026-09-07 11:28:04,454 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Valery Fernández' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Valery+Fern%C3%A1ndez
+2026-09-07 11:28:05,105 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Domenech' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Marc+Domenech
+2026-09-07 11:28:05,787 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Julián Chicco' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Juli%C3%A1n+Chicco
+2026-09-07 11:28:06,687 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javier Boñar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Javier+Bo%C3%B1ar
+2026-09-07 11:28:07,356 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ivan Jaime Pajuelo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ivan+Jaime+Pajuelo
+2026-09-07 11:28:07,945 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Fábio Cardoso' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=F%C3%A1bio+Cardoso
+2026-09-07 11:28:08,451 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Valentín Barco' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Valent%C3%ADn+Barco
+2026-09-07 11:28:09,167 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mariano' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Mariano
+2026-09-07 11:28:09,713 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Stanis Idumbo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Stanis+Idumbo
+2026-09-07 11:28:10,307 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ville Koski' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ville+Koski
+2026-09-07 11:28:11,077 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Yago Santiago' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Yago+Santiago
+2026-09-07 11:28:11,744 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Assane Diao' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Assane+Diao
+2026-09-07 11:28:12,336 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ander Herrera' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ander+Herrera
+2026-09-07 11:28:12,982 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Franco Cervi' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Franco+Cervi
+2026-09-07 11:28:13,552 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Manu Bueno' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Manu+Bueno
+2026-09-07 11:28:14,055 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nabil Aberdin' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Nabil+Aberdin
+2026-09-07 11:28:14,688 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ramón Martínez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ram%C3%B3n+Mart%C3%ADnez
+2026-09-07 11:28:15,240 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Peio Canales' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Peio+Canales
+2026-09-07 11:28:15,787 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gabriel Osei Misehouy' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Gabriel+Osei+Misehouy
+2026-09-07 11:28:16,403 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'José Salinas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9+Salinas
+2026-09-07 11:28:17,125 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Abu Kamara' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Abu+Kamara
+2026-09-07 11:28:17,701 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Goduine Koyalipou' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Goduine+Koyalipou
+2026-09-07 11:28:18,286 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Arkaitz Mariezkurrena' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Arkaitz+Mariezkurrena
+2026-09-07 11:28:18,928 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Hugo Novoa' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Hugo+Novoa
+2026-09-07 11:28:19,469 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Giacomo Raspadori' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Giacomo+Raspadori
+2026-09-07 11:28:20,161 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ansu Fati' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ansu+Fati
+2026-09-07 11:28:20,740 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Oier Luengo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Oier+Luengo
+2026-09-07 11:28:21,355 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Justin Smith' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Justin+Smith
+2026-09-07 11:28:21,985 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Miguel Ángel Rubio' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Miguel+%C3%81ngel+Rubio
+2026-09-07 11:28:22,456 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Andy Pelmard' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Andy+Pelmard
+2026-09-07 11:28:23,103 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jacobo Ramón' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jacobo+Ram%C3%B3n
+2026-09-07 11:28:23,676 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Álvaro Odriozola' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=%C3%81lvaro+Odriozola
+2026-09-07 11:28:24,286 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ovie Ejaria' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ovie+Ejaria
+2026-09-07 11:28:24,897 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Luka Romero' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Luka+Romero
+2026-09-07 11:28:25,389 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Selton Sánchez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Selton+S%C3%A1nchez
+2026-09-07 11:28:26,022 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Urko Izeta' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Urko+Izeta
+2026-09-07 11:28:26,652 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pau Cabanes' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pau+Cabanes
+2026-09-07 11:28:27,170 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javier Llabrés' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Javier+Llabr%C3%A9s
+2026-09-07 11:28:27,770 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iñigo Arguibide' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=I%C3%B1igo+Arguibide
+2026-09-07 11:28:28,457 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rafael Bauza' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rafael+Bauza
+2026-09-07 11:28:29,080 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Unai Marrero' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Unai+Marrero
+2026-09-07 11:28:29,775 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pablo Cuñat' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pablo+Cu%C3%B1at
+2026-09-07 11:28:31,109 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nabil Fekir' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Nabil+Fekir
+2026-09-07 11:28:31,897 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Vladyslav Krapyvtsov' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Vladyslav+Krapyvtsov
+2026-09-07 11:28:32,411 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Thiago Borbas' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Thiago+Borbas
+2026-09-07 11:28:33,100 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Duk' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Duk
+2026-09-07 11:28:33,702 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Federico Redondo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Federico+Redondo
+2026-09-07 11:28:34,245 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Aritz Arambarri' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Aritz+Arambarri
+2026-09-07 11:28:34,836 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Lucas Ocampos' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Lucas+Ocampos
+2026-09-07 11:28:35,446 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Javi Morcillo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Javi+Morcillo
+2026-09-07 11:28:36,281 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Sergi Dominguez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Sergi+Dominguez
+2026-09-07 11:28:37,004 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Xavi Espart' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Xavi+Espart
+2026-09-07 11:28:37,597 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Silvi Clúa' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Silvi+Cl%C3%BAa
+2026-09-07 11:28:38,233 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ibrahim Alani' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ibrahim+Alani
+2026-09-07 11:28:38,832 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Iker Benito' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Iker+Benito
+2026-09-07 11:28:39,367 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Mateo Flores' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Mateo+Flores
+2026-09-07 11:28:39,977 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Damián' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Dami%C3%A1n
+2026-09-07 11:28:40,670 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Manor Solomon' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Manor+Solomon
+2026-09-07 11:28:41,198 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Nacho Pérez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Nacho+P%C3%A9rez
+2026-09-07 11:28:41,927 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Chiquinho' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Chiquinho
+2026-09-07 11:28:43,163 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'James Rodríguez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=James+Rodr%C3%ADguez
+2026-09-07 11:28:43,734 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jesús Vallejo' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jes%C3%BAs+Vallejo
+2026-09-07 11:28:44,261 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Aitor Fernández' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Aitor+Fern%C3%A1ndez
+2026-09-07 11:28:45,055 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Matías Vecino' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Mat%C3%ADas+Vecino
+2026-09-07 11:28:45,848 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Jon Karrikaburu' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jon+Karrikaburu
+2026-09-07 11:28:46,512 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'José Arnaiz' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9+Arnaiz
+2026-09-07 11:28:47,128 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Rayane Belaid' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Rayane+Belaid
+2026-09-07 11:28:47,817 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Marc Cardona' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Marc+Cardona
+2026-09-07 11:28:48,442 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Raúl Chasco' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ra%C3%BAl+Chasco
+2026-09-07 11:28:48,990 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ali Houary' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ali+Houary
+2026-09-07 11:28:49,591 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Ismael Bekhoucha' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Ismael+Bekhoucha
+2026-09-07 11:28:50,195 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Adrian Rodriguez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Adrian+Rodriguez
+2026-09-07 11:28:50,818 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Max Aarons' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Max+Aarons
+2026-09-07 11:28:54,862 | INFO     | extractors.transfermarkt_extractor | 'Rodri' -> 'Rodri' (), score=100.0
+2026-09-07 11:28:59,128 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Gonzalo Montiel' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Gonzalo+Montiel
+2026-09-07 11:28:59,768 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Carlos Guirao' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Carlos+Guirao
+2026-09-07 11:29:00,446 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Adam Boayar' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Adam+Boayar
+2026-09-07 11:29:01,073 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Bambo Diaby' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Bambo+Diaby
+2026-09-07 11:29:01,710 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Pelayo Fernandez' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Pelayo+Fernandez
+2026-09-07 11:29:02,352 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Siebe Van Der Heyden' en Transfermarkt: 500 Server Error: Internal Server Error for url: https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=Siebe+Van+Der+Heyden
+2026-09-07 11:29:17,372 | ERROR    | extractors.transfermarkt_extractor | Error buscando 'Manuel Ángel' en Transfermarkt: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /schnellsuche/ergebnis/schnellsuche?query=Manuel+%C3%81ngel (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd86065bd0>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:29:21,091 | INFO     | extractors.transfermarkt_extractor | 'Sergio Viera' -> 'Sergio Viera' (), score=100.0
+2026-09-07 11:29:28,543 | INFO     | extractors.transfermarkt_extractor | 'Luken Beitia' -> 'Luken Beitia' (), score=100.0
+2026-09-07 11:29:36,198 | INFO     | extractors.transfermarkt_extractor | 'Abdoulaye Keita' -> 'Abdoulaye Keita' (), score=100.0
+2026-09-07 11:29:40,771 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Job Ochieng''
+2026-09-07 11:29:47,601 | INFO     | extractors.transfermarkt_extractor | 'Tay Abed' -> 'Tay Abed' (), score=100.0
+2026-09-07 11:29:55,195 | INFO     | extractors.transfermarkt_extractor | 'Dro Fernández' -> 'Dro Fernández' (), score=100.0
+2026-09-07 11:30:02,582 | INFO     | extractors.transfermarkt_extractor | 'Daley Sinkgraven' -> 'Daley Sinkgraven' (), score=100.0
+2026-09-07 11:30:09,837 | INFO     | extractors.transfermarkt_extractor | 'Luis Orejuela' -> 'Luis Orejuela' (), score=100.0
+2026-09-07 11:30:18,065 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Fortuño' fue 'Ángel Fortuño' con score 70.0 (< umbral 80), se descarta
+2026-09-07 11:30:21,880 | INFO     | extractors.transfermarkt_extractor | 'Maximiliano Caufriez' -> 'Maximiliano Caufriez' (), score=100.0
+2026-09-07 11:30:29,356 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Alvaro Cortes' fue 'Álvaro Cortés' con score 38.46153846153846 (< umbral 80), se descarta
+2026-09-07 11:30:34,791 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Fran' fue 'Franck Ribéry' con score 47.05882352941176 (< umbral 80), se descarta
+2026-09-07 11:30:38,521 | INFO     | extractors.transfermarkt_extractor | 'Sergio Arribas' -> 'Sergio Arribas' (), score=100.0
+2026-09-07 11:30:46,192 | INFO     | extractors.transfermarkt_extractor | 'Daniel Martinez' -> 'Daniel Martinez' (), score=100.0
+2026-09-07 11:30:53,402 | INFO     | extractors.transfermarkt_extractor | 'Arnau Rafús' -> 'Arnau Rafús' (), score=100.0
+2026-09-07 11:31:00,725 | INFO     | extractors.transfermarkt_extractor | 'Pablo Agudín' -> 'Pablo Agudín' (), score=100.0
+2026-09-07 11:31:08,673 | INFO     | extractors.transfermarkt_extractor | 'Wesley' -> 'Wesley' (), score=100.0
+2026-09-07 11:31:16,020 | INFO     | extractors.transfermarkt_extractor | 'César Palacios' -> 'César Palacios' (), score=100.0
+2026-09-07 11:31:23,419 | INFO     | extractors.transfermarkt_extractor | 'Carlos Macià' -> 'Carlos Macià' (), score=100.0
+2026-09-07 11:31:30,746 | INFO     | extractors.transfermarkt_extractor | 'Justin-Noël Kalumba' -> 'Justin Kalumba' (), score=84.84848484848484
+2026-09-07 11:31:38,306 | INFO     | extractors.transfermarkt_extractor | 'Victor Valdepeñas' -> 'Víctor Valdepeñas' (), score=94.11764705882352
+2026-09-07 11:31:45,832 | INFO     | extractors.transfermarkt_extractor | 'Mikel Goti' -> 'Mikel Goti' (), score=100.0
+2026-09-07 11:32:00,843 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo Transfermarkt https://www.transfermarkt.com/mikel-goti/profil/spieler/709215: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /mikel-goti/profil/spieler/709215 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd88d7ac10>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:32:04,722 | INFO     | extractors.transfermarkt_extractor | 'David Jiménez' -> 'David Jiménez' (), score=100.0
+2026-09-07 11:32:19,737 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo Transfermarkt https://www.transfermarkt.com/david-jimenez/profil/spieler/935281: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /david-jimenez/profil/spieler/935281 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd86066210>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 11:32:23,518 | INFO     | extractors.transfermarkt_extractor | 'Dawda Camara' -> 'Dawda Camara' (), score=100.0
+2026-09-07 11:32:30,823 | INFO     | extractors.transfermarkt_extractor | 'Alejandro Mestanza' -> 'Alejandro Mestanza' (), score=100.0
+2026-09-07 11:32:38,582 | INFO     | extractors.transfermarkt_extractor | 'Iago Parente' -> 'Iago Parente' (), score=100.0
+2026-09-07 11:32:45,927 | INFO     | extractors.transfermarkt_extractor | 'Alberto Risco' -> 'Alberto Risco' (), score=100.0
+2026-09-07 11:32:53,640 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Rodrigo Abajas' fue 'Ro Abajas' con score 78.26086956521739 (< umbral 80), se descarta
+2026-09-07 11:32:57,379 | INFO     | extractors.transfermarkt_extractor | 'Unai García' -> 'Unai García' (), score=100.0
+2026-09-07 11:33:04,740 | INFO     | extractors.transfermarkt_extractor | 'Mario Maroto' -> 'Mario Maroto' (), score=100.0
+2026-09-07 11:33:12,021 | INFO     | extractors.transfermarkt_extractor | 'Luca Koleosho' -> 'Luca Koleosho' (), score=100.0
+2026-09-07 11:33:19,278 | INFO     | extractors.transfermarkt_extractor | 'Andrés Antañón' -> 'Andrés Antañón' (), score=100.0
+2026-09-07 11:33:26,700 | INFO     | extractors.transfermarkt_extractor | 'Gorka Carrera' -> 'Gorka Carrera' (), score=100.0
+2026-09-07 11:33:34,287 | INFO     | extractors.transfermarkt_extractor | 'Miguel Ángel Sierra' -> 'Miguel Sierra' (), score=81.25
+2026-09-07 11:33:41,592 | INFO     | extractors.transfermarkt_extractor | 'Hugo López' -> 'Hugo López' (), score=100.0
+2026-09-07 11:33:48,759 | INFO     | extractors.transfermarkt_extractor | 'Aingeru Olabarrieta' -> 'Aingeru Olabarrieta' (), score=100.0
+2026-09-07 11:33:56,141 | INFO     | extractors.transfermarkt_extractor | 'Fabio González' -> 'Fabio González' (), score=100.0
+2026-09-07 11:34:03,618 | INFO     | extractors.transfermarkt_extractor | 'Javi Martón' -> 'Javi Martón' (), score=100.0
+2026-09-07 11:34:11,279 | INFO     | extractors.transfermarkt_extractor | 'Javier Olaizola' -> 'Javier Olaizola' (), score=100.0
+2026-09-07 11:34:18,691 | INFO     | extractors.transfermarkt_extractor | 'Jofre Torrents' -> 'Jofre Torrents' (), score=100.0
+2026-09-07 11:34:26,087 | INFO     | extractors.transfermarkt_extractor | 'Miguel Cubo' -> 'Miguel Cubo' (), score=100.0
+2026-09-07 11:34:33,274 | INFO     | extractors.transfermarkt_extractor | 'Mourad El Ghezouani' -> 'Mourad El Ghezouani' (), score=100.0
+2026-09-07 11:34:38,104 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Adrian Baquerin'
+2026-09-07 11:34:46,560 | INFO     | extractors.transfermarkt_extractor | 'Martín Tejón' -> 'Martín Tejón' (), score=100.0
+2026-09-07 11:34:53,851 | INFO     | extractors.transfermarkt_extractor | 'Iker Almena' -> 'Iker Almena' (), score=100.0
+2026-09-07 11:35:01,367 | INFO     | extractors.transfermarkt_extractor | 'John Joe' -> 'John Joe' (), score=100.0
+2026-09-07 11:35:08,931 | INFO     | extractors.transfermarkt_extractor | 'Papa Ba' -> 'Papa Ba' (), score=100.0
+2026-09-07 11:35:16,418 | INFO     | extractors.transfermarkt_extractor | 'Daniel Yáñez' -> 'Daniel Yáñez' (), score=100.0
+2026-09-07 11:35:23,848 | INFO     | extractors.transfermarkt_extractor | 'Aleksa Puric' -> 'Aleksa Puric' (), score=100.0
+2026-09-07 11:35:31,267 | INFO     | extractors.transfermarkt_extractor | 'Marco Esteban' -> 'Marco Esteban' (), score=100.0
+2026-09-07 11:35:38,939 | INFO     | extractors.transfermarkt_extractor | 'Xavier Moreno' -> 'Xavier Moreno' (), score=100.0
+2026-09-07 11:35:46,652 | INFO     | extractors.transfermarkt_extractor | 'Toni Fernández' -> 'Toni Fernández' (), score=100.0
+2026-09-07 11:35:54,000 | INFO     | extractors.transfermarkt_extractor | 'Jan Salas' -> 'Jan Salas' (), score=100.0
+2026-09-07 11:36:01,622 | INFO     | extractors.transfermarkt_extractor | 'Miguel Calatayud' -> 'Miguel Calatayud' (), score=100.0
+2026-09-07 11:36:08,927 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Lancinet Kourouma' fue 'Lass Kourouma' con score 73.33333333333334 (< umbral 80), se descarta
+2026-09-07 11:36:12,608 | INFO     | extractors.transfermarkt_extractor | 'Etienne Eto'o' -> 'Etienne Eto'o' (), score=100.0
+2026-09-07 11:36:20,238 | INFO     | extractors.transfermarkt_extractor | 'Diego Martín' -> 'Diego Martínez' (), score=92.3076923076923
+2026-09-07 11:36:27,822 | INFO     | extractors.transfermarkt_extractor | 'Eder García' -> 'Eder García' (), score=100.0
+2026-09-07 11:36:35,439 | INFO     | extractors.transfermarkt_extractor | 'Daniel Rodriguez' -> 'Daniel Rodriguez' (), score=100.0
+2026-09-07 11:36:39,806 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Diego Iturralde'
+2026-09-07 11:36:46,666 | INFO     | extractors.transfermarkt_extractor | 'Asier Hierro' -> 'Asier Hierro' (), score=100.0
+2026-09-07 11:36:54,063 | INFO     | extractors.transfermarkt_extractor | 'Naci Ünüvar' -> 'Naci Ünüvar' (), score=100.0
+2026-09-07 11:37:01,699 | INFO     | extractors.transfermarkt_extractor | 'Diego Aguado' -> 'Diego Aguado' (), score=100.0
+2026-09-07 11:37:09,311 | INFO     | extractors.transfermarkt_extractor | 'Iker Luque' -> 'Iker Luque' (), score=100.0
+2026-09-07 11:37:16,906 | INFO     | extractors.transfermarkt_extractor | 'Leandro Antonetti' -> 'Leandro Antonetti' (), score=100.0
+2026-09-07 11:37:24,549 | INFO     | extractors.transfermarkt_extractor | 'Jorge Montes' -> 'Jorge Montes' (), score=100.0
+2026-09-07 11:37:32,052 | INFO     | extractors.transfermarkt_extractor | 'Alassane Diatta' -> 'Alassane Diatta' (), score=100.0
+2026-09-07 11:37:39,428 | INFO     | extractors.transfermarkt_extractor | 'Jairo Izquierdo' -> 'Jairo Izquierdo' (), score=100.0
+2026-09-07 11:37:46,748 | INFO     | extractors.transfermarkt_extractor | 'Jano Monserrate' -> 'Jano Monserrate' (), score=100.0
+2026-09-07 11:37:54,715 | INFO     | extractors.transfermarkt_extractor | 'Taufik Seidu' -> 'Taufik Seidu' (), score=100.0
+2026-09-07 11:37:59,329 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Kim Minsu'
+2026-09-07 11:38:06,264 | INFO     | extractors.transfermarkt_extractor | 'Joselu Pérez' -> 'Joselu Pérez' (), score=100.0
+2026-09-07 11:38:13,941 | INFO     | extractors.transfermarkt_extractor | 'Raúl de Tomás' -> 'Raúl de Tomás' (), score=100.0
+2026-09-07 11:38:21,525 | INFO     | extractors.transfermarkt_extractor | 'Arturo Rodríguez' -> 'Arturo Rodríguez' (), score=100.0
+2026-09-07 11:38:29,059 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Gorka Rivera Alonso' fue 'Gorka Rivera' con score 77.41935483870968 (< umbral 80), se descarta
+2026-09-07 11:38:33,038 | INFO     | extractors.transfermarkt_extractor | 'Daniel Luna' -> 'Daniel Luna' (), score=100.0
+2026-09-07 11:38:40,438 | INFO     | extractors.transfermarkt_extractor | 'Adu Ares' -> 'Adu Ares' (), score=100.0
+2026-09-07 11:38:47,967 | INFO     | extractors.transfermarkt_extractor | 'Lluc Castell' -> 'Lluc Castell' (), score=100.0
+2026-09-07 11:38:55,505 | INFO     | extractors.transfermarkt_extractor | 'Juan Arango' -> 'Juan Arango' (), score=100.0
+2026-09-07 11:39:02,979 | INFO     | extractors.transfermarkt_extractor | 'Israel Domínguez' -> 'Isra Domínguez' (), score=93.33333333333333
+2026-09-07 11:39:10,799 | INFO     | extractors.transfermarkt_extractor | 'Ferrán Ruiz' -> 'Ferran Ruiz' (), score=90.9090909090909
+2026-09-07 11:39:18,732 | INFO     | extractors.transfermarkt_extractor | 'Daniel Díaz' -> 'Daniel Díaz' (), score=100.0
+2026-09-07 11:39:25,998 | INFO     | extractors.transfermarkt_extractor | 'Pejiño' -> 'Pejiño' (), score=100.0
+2026-09-07 11:39:33,758 | INFO     | extractors.transfermarkt_extractor | 'Iker Córdoba' -> 'Iker Córdoba' (), score=100.0
+2026-09-07 11:39:41,107 | INFO     | extractors.transfermarkt_extractor | 'Iván Corralejo' -> 'Iván Corralejo' (), score=100.0
+2026-09-07 11:39:48,573 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'Borja Sánchez Laborde' fue 'Borja Sánchez' con score 76.47058823529412 (< umbral 80), se descarta
+2026-09-07 11:39:52,243 | INFO     | extractors.transfermarkt_extractor | 'Omar Falah' -> 'Omar Falah' (), score=100.0
+2026-09-07 11:39:59,896 | INFO     | extractors.transfermarkt_extractor | 'David Otorbi' -> 'David Otorbi' (), score=100.0
+2026-09-07 11:40:12,761 | INFO     | extractors.transfermarkt_extractor | 'Arnau Solà' -> 'Arnau Solà' (), score=100.0
+2026-09-07 11:40:20,222 | INFO     | extractors.transfermarkt_extractor | 'Jorge Cestero' -> 'Jorge Cestero' (), score=100.0
+2026-09-07 11:40:27,893 | INFO     | extractors.transfermarkt_extractor | 'Adrian Niño' -> 'Adrián Niño' (), score=90.9090909090909
+2026-09-07 11:40:35,430 | INFO     | extractors.transfermarkt_extractor | 'Chema' -> 'Chema' (), score=100.0
+2026-09-07 11:40:43,039 | INFO     | extractors.transfermarkt_extractor | 'Samu Becerra' -> 'Samu Becerra' (), score=100.0
+2026-09-07 11:40:50,500 | INFO     | extractors.transfermarkt_extractor | 'Sergio Lozano' -> 'Sergio Lozano' (), score=100.0
+2026-09-07 11:40:57,790 | WARNING  | extractors.transfermarkt_extractor | Mejor match para 'José Carlos González' fue 'José González' con score 78.78787878787878 (< umbral 80), se descarta
+2026-09-07 11:41:01,513 | INFO     | extractors.transfermarkt_extractor | 'Tomas Marques' -> 'Tomás Marques' (), score=92.3076923076923
+2026-09-07 11:41:09,150 | INFO     | extractors.transfermarkt_extractor | 'Mateo Mejía' -> 'Mateo Mejía' (), score=100.0
+2026-09-07 11:41:16,524 | INFO     | extractors.transfermarkt_extractor | 'Hugo Solozabal' -> 'Hugo Solozábal' (), score=92.85714285714286
+2026-09-07 11:41:23,985 | INFO     | extractors.transfermarkt_extractor | 'Diego Morcillo' -> 'Diego Morcillo' (), score=100.0
+2026-09-07 11:41:32,428 | INFO     | extractors.transfermarkt_extractor | 'Federico Gattoni' -> 'Federico Gattoni' (), score=100.0
+2026-09-07 11:41:39,965 | INFO     | extractors.transfermarkt_extractor | 'Daniel Requena' -> 'Dani Requena' (), score=92.3076923076923
+2026-09-07 11:41:48,216 | INFO     | extractors.transfermarkt_extractor | 'Kenedy' -> 'Kenedy' (), score=100.0
+2026-09-07 11:41:56,759 | INFO     | extractors.transfermarkt_extractor | 'Roger Hinojo' -> 'Roger Hinojo' (), score=100.0
+2026-09-07 11:42:16,234 | INFO     | extractors.transfermarkt_extractor | 'Hugo García' -> 'Hugo García' (), score=100.0
+2026-09-07 11:42:28,981 | INFO     | extractors.transfermarkt_extractor | 'Thiago Ojeda' -> 'Thiago Ojeda' (), score=100.0
+2026-09-07 11:42:38,837 | INFO     | extractors.transfermarkt_extractor | 'Hugo González' -> 'Hugo González' (), score=100.0
+2026-09-07 11:42:50,065 | INFO     | extractors.transfermarkt_extractor | 'Alberto Marí' -> 'Alberto Marí' (), score=100.0
+2026-09-07 11:42:57,661 | INFO     | extractors.transfermarkt_extractor | 'Manuel Serrano' -> 'Manuel Serrano' (), score=100.0
+2026-09-07 11:43:05,211 | INFO     | extractors.transfermarkt_extractor | 'Jon Magunazelaia' -> 'Jon Magunazelaia' (), score=100.0
+2026-09-07 11:43:12,433 | INFO     | extractors.transfermarkt_extractor | 'David Argüelles' -> 'David Argüelles' (), score=100.0
+2026-09-07 11:43:19,925 | INFO     | extractors.transfermarkt_extractor | 'Endika Buján' -> 'Endika Buján' (), score=100.0
+2026-09-07 11:43:27,731 | INFO     | extractors.transfermarkt_extractor | 'Álex Sánchez' -> 'Álex Sánchez' (), score=100.0
+2026-09-07 11:43:35,084 | INFO     | extractors.transfermarkt_extractor | 'Valentín Pezzolesi' -> 'Valentín Pezzolesi' (), score=100.0
+2026-09-07 11:43:42,819 | INFO     | extractors.transfermarkt_extractor | 'Ibai Aguirre' -> 'Ibai Aguirre' (), score=100.0
+2026-09-07 11:43:50,324 | INFO     | extractors.transfermarkt_extractor | 'Javi Martínez' -> 'Javi Martínez' (), score=100.0
+2026-09-07 11:43:54,686 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Darío Fuentes'
+2026-09-07 11:44:01,480 | INFO     | extractors.transfermarkt_extractor | 'Lorenzo Aguado' -> 'Lorenzo Aguado' (), score=100.0
+2026-09-07 11:44:08,852 | INFO     | extractors.transfermarkt_extractor | 'Luca de la Torre' -> 'Luca de la Torre' (), score=100.0
+2026-09-07 11:44:13,121 | WARNING  | extractors.transfermarkt_extractor | Sin resultados de búsqueda para 'Ruben Lendinez'
+2026-09-07 11:44:19,920 | INFO     | extractors.transfermarkt_extractor | 'Álvaro Leiva' -> 'Álvaro Leiva' (), score=100.0
+2026-09-07 11:44:27,382 | INFO     | extractors.transfermarkt_extractor | 'Aboubacar Bassinga' -> 'Aboubacar Bassinga' (), score=100.0
+2026-09-07 11:44:34,766 | INFO     | extractors.transfermarkt_extractor | 'Tadeo Allende' -> 'Tadeo Allende' (), score=100.0
+2026-09-07 11:44:42,358 | INFO     | extractors.transfermarkt_extractor | 'Lander Pinillos' -> 'Lander Pinillos' (), score=100.0
+2026-09-07 11:44:49,847 | INFO     | extractors.transfermarkt_extractor | 'Daniel Guerrero' -> 'Daniel Guerrero' (), score=100.0
+2026-09-07 11:44:57,709 | INFO     | extractors.transfermarkt_extractor | 'Iñaki Rupérez' -> 'Iñaki Rupérez' (), score=100.0
+2026-09-07 11:45:05,371 | INFO     | extractors.transfermarkt_extractor | 'Lander Astiazaran' -> 'Lander Astiazaran' (), score=100.0
+2026-09-07 11:45:12,731 | INFO     | extractors.transfermarkt_extractor | 'Carlos Ballestero' -> 'Carlos Ballestero' (), score=100.0
+2026-09-07 11:45:16,458 | INFO     | extractors.transfermarkt_extractor | Transfermarkt: 418/708 valores de mercado resueltos por nombre
+2026-09-07 11:45:16,503 | INFO     | utils.database | 708 filas insertadas/actualizadas en 'bronze_transfermarkt'
+2026-09-07 11:45:16,526 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,528 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,529 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,532 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,533 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,535 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,537 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,538 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,539 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,540 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,540 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,540 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,541 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,541 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,542 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,542 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,542 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,544 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,544 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,549 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,550 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,550 | WARNING  | transform.cleaning | No se pudo parsear fecha de contrato: '-'
+2026-09-07 11:45:16,574 | INFO     | utils.database | 833 filas insertadas/actualizadas en 'silver_transfermarkt'
+2026-09-07 11:45:16,581 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 11:46:31,326 | ERROR    | extractors.whoscored_extractor | Error extrayendo WhoScored para ESP 2025-2026: "None of ['league', 'season'] are in the columns"
+2026-09-07 11:46:31,326 | WARNING  | extractors.whoscored_extractor | extract_whoscored: sin datos (bloqueado o sin cobertura), no se escribe en bronze_whoscored
+2026-09-07 11:46:31,327 | INFO     | pipeline_main | Pipeline completo (silver, sin fusión): fbref=1212, understat=1190, teams=0, standings=0, transfermarkt=833, whoscored=0 en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 11:46:31,328 | INFO     | pipeline_main | Iniciando histórico de valor de mercado (Transfermarkt) para ligas=['ESP']
+2026-09-07 11:46:31,337 | INFO     | pipeline_main | Histórico de valor de mercado: 571 jugadores objetivo (1 petición extra c/u)
+2026-09-07 11:46:31,339 | INFO     | utils.database | Base de datos (bronze/silver) lista en C:\Users\nacho\Documents\MASTER_UCM\TFM\TFM\data\atm_scouting.db
+2026-09-07 11:53:19,380 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo histórico de valor de mercado https://www.transfermarkt.com/ceapi/marketValueDevelopment/graph/811778: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Read timed out. (read timeout=15)
+2026-09-07 11:59:41,738 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo histórico de valor de mercado https://www.transfermarkt.com/ceapi/marketValueDevelopment/graph/517753: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /ceapi/marketValueDevelopment/graph/517753 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd860660d0>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))
+2026-09-07 12:12:57,044 | ERROR    | extractors.transfermarkt_extractor | Error extrayendo histórico de valor de mercado https://www.transfermarkt.com/ceapi/marketValueDevelopment/graph/1063340: HTTPSConnectionPool(host='www.transfermarkt.com', port=443): Max retries exceeded with url: /ceapi/marketValueDevelopment/graph/1063340 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.transfermarkt.com', port=443) at 0x1fd860660d0>, 'Connection to www.transfermarkt.com timed out. (connect timeout=15)'))

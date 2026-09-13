@@ -273,6 +273,10 @@ def init_db() -> None:
             "height_cm": "REAL", "foot": "TEXT", "nationality": "TEXT",
             "agent": "TEXT", "full_name": "TEXT",
         })
+        _ensure_columns(conn, "silver_understat", {
+            "goals": "REAL", "assists": "REAL", "shots": "REAL", "key_passes": "REAL",
+            "yellow_cards": "REAL", "red_cards": "REAL", "xg_chain": "REAL", "xg_buildup": "REAL"
+        })
         conn.commit()
         logger.info(f"Base de datos (bronze/silver) lista en {DB_PATH}")
     finally:

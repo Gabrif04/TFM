@@ -39,7 +39,7 @@ def build_silver_fbref(fbref_raw: pd.DataFrame) -> pd.DataFrame:
 
 
 #Understat
-UNDERSTAT_NUMERIC_COLS = ["xg", "xa", "npxg"]
+UNDERSTAT_NUMERIC_COLS = ["xg", "xa", "npxg", "goals", "assists", "shots", "key_passes", "yellow_cards", "red_cards", "xg_chain", "xg_buildup"]
 UNDERSTAT_REQUIRED_COLS = ["player_name", "team", "league", "season"]
 UNDERSTAT_KEY_COLS = ["player_name_normalized", "team", "season"]
 
@@ -55,7 +55,8 @@ def build_silver_understat(understat_raw: pd.DataFrame) -> pd.DataFrame:
     df["processed_at"] = pd.Timestamp.now().isoformat()
     cols = [
         "player_id", "player_name", "player_name_normalized", "team", "league", "season",
-        "position", "xg", "xa", "npxg", "is_outlier", "processed_at",
+        "position", "xg", "xa", "npxg", "goals", "assists", "shots", "key_passes",
+        "yellow_cards", "red_cards", "xg_chain", "xg_buildup", "is_outlier", "processed_at",
     ]
     return df[[c for c in cols if c in df.columns]]
 
