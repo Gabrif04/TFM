@@ -2,9 +2,8 @@
 Capa gold: une las tablas silver en un dataset "un jugador = una fila"
 listo para los modelos de scouting (ranking + potencial de valor de mercado).
 
-AVISO METODOLÓGICO IMPORTANTE
------------------------------
-silver_transfermarkt NO tiene columna `season`: es un snapshot del valor de
+
+silver_transfermarkt no tiene columna `season`: es un snapshot del valor de
 mercado ACTUAL. silver_fbref, en cambio, cubre 10 temporadas (2016-17 en
 adelante). Cruzar ambas sin filtrar significaría explicar el valor de 2026
 con estadísticas de 2016, y además repetiría al mismo jugador hasta 10 veces

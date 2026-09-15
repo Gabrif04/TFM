@@ -1,14 +1,15 @@
 """
 Modelo predictivo de valor de mercado a partir de estadísticas de rendimiento.
 
-Enfoque: Dadas las stats de la temporada más reciente, predice el valor de mercado actual. Los jugadores cuyo valor REAL
+Enfoque:  Dadas las stats de la temporada más
+reciente, predice el valor de mercado actual. Los jugadores cuyo valor REAL
 queda por debajo del PREDICHO son candidatos a infravalorados (oportunidad de
 fichaje), y al revés. El residuo es la señal de scouting.
 
 
 Decisiones de modelado relevantes:
-  - Los valores de mercado son muy asimétricos (de 25 k€ a
-    200 M€). Sin transformación logarítmica, unos pocos cracks dominan el error.
+  - Target en log: los valores de mercado son muy asimétricos (de 25 k€ a
+    200 M€). Sin log, unos pocos jugadores muy valiosos dominan el error.
   - Edad al cuadrado: el valor no baja linealmente con la edad, hace pico
     en torno a los 24-27 y cae después. Un término lineal no lo capta.
   - npxg queda fuera: es casi idéntico a xg (xg sin penaltis) y su
@@ -17,13 +18,6 @@ Decisiones de modelado relevantes:
   - Se comparan RandomForest y GradientBoosting, ambos basados en árboles:
     captan relaciones no lineales e interacciones (edad x posición) sin
     necesidad de especificarlas a mano.
-
-Uso:
-    python -m models.train_market_value_model
-
-No escribe nada a disco: todo (métricas, hiperparámetros, importancias y
-ranking) se imprime por pantalla. Para otener los resultados en csv, usar el archivo export_results.py, que llama a este script y 
-al de scouting en paralelo y exporta los resultados a disco.
 """
 import numpy as np
 import pandas as pd
@@ -149,6 +143,26 @@ def format_metrics(name: str, metrics: dict, n: int | None = None) -> str:
             f"RMSE(log)={metrics['rmse']:.3f}  error mediano={metrics['ape_mediano']:.1%}")
 
 
+def print_target_distribution(df: pd.DataFrame) -> None:
+    """Resumen de la variable objetivo. Justifica numéricamente la
+    transformación logarítmica: si la media supera con holgura a la mediana,
+    la distribución tiene una cola derecha larga y unos pocos jugadores de
+    élite dominarían la función de pérdida sin transformar."""
+    v = df[TARGET]
+    millones = lambda x: f"{x / 1e6:,.1f} M€"
+    print(f"\n{'=' * 70}\nDISTRIBUCIÓN DEL VALOR DE MERCADO ({len(df)} jugadores)\n{'=' * 70}")
+    for etiqueta, valor in [
+        ("Mínimo", v.min()), ("Percentil 25", v.quantile(.25)), ("Mediana", v.median()),
+        ("Media", v.mean()), ("Percentil 75", v.quantile(.75)),
+        ("Percentil 95", v.quantile(.95)), ("Máximo", v.max()),
+    ]:
+        print(f"  {etiqueta:14s} {millones(valor):>12s}")
+    print(f"\n  Asimetría (skew): {v.skew():.2f}   Media / mediana: {v.mean() / v.median():.2f}x")
+    print(f"  Tras aplicar log1p, la asimetría baja a {np.log1p(v).skew():.2f}.")
+    print("  Una media muy por encima de la mediana indica cola derecha larga: sin\n"
+          "  transformar, el error de unos pocos jugadores de mucho valor dominaría la función de pérdida.")
+
+
 def evaluate_cv(df: pd.DataFrame, model, name: str, n_splits: int = 5) -> dict:
     X, y = df[NUMERIC_FEATURES + CATEGORICAL_FEATURES], df["log_value"]
     pipe = build_pipeline(model)
@@ -165,7 +179,7 @@ def print_model_parameters(pipe: Pipeline, name: str, df: pd.DataFrame) -> None:
     está sesgada hacia variables con muchos valores distintos."""
     model = pipe.named_steps["model"]
 
-    print(f"PARÁMETROS DEL MODELO: {name}\n")
+    print(f"\n{'=' * 70}\nPARÁMETROS DEL MODELO: {name}\n{'=' * 70}")
     print("\nHiperparámetros:")
     for k, v in sorted(model.get_params().items()):
         print(f"  {k:24s} = {v}")
@@ -176,7 +190,7 @@ def print_model_parameters(pipe: Pipeline, name: str, df: pd.DataFrame) -> None:
         "feature": NUMERIC_FEATURES + CATEGORICAL_FEATURES,
         "caida_r2": perm.importances_mean,
     }).sort_values("caida_r2", ascending=False)
-    print("\nImportancia por permutación:")
+    print("\nImportancia por permutación (caída de R2 al barajar la feature):")
     print(imp.to_string(index=False, float_format=lambda x: f"{x:9.4f}"))
 
 
@@ -188,10 +202,11 @@ def report_suspicious_values(df: pd.DataFrame) -> None:
     if sospechosos.empty:
         print("\nControl de calidad: sin valores de mercado implausibles en el dataset.")
         return
+    print(f"\n{'!' * 70}")
     print(f"AVISO DE CALIDAD: {len(sospechosos)} registros con valor implausible "
           f"(<= {MAX_VALOR_SOSPECHOSO:,} EUR, {MIN_MINUTOS_SOSPECHOSO}+ minutos, "
           f"edad <= {MAX_EDAD_SOSPECHOSA}).")
-
+    print(f"{'!' * 70}")
     print(sospechosos.nsmallest(10, TARGET)[
         ["player_name", "team", "league", "age", "minutes_played", TARGET]
     ].to_string(index=False, float_format=lambda x: f"{x:,.0f}"))
@@ -200,6 +215,7 @@ def report_suspicious_values(df: pd.DataFrame) -> None:
 def main():
     df = load_dataset()
     report_suspicious_values(df)
+    print_target_distribution(df)
 
     candidates = {
         "RandomForest": RandomForestRegressor(
@@ -235,11 +251,11 @@ def main():
     fmt = lambda x: f"{x:,.2f}"
 
     infra = df.nsmallest(25, "residual_ratio")[cols]
-    print(f"\nTOP 25 INFRAVALORADOS (valor real << predicho por sus stats)\n{'=' * 70}")
+    print(f"\n{'=' * 70}\nTOP 25 INFRAVALORADOS (valor real << predicho por sus stats)\n{'=' * 70}")
     print(infra.to_string(index=False, float_format=fmt))
 
     sobre = df.nlargest(25, "residual_ratio")[cols]
-    print(f"\nTOP 25 SOBREVALORADOS (el mercado paga más de lo que explican sus stats)\n{'=' * 70}")
+    print(f"\n{'=' * 70}\nTOP 25 SOBREVALORADOS (el mercado paga más de lo que explican sus stats)\n{'=' * 70}")
     print(sobre.to_string(index=False, float_format=fmt))
 
 
